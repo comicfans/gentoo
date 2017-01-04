@@ -1,0 +1,13 @@
+DEFINED_PHASES=install
+DEPEND=app-arch/unzip
+DESCRIPTION=Oracle's documentation bundle (including API) for Java SE
+EAPI=6
+HOMEPAGE=https://jdk9.java.net/download/
+KEYWORDS=~amd64 ~arm ~ppc64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=Oracle-EADLA
+RESTRICT=fetch
+SLOT=9
+SRC_URI=jdk-9_doc-api-spec.tar.gz
+_eclass_exported_funcs=src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=aae607c601c5245e584508a9db8810a9
