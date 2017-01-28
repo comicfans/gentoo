@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>jan@segre.in</email>
+		<name>Jan Segre</name>
+	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<longdescription lang="en">
+		An open-source re-implementation of RollerCoaster Tycoon 2. A construction and management simulation video game that simulates amusement park management.
+	</longdescription>
+	<use>
+		<flag name="twitch">Enable HTTP and Twitch support</flag>
+		<flag name="network">Enable multiplayer functionality</flag>
+		<flag name="opengl">Enable OpenGL support</flag>
+		<flag name="ttf">Enable support for TTF provided by SDL2_ttf</flag>
+		<flag name="lightfx">Enable lighting effects</flag>
+		<flag name="libressl">Use LibreSSL instead of OpenSSL for networking</flag>
+	</use>
+</pkgmetadata>
