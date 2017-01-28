@@ -20,4 +20,8 @@
 		<flag name="lightfx">Enable lighting effects</flag>
 		<flag name="libressl">Use LibreSSL instead of OpenSSL for networking</flag>
 	</use>
+	<upstream>
+		<remote-id type="github">OpenRCT2/OpenRCT2</remote-id>
+		<bugs-to>https://github.com/OpenRCT2/OpenRCT2/issues</bugs-to>
+	</upstream>
 </pkgmetadata>
