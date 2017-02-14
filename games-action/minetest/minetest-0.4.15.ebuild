@@ -20,28 +20,31 @@ RDEPEND="dev-db/sqlite:3
 	!dedicated? (
 		app-arch/bzip2
 		>=dev-games/irrlicht-1.8-r2
-		dev-libs/gmp:0
-		media-libs/libpng:0
+		dev-libs/gmp:0=
+		media-libs/libpng:0=
 		virtual/jpeg:0
 		virtual/opengl
 		x11-libs/libX11
 		x11-libs/libXxf86vm
 		sound? (
-			media-libs/libogg
-			media-libs/libvorbis
-			media-libs/openal
+			media-libs/libogg:=
+			media-libs/libvorbis:=
+			media-libs/openal:=
 		)
 		truetype? ( media-libs/freetype:2 )
 	)
 	leveldb? ( dev-libs/leveldb )
 	luajit? ( dev-lang/luajit:2 )
-	ncurses? ( sys-libs/ncurses:0 )
+	ncurses? ( sys-libs/ncurses:0= )
 	nls? ( virtual/libintl )
 	redis? ( dev-libs/hiredis )
 	spatial? ( sci-libs/libspatialindex )"
 DEPEND="${RDEPEND}
 	>=dev-games/irrlicht-1.8-r2
-	doc? ( app-doc/doxygen media-gfx/graphviz )
+	doc? (
+	    app-doc/doxygen
+		media-gfx/graphviz
+	)
 	nls? ( sys-devel/gettext )"
 
 pkg_setup() {
@@ -52,7 +55,7 @@ pkg_setup() {
 }
 
 src_prepare() {
-	eapply_user
+	cmake-utils_src_prepare
 	# set paths
 	sed \
 		-e "s#@BINDIR@#/usr/bin#g" \
@@ -63,10 +66,10 @@ src_prepare() {
 src_configure() {
 	local mycmakeargs=(
 		-DBUILD_CLIENT=$(usex !dedicated)
-		-DCUSTOM_BINDIR="/usr/bin"
-		-DCUSTOM_DOCDIR="/usr/share/doc/${PF}"
-		-DCUSTOM_LOCALEDIR="/usr/share/${PN}/locale"
-		-DCUSTOM_SHAREDIR="/usr/share/${PN}"
+		-DCUSTOM_BINDIR="${EPREFIX}/usr/bin"
+		-DCUSTOM_DOCDIR="${EPREFIX}/usr/share/doc/${PF}"
+		-DCUSTOM_LOCALEDIR="${EPREFIX}/usr/share/${PN}/locale"
+		-DCUSTOM_SHAREDIR="${EPREFIX}/usr/share/${PN}"
 		-DCUSTOM_EXAMPLE_CONF_DIR="/usr/share/doc/${PF}"
 		-DENABLE_CURL=$(usex curl)
 		-DENABLE_FREETYPE=$(usex truetype)
@@ -83,7 +86,6 @@ src_configure() {
 
 	use dedicated && mycmakeargs+=(
 		-DIRRLICHT_SOURCE_DIR=/the/irrlicht/source
-		-DIRRLICHT_INCLUDE_DIR=/usr/include/irrlicht
 	)
 
 	cmake-utils_src_configure
@@ -94,6 +96,7 @@ src_compile() {
 
 	if use doc ; then
 		cmake-utils_src_compile doc
+		HTML_DOCS=( "${CMAKE_BUILD_DIR}"/doc/html/. )
 	fi
 }
 
@@ -103,11 +106,6 @@ src_install() {
 	if use server || use dedicated ; then
 		newinitd "${FILESDIR}"/minetestserver.initd minetest-server
 		newconfd "${T}"/minetestserver.confd minetest-server
-	fi
-
-	if use doc ; then
-		cd "${CMAKE_BUILD_DIR}"/doc || die
-		dodoc -r html
 	fi
 }
 
