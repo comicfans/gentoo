@@ -70,7 +70,7 @@ src_configure() {
 		-DCUSTOM_DOCDIR="${EPREFIX}/usr/share/doc/${PF}"
 		-DCUSTOM_LOCALEDIR="${EPREFIX}/usr/share/${PN}/locale"
 		-DCUSTOM_SHAREDIR="${EPREFIX}/usr/share/${PN}"
-		-DCUSTOM_EXAMPLE_CONF_DIR="/usr/share/doc/${PF}"
+		-DCUSTOM_EXAMPLE_CONF_DIR="${EPREFIX}/usr/share/doc/${PF}"
 		-DENABLE_CURL=$(usex curl)
 		-DENABLE_FREETYPE=$(usex truetype)
 		-DENABLE_GETTEXT=$(usex nls)
