@@ -17,7 +17,7 @@ IUSE=""
 RDEPEND=">=games-action/minetest-${PV}"
 
 src_install() {
-	insinto /usr/share/minetest/games/${PN}
+	insinto ${EPREFIX}/usr/share/minetest/games/${PN}
 	doins -r mods menu
 	doins game.conf minetest.conf
 
