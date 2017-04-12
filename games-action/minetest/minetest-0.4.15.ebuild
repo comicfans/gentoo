@@ -85,7 +85,7 @@ src_configure() {
 	)
 
 	use dedicated && mycmakeargs+=(
-		-DIRRLICHT_SOURCE_DIR=/the/irrlicht/source
+		-DIRRLICHT_SOURCE_DIR=/usr/include/irrlicht
 	)
 
 	cmake-utils_src_configure
