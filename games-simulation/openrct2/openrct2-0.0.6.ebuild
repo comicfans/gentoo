@@ -13,11 +13,15 @@ if [ "${PV}" == "9999" ]; then
 	EGIT_REPO_URI="${MY_REPO}.git"
 	EGIT_BRANCH="develop"
 	inherit git-r3
+	SRC_URI=""
 else
 	KEYWORDS="~amd64 ~x86"
 	SRC_URI="${MY_REPO}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}/OpenRCT2-${PV}"
 fi
+SRC_URI+="
+https://github.com/OpenRCT2/title-sequences/releases/download/v0.0.5/title-sequence-v0.0.5.zip -> ${PN}-title-sequence-v0.0.5.zip
+"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -45,6 +49,17 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
+PATCHES=(
+	"${FILESDIR}/${P}-install.patch"
+)
+
+if [ "${PV}" == "9999" ]; then
+src_unpack() {
+	default
+	git-r3_src_unpack
+}
+fi
+
 src_configure() {
 	local mycmakeargs=(
 		-DDISABLE_HTTP_TWITCH="$(usex !twitch)"
@@ -55,6 +70,14 @@ src_configure() {
 	)
 
 	cmake-utils_src_configure
+}
+
+src_install() {
+	cmake-utils_src_install
+
+	cd "${WORKDIR}"
+	insinto /usr/share/${PN}/title
+	doins *.parkseq
 }
 
 pkg_preinst() {
