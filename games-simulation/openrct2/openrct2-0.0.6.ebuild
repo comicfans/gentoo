@@ -37,6 +37,7 @@ DEPEND="
 	media-libs/libsdl2
 	media-libs/speex
 	>=dev-libs/jansson-2.5
+	>=dev-libs/libzip-1.0
 	|| (
 		media-libs/libpng:0
 		media-libs/libpng:1.2
