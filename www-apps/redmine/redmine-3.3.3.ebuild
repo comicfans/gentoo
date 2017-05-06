@@ -1,8 +1,8 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-USE_RUBY="ruby21"
+EAPI=6
+USE_RUBY="ruby21 ruby22"
 inherit eutils depend.apache ruby-ng user
 
 DESCRIPTION="Flexible project management web application using the Ruby on Rails framework"
@@ -15,34 +15,35 @@ SLOT="0"
 # All db-related USEs are ineffective since we depend on rails
 # which depends on activerecord which depends on all ruby's db bindings
 #IUSE="ldap openid imagemagick postgres sqlite mysql fastcgi passenger"
-IUSE="ldap fastcgi passenger imagemagick"
+IUSE="imagemagick fastcgi ldap markdown passenger"
+
+# nokogiri ruby 2.1 >= 1.7.0, else 1.6.8
 
 ruby_add_rdepend "
-	dev-ruby/rubygems
-	>=dev-ruby/rails-4.2.5.2:4.2
-	>=dev-ruby/jquery-rails-3.1.4:3
-	>=dev-ruby/coderay-1.1.0
-	>=dev-ruby/builder-3.0.4:3
-	>=dev-ruby/roadie-rails-1.1.0
-	dev-ruby/mime-types:*
-	=dev-ruby/request_store-1.0.5
-	>=dev-ruby/rbpdf-1.19.0
 	dev-ruby/actionpack-action_caching
-	dev-ruby/actionpack-xml_parser
-	dev-ruby/protected_attributes
-	>=dev-ruby/redcarpet-3.3.2
-	>=dev-ruby/nokogiri-1.6.7.2
-	ldap? ( >=dev-ruby/ruby-net-ldap-0.12.0 )
-	>=dev-ruby/ruby-openid-2.3.0
+	dev-ruby/actionpack-xml_parser:*
+	>=dev-ruby/builder-3.2.2:3.2
+	>=dev-ruby/coderay-1.1.0
+	dev-ruby/i18n:0.7
+	>=dev-ruby/rails-html-sanitizer-1.0.3
 	>=dev-ruby/rack-openid-0.2.1
+	>=dev-ruby/jquery-rails-3.1.4:3
+	dev-ruby/mime-types:*
+	dev-ruby/mimemagic
+	>=dev-ruby/nokogiri-1.6.8
+	dev-ruby/protected_attributes
+	>=dev-ruby/rails-4.2.5.2:4.2
+	dev-ruby/request_store:1.0.5
+	>=dev-ruby/roadie-rails-1.1.0
+	>=dev-ruby/rbpdf-1.19.2
+	>=dev-ruby/ruby-openid-2.3.0
+	dev-ruby/rubygems
 	fastcgi? ( dev-ruby/fcgi )
+	imagemagick? ( >=dev-ruby/rmagick-2.14.0 )
+	ldap? ( >=dev-ruby/ruby-net-ldap-0.12.0 )
+	markdown? ( >=dev-ruby/redcarpet-3.3.2 )
 	passenger? ( www-apache/passenger )
-	imagemagick? ( >=dev-ruby/rmagick-2.14.0 )"
-	#	ruby_targets_ruby19? (
-#		postgres? ( >=dev-ruby/pg-0.11 )
-#		sqlite3? ( dev-ruby/sqlite3 )
-#		mysql? ( dev-ruby/mysql2:0.3 )
-#	)
+	"
 
 #ruby_add_bdepend ">=dev-ruby/rdoc-2.4.2
 #	dev-ruby/yard
@@ -119,7 +120,7 @@ all_ruby_install() {
 		doins "${FILESDIR}/10_redmine_vhost.conf"
 	else
 		newconfd "${FILESDIR}/${PN}.confd" ${PN}
-		newinitd "${FILESDIR}/${PN}-2.initd" ${PN}
+		newinitd "${FILESDIR}/${PN}-3.initd" ${PN}
 	fi
 	doenvd "${T}/50${PN}"
 }
