@@ -17,6 +17,10 @@
 
 #--- END OF EXAMPLES ---
 
+# David Seifert <soap@gentoo.org> (07 May 2017)
+# pyrit does not support GCC 4.9 or later
+net-wireless/pyrit cuda
+
 # Mike Gilbert <floppym@gentoo.org> (07 May 2017)
 # Test deps need keywording.
 dev-util/pkgconf -test
