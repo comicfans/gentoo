@@ -25,10 +25,13 @@ https://github.com/OpenRCT2/title-sequences/releases/download/v0.0.5/title-seque
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="+twitch +network +opengl +ttf +lightfx libressl"
+IUSE="+twitch +network +opengl +ttf +lightfx libressl test"
 
-DEPEND="
-	twitch? ( net-misc/curl )
+# This is needed because of this bug: https://github.com/OpenRCT2/OpenRCT2/issues/5469
+REQUIRED_USE="network? ( twitch )"
+
+RDEPEND="
+	twitch? ( net-misc/curl[ssl] )
 	network? (
 		libressl? ( dev-libs/libressl:0= )
 		!libressl? ( dev-libs/openssl:0= )
@@ -39,18 +42,18 @@ DEPEND="
 		media-libs/fontconfig
 	)
 	media-libs/libsdl2
-	media-libs/speex
+	media-libs/speexdsp
 	>=dev-libs/jansson-2.5
 	>=dev-libs/libzip-1.0
-	|| (
-		media-libs/libpng:0
-		media-libs/libpng:1.2
-	)
+	media-libs/libpng:=
 "
-RDEPEND="${DEPEND}"
+DEPEND="${RDEPEND}
+	test? ( dev-cpp/gtest )
+"
 
 PATCHES=(
 	"${FILESDIR}/${P}-install.patch"
+	"${FILESDIR}/${P}-remove-external-gtest.patch"
 )
 
 if [ "${PV}" == "9999" ]; then
@@ -67,6 +70,7 @@ src_configure() {
 		-DDISABLE_OPENGL="$(usex !opengl)"
 		-DDISABLE_TTF="$(usex !ttf)"
 		-DENABLE_LIGHTFX="$(usex lightfx)"
+		-DWITH_TESTS="$(usex test)"
 	)
 
 	cmake-utils_src_configure
