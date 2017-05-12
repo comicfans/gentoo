@@ -1,4 +1,4 @@
---- oidentd.orig/src/kernel/linux.c	2006-05-22 06:58:53.000000000 +0300
+--- oidentd-2.0.8/src/kernel/linux.c	2006-05-22 06:58:53.000000000 +0300
 +++ oidentd-2.0.8/src/kernel/linux.c	2007-07-11 21:28:56.000000000 +0300
 @@ -48,6 +48,7 @@
  #define CFILE6		"/proc/net/tcp6"
