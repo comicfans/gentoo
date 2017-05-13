@@ -11,7 +11,7 @@ SRC_URI="https://diffball.googlecode.com/files/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 ~hppa ia64 ~mips ppc ~sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="alpha amd64 ~hppa ~mips x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE="debug"
 
 RDEPEND=">=sys-libs/zlib-1.1.4

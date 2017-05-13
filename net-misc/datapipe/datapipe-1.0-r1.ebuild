@@ -10,7 +10,7 @@ SRC_URI="ftp://ftp.distributed.net/pub/dcti/unsupported/${P}.tar.gz http://http.
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~x86 ~ppc ~arm ~amd64"
+KEYWORDS="~amd64 ~arm ~x86"
 
 src_compile() {
 	$(tc-getCC) ${CFLAGS} ${LDFLAGS} -o datapipe datapipe.c

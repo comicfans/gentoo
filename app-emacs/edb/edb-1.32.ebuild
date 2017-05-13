@@ -12,7 +12,7 @@ SRC_URI="http://www.gnuvola.org/software/edb/${P}.tar.gz"
 
 LICENSE="GPL-3+ Texinfo-manual"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 SITEFILE="50${PN}-gentoo.el"
 

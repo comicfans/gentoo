@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Reply to a Message"
 
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/Email-Abstract-2.13.1

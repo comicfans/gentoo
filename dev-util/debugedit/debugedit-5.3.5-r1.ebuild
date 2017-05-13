@@ -17,7 +17,7 @@ SRC_URI="https://dev.gentoo.org/~swegener/distfiles/${P}.tar.bz2
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc ppc64 x86 ~amd64-linux ~arm-linux ~x86-linux"
+KEYWORDS="amd64 hppa ppc64 x86 ~amd64-linux ~arm-linux ~x86-linux"
 IUSE=""
 
 DEPEND="dev-libs/popt

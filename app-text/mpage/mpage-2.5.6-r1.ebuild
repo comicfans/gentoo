@@ -8,7 +8,7 @@ DESCRIPTION="Many to one page printing utility"
 HOMEPAGE="http://www.mesa.nl/"
 SRC_URI="http://www.mesa.nl/pub/${PN}/${P}.tgz"
 
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 LICENSE="freedist"
 SLOT="0"
 IUSE=""

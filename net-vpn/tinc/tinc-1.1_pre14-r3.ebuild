@@ -23,7 +23,7 @@ SRC_URI="http://www.tinc-vpn.org/packages/${MY_P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 IUSE="+lzo +ncurses gui libressl +readline +ssl uml vde upnp +zlib"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

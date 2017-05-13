@@ -7,7 +7,7 @@ USE_RUBY="ruby21 ruby22 ruby23"
 inherit ruby-ng-gnome2
 
 DESCRIPTION="Ruby Atk bindings"
-KEYWORDS="amd64 ~ppc ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 DEPEND+=" dev-libs/atk"
 RDEPEND+=" dev-libs/atk"

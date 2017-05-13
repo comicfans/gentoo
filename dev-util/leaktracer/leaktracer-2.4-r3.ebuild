@@ -14,7 +14,7 @@ SRC_URI="mirror://gentoo/${P}-gentoo_p${PATCH_LEVEL}.tbz2"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-lang/perl
 	sys-devel/gdb"

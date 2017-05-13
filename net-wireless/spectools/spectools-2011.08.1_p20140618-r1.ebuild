@@ -17,7 +17,7 @@ if [[ ${PV} == "9999" ]] ; then
 		KEYWORDS=""
 else
 		SRC_URI="https://dev.gentoo.org/~zerochaos/distfiles/${MY_P}.tar.xz"
-		KEYWORDS="~amd64 ~arm ~ppc ~x86"
+		KEYWORDS="~amd64 ~arm ~x86"
 fi
 
 DESCRIPTION="Spectrum Analyzer for Meta-Geek Wi-Spy and GSG Ubertooth hardware"

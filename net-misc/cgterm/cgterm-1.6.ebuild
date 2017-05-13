@@ -10,7 +10,7 @@ SRC_URI="http://www.paradroid.net/cgterm/${P}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
 IUSE=""
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 DEPEND=">=media-libs/libsdl-1.2.5"
 RDEPEND="${DEPEND}"

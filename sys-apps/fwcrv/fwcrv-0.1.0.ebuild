@@ -8,7 +8,7 @@ HOMEPAGE="http://www.hugovil.com/en/fwcrv/"
 SRC_URI="http://www.hugovil.com/repository/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ~ppc"
+KEYWORDS="x86"
 IUSE=""
 DEPEND="sys-libs/libraw1394"
 

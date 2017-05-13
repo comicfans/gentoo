@@ -10,7 +10,7 @@ SRC_URI="mirror://debian/pool/main/w/${PN}/${PN}_${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc -sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="upower"
 
 RDEPEND="sys-apps/apmd

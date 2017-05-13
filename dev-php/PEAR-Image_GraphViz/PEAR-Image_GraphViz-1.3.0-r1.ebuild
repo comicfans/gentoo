@@ -8,5 +8,5 @@ inherit php-pear-r1
 DESCRIPTION="PHP interface to AT&T's GraphViz tools"
 LICENSE="PHP-3"
 SLOT="0"
-KEYWORDS="~alpha amd64 hppa ~ia64 ~sparc x86"
+KEYWORDS="~alpha amd64 hppa x86"
 IUSE=""

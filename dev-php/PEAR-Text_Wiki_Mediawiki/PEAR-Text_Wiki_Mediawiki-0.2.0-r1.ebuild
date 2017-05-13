@@ -8,6 +8,6 @@ inherit php-pear-r1
 DESCRIPTION="Mediawiki parser for Text_Wiki"
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE=""
 RDEPEND=">=dev-php/PEAR-Text_Wiki-1.1.0"

@@ -10,7 +10,7 @@ HOMEPAGE="http://www.nongnu.org/renameutils/"
 SRC_URI="https://savannah.nongnu.org/download/renameutils/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="nls"
 
 DEPEND=">=sys-libs/readline-5.0-r2"

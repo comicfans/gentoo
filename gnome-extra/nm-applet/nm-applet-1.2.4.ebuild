@@ -13,7 +13,7 @@ HOMEPAGE="https://wiki.gnome.org/Projects/NetworkManager"
 LICENSE="GPL-2+"
 SLOT="0"
 IUSE="+introspection"
-KEYWORDS="~ia64 ~sparc"
+KEYWORDS=""
 
 RDEPEND="
 	app-crypt/libsecret

@@ -12,7 +12,7 @@ SRC_URI="https://dev.gentoo.org/~neurogeek/metagen_releases/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 hppa x86 ~amd64-linux ~x86-linux"
 
 IUSE=""
 DEPEND=">=dev-python/jaxml-3.01[${PYTHON_USEDEP}]

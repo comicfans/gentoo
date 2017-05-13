@@ -9,7 +9,7 @@ HOMEPAGE="http://www.ivn.cl/apache/"
 
 SRC_URI="http://ivn.cl/files/source/${P/9./9}.tgz"
 
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 LICENSE="Apache-2.0"
 SLOT="0"
 IUSE=""

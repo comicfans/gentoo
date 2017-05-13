@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/dtorrent/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm ppc ~s390 ~sh ~sparc x86 ~x86-fbsd"
+KEYWORDS="amd64 arm ~s390 ~sh x86 ~x86-fbsd"
 IUSE=""
 
 S=${WORKDIR}/${MY_P}

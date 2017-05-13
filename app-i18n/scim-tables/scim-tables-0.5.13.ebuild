@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/scim/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="nls"
 LANGS="am ar bn gu hi ja kn ko ml ne pa ru ta te th uk vi zh"
 for i in ${LANGS} ; do

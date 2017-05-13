@@ -5,7 +5,7 @@ EAPI="4"
 
 inherit php-pear-r1
 
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 DESCRIPTION="This Class allows you to easily use ANSI console colors in your
 application."
 LICENSE="MIT"

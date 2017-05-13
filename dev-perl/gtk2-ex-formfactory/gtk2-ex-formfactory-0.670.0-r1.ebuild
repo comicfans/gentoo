@@ -13,7 +13,7 @@ HOMEPAGE="http://www.exit1.org/Gtk2-Ex-FormFactory/ ${HOMEPAGE}"
 
 LICENSE="|| ( LGPL-2.1 LGPL-3 )" #LGPL-2.1+
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND="dev-perl/Gtk2"

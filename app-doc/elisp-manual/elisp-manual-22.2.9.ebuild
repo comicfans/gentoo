@@ -13,7 +13,7 @@ SRC_URI="https://dev.gentoo.org/~ulm/emacs/${MY_P}.tar.bz2"
 
 LICENSE="FDL-1.2+"
 SLOT="22"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="sys-apps/texinfo"
 

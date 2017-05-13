@@ -14,7 +14,7 @@ fi
 inherit eutils multilib toolchain-funcs ${UNPACKER_ECLASS}
 
 if [[ -z ${LIVE_EBUILD} ]]; then
-	KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-linux"
+	KEYWORDS="~alpha ~amd64 ~x86 ~x86-linux"
 	SRC_URI="https://github.com/jjwhitney/BDelta/tarball/v${PV} -> ${P}.tar.gz"
 fi
 

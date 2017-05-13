@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tar.gz"
 
 SLOT="5"
 LICENSE="GPL-2"
-KEYWORDS="amd64 arm ia64 x86"
+KEYWORDS="amd64 arm x86"
 IUSE="debug doc examples svg"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

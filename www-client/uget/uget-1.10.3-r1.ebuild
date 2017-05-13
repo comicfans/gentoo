@@ -12,7 +12,7 @@ if [[ ${PV} == *9999* ]]; then
 	SRC_URI=""
 	EGIT_REPO_URI="git://git.code.sf.net/p/urlget/uget"
 else
-	KEYWORDS="~amd64 ~arm ~ppc ~x86"
+	KEYWORDS="~amd64 ~arm ~x86"
 	SRC_URI="mirror://sourceforge/urlget/${P}.tar.gz"
 fi
 

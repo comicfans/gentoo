@@ -13,7 +13,7 @@ SRC_URI="http://python.ca/scgi/releases/${P}.tar.gz"
 
 LICENSE="CNRI"
 SLOT="0"
-KEYWORDS="amd64 hppa ~ppc x86 ~amd64-linux ~x86-linux ~x86-macos"
+KEYWORDS="amd64 hppa x86 ~amd64-linux ~x86-linux ~x86-macos"
 IUSE=""
 
 DEPEND=""

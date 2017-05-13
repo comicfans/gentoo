@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="A Moose role for processing command line options"
 
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="test"
 
 RDEPEND="

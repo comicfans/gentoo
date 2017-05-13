@@ -9,7 +9,7 @@ HOMEPAGE="http://legousb.sourceforge.net/"
 
 SLOT="0"
 LICENSE="MPL-1.0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 src_compile()

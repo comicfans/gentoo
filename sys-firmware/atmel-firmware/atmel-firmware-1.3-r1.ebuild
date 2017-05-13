@@ -10,7 +10,7 @@ SRC_URI="http://www.thekelleys.org.uk/atmel/${P}.tar.gz"
 
 LICENSE="Atmel"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="pcmcia usb"
 
 RDEPEND=">=net-wireless/wireless-tools-26-r1

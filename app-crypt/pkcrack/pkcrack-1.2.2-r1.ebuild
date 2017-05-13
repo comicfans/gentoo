@@ -10,7 +10,7 @@ SRC_URI="http://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/${P}.tar.gz"
 
 LICENSE="pkcrack"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 DEPEND="test? ( app-arch/zip[crypt] )"

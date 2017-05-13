@@ -14,7 +14,7 @@ SRC_URI="mirror://debian/pool/main/l/ltrace/${MY_P}.orig.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm ~ia64 ~mips ppc ~ppc64 sparc x86"
+KEYWORDS="alpha amd64 ~arm ~mips ~ppc64 x86"
 IUSE="test"
 
 RDEPEND="dev-libs/elfutils"

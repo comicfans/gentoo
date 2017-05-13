@@ -13,7 +13,7 @@ SRC_URI="http://download.savannah.nongnu.org/releases/linphone/plugins/sources/$
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="20ms-frames"
 
 RDEPEND="dev-libs/ilbc-rfc3951

@@ -11,7 +11,7 @@ SRC_URI="http://www.funhdl.org/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha ~amd64 ia64 ~ppc ~sparc x86"
+KEYWORDS="alpha ~amd64 x86"
 IUSE="+ocamlopt"
 
 # min version so we are sure we always have ocamlopt in IUSE

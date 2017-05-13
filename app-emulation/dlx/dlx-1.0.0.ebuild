@@ -8,7 +8,7 @@ SRC_URI="http://www.davidviner.com/dlx/dlx.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 IUSE=""
 DEPEND=""
 

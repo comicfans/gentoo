@@ -7,7 +7,7 @@ SRC_URI="http://www.fourmilab.ch/webtools/valve/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~x86 ~ppc ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 DEPEND=""

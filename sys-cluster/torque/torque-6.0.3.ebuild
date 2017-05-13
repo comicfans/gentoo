@@ -12,7 +12,7 @@ SRC_URI="http://wpfilebase.s3.amazonaws.com/torque/${P}-${DISTFILEHASH}.tar.gz"
 
 LICENSE="torque-2.5"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~mips ~ppc64 ~x86"
 IUSE="autorun cgroups cpusets +crypt doc drmaa kernel_linux libressl munge nvidia quickcommit server +syslog tk"
 
 DEPEND_COMMON="

@@ -17,7 +17,7 @@ if [[ ${PV} == "9999" ]] ; then
 else
 	S="${WORKDIR}/hackrf-${PV}/host/libhackrf"
 	SRC_URI="https://github.com/mossmann/hackrf/releases/download/v${PV}/hackrf-${PV}.tar.xz"
-	KEYWORDS="~amd64 ~arm ~ppc ~x86"
+	KEYWORDS="~amd64 ~arm ~x86"
 fi
 
 LICENSE="BSD"

@@ -8,7 +8,7 @@ inherit toolchain-funcs
 DESCRIPTION="GemCore based PC/SC reader drivers for pcsc-lite"
 HOMEPAGE="http://ludovic.rousseau.free.fr/softwares/ifd-GemPC"
 LICENSE="GPL-2 BSD"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 SRC_URI="http://ludovic.rousseau.free.fr/softwares/ifd-GemPC/${P}.tar.gz"
 IUSE=""

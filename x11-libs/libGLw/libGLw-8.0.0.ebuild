@@ -13,7 +13,7 @@ SRC_URI="ftp://ftp.freedesktop.org/pub/mesa/glw/${MY_P}.tar.bz2"
 
 SLOT="0"
 LICENSE="MIT"
-KEYWORDS="amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="+motif static-libs"
 
 RDEPEND="

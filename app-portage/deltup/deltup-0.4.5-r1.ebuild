@@ -11,7 +11,7 @@ SRC_URI="http://deltup.org/e107_files/downloads//${P}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-libs/openssl:0

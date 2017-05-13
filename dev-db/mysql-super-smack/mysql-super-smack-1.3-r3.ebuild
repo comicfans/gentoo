@@ -16,7 +16,7 @@ SRC_URI="http://vegan.net/tony/supersmack/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="+mysql postgres"
 REQUIRED_USE="|| ( mysql postgres )"
 

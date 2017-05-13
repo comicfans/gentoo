@@ -17,7 +17,7 @@ DESCRIPTION="An extension of CSS3, adding nested rules, variables, mixins and mo
 HOMEPAGE="http://sass-lang.com/"
 LICENSE="MIT"
 
-KEYWORDS="amd64 arm ppc ppc64 x86"
+KEYWORDS="amd64 arm ppc64 x86"
 SLOT="$(get_version_component_range 1-2)"
 IUSE=""
 

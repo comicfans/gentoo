@@ -11,7 +11,7 @@ SRC_URI="https://github.com/pullmoll/musl-obstack/archive/v${PV}.tar.gz -> ${P}.
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~mips ~x86"
 IUSE="static-libs"
 
 DEPEND="

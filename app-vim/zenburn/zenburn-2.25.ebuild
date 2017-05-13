@@ -11,7 +11,7 @@ DESCRIPTION="Low-contrast color scheme for Vim"
 HOMEPAGE="https://github.com/jnurmine/Zenburn"
 SRC_URI="https://github.com/jnurmine/${MY_PN}/archive/v${PV}.zip -> ${P}.zip"
 LICENSE="GPL-1"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 DEPEND="app-arch/unzip"
 

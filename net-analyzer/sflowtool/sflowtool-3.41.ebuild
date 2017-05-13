@@ -13,7 +13,7 @@ SRC_URI="https://github.com/sflow/${PN}/releases/download/v${PV}/${P}.tar.gz"
 
 LICENSE="inmon-sflow"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug"
 
 src_prepare() {

@@ -14,7 +14,7 @@ HOMEPAGE="http://www.lri.fr/~filliatr/bibtex2html/"
 SLOT="0"
 
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 RESTRICT="test"
 
 # With use doc we need a latex compiler to generate manual.pdf

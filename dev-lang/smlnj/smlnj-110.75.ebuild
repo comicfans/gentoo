@@ -53,7 +53,7 @@ LICENSE="BSD"
 SLOT="0"
 
 #sparc support should be there but is untested
-KEYWORDS="-* ~amd64 ~ppc ~x86"
+KEYWORDS="-* ~amd64 ~x86"
 IUSE=""
 
 S=${WORKDIR}

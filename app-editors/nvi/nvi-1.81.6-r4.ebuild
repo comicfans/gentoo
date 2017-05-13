@@ -25,7 +25,7 @@ SRC_URI="http://garage.linux.student.kuleuven.be/~skimo/nvi/devel/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 hppa ~mips ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 hppa ~mips ppc64 x86"
 IUSE="perl tcl unicode"
 
 CDEPEND="|| ( ${DBDEPENDS} )

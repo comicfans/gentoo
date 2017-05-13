@@ -11,7 +11,7 @@ HOMEPAGE="http://www.sonappart.net/softwares/preview/"
 SRC_URI="http://www.sonappart.net/softwares/preview/download/${P/p/P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 src_prepare() {

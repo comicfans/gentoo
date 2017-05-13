@@ -10,7 +10,7 @@ SRC_URI="http://download.gna.org/gnustep-nonfsf/silver.theme-${PV}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""

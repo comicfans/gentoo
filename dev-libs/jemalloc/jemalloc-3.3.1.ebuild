@@ -11,7 +11,7 @@ SRC_URI="http://www.canonware.com/download/${PN}/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~hppa ~ia64 ~mips ppc ppc64 ~s390 x86 ~x64-macos"
+KEYWORDS="~alpha amd64 ~arm ~hppa ~mips ppc64 ~s390 x86 ~x64-macos"
 IUSE="debug static-libs stats"
 
 src_prepare() {

@@ -14,7 +14,7 @@ SRC_URI="http://www.chrisarndt.de/en/software/pylize/download/${P}.tar.bz2"
 IUSE="doc"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="dev-python/empy[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]"

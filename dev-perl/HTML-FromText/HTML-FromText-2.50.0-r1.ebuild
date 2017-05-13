@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Convert plain text to HTML"
 
 SLOT="0"
-KEYWORDS="amd64 hppa ~mips ppc x86"
+KEYWORDS="amd64 hppa ~mips x86"
 IUSE=""
 
 DEPEND="dev-perl/HTML-Parser

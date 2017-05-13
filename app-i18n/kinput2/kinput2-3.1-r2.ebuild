@@ -11,7 +11,7 @@ SRC_URI="ftp://ftp.sra.co.jp/pub/x11/${PN}/${MY_P}.tar.gz"
 
 LICENSE="HPND"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="freewnn"
 
 RDEPEND="freewnn? ( >=app-i18n/freewnn-1.1.1_alpha19 )

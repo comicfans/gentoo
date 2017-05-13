@@ -15,7 +15,7 @@ SRC_URI="https://launchpad.net/dee/1.0/${PV}/+download/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-3"
-KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="~alpha amd64 ~arm ~ppc64 x86"
 IUSE="doc debug examples +icu introspection static-libs test"
 
 REQUIRED_USE="introspection? ( ${PYTHON_REQUIRED_USE} )"

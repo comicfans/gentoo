@@ -16,7 +16,7 @@ SRC_URI="http://www.diveintopython.net/download/${PN}-html-${MY_PV}.zip -> ${P}.
 LICENSE="FDL-1.1"
 SLOT="2"
 
-KEYWORDS="amd64 ppc64 ppc x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="pdf"
 
 S="${WORKDIR}/${MY_P}"

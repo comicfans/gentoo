@@ -16,7 +16,7 @@ SRC_URI="http://static.moinmo.in/files/${MY_PN}-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 
 RDEPEND=">=dev-python/docutils-0.4[${PYTHON_USEDEP}]
 	>=dev-python/flup-1.0.2[${PYTHON_USEDEP}]

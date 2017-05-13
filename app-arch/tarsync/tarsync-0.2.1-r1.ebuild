@@ -11,7 +11,7 @@ SRC_URI="mirror://gentoo/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ppc x86 ~amd64-linux"
+KEYWORDS="amd64 ~hppa x86 ~amd64-linux"
 IUSE=""
 
 DEPEND=">=dev-util/diffball-0.7"

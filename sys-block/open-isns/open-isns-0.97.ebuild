@@ -11,7 +11,7 @@ SRC_URI="http://github.com/open-iscsi/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~mips ~ppc64 ~x86"
 IUSE="debug slp ssl static"
 
 DEPEND="

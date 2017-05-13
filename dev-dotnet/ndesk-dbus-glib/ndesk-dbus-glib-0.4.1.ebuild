@@ -10,7 +10,7 @@ SRC_URI="http://www.ndesk.org/archive/dbus-sharp/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="

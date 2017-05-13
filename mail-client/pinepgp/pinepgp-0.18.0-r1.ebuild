@@ -8,7 +8,7 @@ HOMEPAGE="http://hany.sk/~hany/software/pinepgp/"
 SRC_URI="http://terminus.sk/~hany/_data/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="|| ( mail-client/alpine mail-client/pine )

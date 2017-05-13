@@ -14,7 +14,7 @@ SRC_URI="https://github.com/jauhien/g-sorcery/archive/${PV}.tar.gz -> ${P}.tar.g
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="bson"
-KEYWORDS="~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~ppc64 ~x86"
 
 DEPEND="bson? ( dev-python/pymongo[${PYTHON_USEDEP}] )
 	sys-apps/portage[${PYTHON_USEDEP}]"

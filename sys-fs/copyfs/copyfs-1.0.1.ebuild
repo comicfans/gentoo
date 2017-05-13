@@ -10,7 +10,7 @@ HOMEPAGE="http://invaders.mars-attacks.org/~boklm/copyfs/"
 SRC_URI="${HOMEPAGE}/${P}.tar.bz2"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86 ~amd64 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=sys-fs/fuse-2.0

@@ -11,7 +11,7 @@ SRC_URI="http://www.vanheusden.com/nagircbot/${P}.tgz"
 
 LICENSE="GPL-2" # GPL-2 only
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="libressl"
 
 CDEPEND="

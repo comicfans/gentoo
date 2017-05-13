@@ -10,7 +10,7 @@ DESCRIPTION="The Multimedia module for the Qt toolkit"
 if [[ ${QT4_BUILD_TYPE} == live ]]; then
 	KEYWORDS=""
 else
-	KEYWORDS="amd64 arm ~ia64 ppc ppc64 x86"
+	KEYWORDS="amd64 arm ppc64 x86"
 fi
 
 IUSE="alsa"

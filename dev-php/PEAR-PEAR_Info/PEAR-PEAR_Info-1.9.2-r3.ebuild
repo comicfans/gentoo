@@ -8,7 +8,7 @@ inherit php-pear-r1
 DESCRIPTION="Show Information about your PEAR install and its packages"
 LICENSE="PHP-3.01"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ia64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE="minimal"
 
 DEPEND="dev-lang/php:*[pcre(+)]

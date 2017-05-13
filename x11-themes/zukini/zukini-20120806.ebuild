@@ -9,7 +9,7 @@ SRC_URI="http://www.deviantart.com/download/272660042/${PN}_by_lassekongo83-d4ic
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE=""
 
 RESTRICT="binchecks strip"

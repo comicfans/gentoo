@@ -7,7 +7,7 @@ DESCRIPTION="NETI@Home research project from GATech"
 HOMEPAGE="http://www.neti.gatech.edu"
 SRC_URI="mirror://sourceforge/neti/${P}.tar.gz"
 
-KEYWORDS="~ppc ~x86"
+KEYWORDS="~x86"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="zlib java"

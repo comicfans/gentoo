@@ -12,7 +12,7 @@ RDEPEND=">=dev-lang/ocaml-3.06-r1
 	>=dev-ml/findlib-0.8"
 SRC_URI="https://bitbucket.org/mmottl/ocaml-makefile/downloads/${PN}file-${PV}.tar.gz"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 S="${WORKDIR}/${PN}file-${PV}"
 

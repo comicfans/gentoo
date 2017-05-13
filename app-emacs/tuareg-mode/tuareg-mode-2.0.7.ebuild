@@ -11,7 +11,7 @@ SRC_URI="http://forge.ocamlcore.org/frs/download.php/1304/tuareg-${PV}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~x86-fbsd"
+KEYWORDS="amd64 x86 ~x86-fbsd"
 
 S="${WORKDIR}/tuareg-${PV}"
 ELISP_REMOVE="tuareg-pkg.el tuareg-site-file.el"

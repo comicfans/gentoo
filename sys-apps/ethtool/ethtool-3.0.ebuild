@@ -9,5 +9,5 @@ SRC_URI="mirror://kernel/software/network/ethtool/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm hppa ~ia64 ~mips ppc ppc64 sh ~sparc x86"
+KEYWORDS="~alpha amd64 arm hppa ~mips ppc64 sh x86"
 IUSE=""

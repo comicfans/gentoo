@@ -12,7 +12,7 @@ HOMEPAGE="http://gap.nongnu.org/zipper"
 SRC_URI="https://savannah.nongnu.org/download/gap/${P/z/Z}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 pkg_postinst() {

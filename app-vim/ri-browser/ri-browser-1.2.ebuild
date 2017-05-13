@@ -7,7 +7,7 @@ DESCRIPTION="vim plugin: interface for browsing ri/ruby documentation"
 HOMEPAGE="http://www.vim.org/scripts/script.php?script_id=494"
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~sparc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-lang/ruby"

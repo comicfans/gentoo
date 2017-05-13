@@ -10,7 +10,7 @@ SRC_URI="http://logtalk.org/files/${MY_PV}.tar.bz2"
 LICENSE="Artistic-2"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="gnupl qupl swipl xsbpl yappl xslt fop"
 
 DEPEND=""

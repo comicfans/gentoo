@@ -9,7 +9,7 @@ HOMEPAGE="http://www.coding-zone.com/?page=i8krellm"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 -ppc -sparc -alpha -mips -hppa"
+KEYWORDS="-alpha -hppa -mips x86"
 IUSE=""
 
 RDEPEND=">=app-laptop/i8kutils-1.5"

@@ -10,7 +10,7 @@ SRC_URI="http://www.hashcash.org/source/${P}.tgz"
 
 LICENSE="CPL-1.0"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 src_unpack() {
 	unpack ${A}

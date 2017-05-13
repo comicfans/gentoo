@@ -12,7 +12,7 @@ SRC_URI="http://www.hwaci.com/sw/mkhdr/makeheaders.c -> ${P}.c
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""

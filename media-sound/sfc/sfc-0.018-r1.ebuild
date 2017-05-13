@@ -11,7 +11,7 @@ SRC_URI="http://personal.telefonica.terra.es/web/soudfontcombi/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="
 	media-libs/alsa-lib

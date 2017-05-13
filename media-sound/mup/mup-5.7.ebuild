@@ -10,7 +10,7 @@ SRC_URI="ftp://ftp.arkkra.com/pub/unix/mup${PV//.}src.tar.gz"
 
 LICENSE="Arkkra"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

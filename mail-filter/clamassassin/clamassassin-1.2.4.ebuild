@@ -6,7 +6,7 @@ HOMEPAGE="http://jameslick.com/clamassassin/"
 SRC_URI="http://jameslick.com/clamassassin/${P}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="subject-rewrite clamd"
 DEPEND=">=app-antivirus/clamav-0.90
 		sys-apps/debianutils

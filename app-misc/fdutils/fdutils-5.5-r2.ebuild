@@ -8,7 +8,7 @@ HOMEPAGE="http://fdutils.linux.lu/"
 SRC_URI="http://fdutils.linux.lu/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~ppc ~x86"
+KEYWORDS="~x86"
 IUSE="doc"
 
 RDEPEND=">=sys-fs/mtools-3"

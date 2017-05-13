@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/${PN}/${PN}${PV}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~ppc64 ~x86"
 IUSE=""
 
 DEPEND=""

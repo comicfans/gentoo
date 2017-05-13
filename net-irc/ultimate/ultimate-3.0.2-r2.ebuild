@@ -12,7 +12,7 @@ DESCRIPTION="An IRCd server based on DALnet's DreamForge IRCd"
 SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tar.bz2"
 HOMEPAGE="http://www.shadow-realm.org/"
 
-KEYWORDS="~amd64 ~ppc ~sparc x86 ~amd64-linux"
+KEYWORDS="~amd64 x86 ~amd64-linux"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE="ssl"

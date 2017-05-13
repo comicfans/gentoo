@@ -30,7 +30,7 @@ SRC_URI="http://directfb.net/downloads/Core/${PN}-${PV:0:3}/${P}.tar.gz
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 -mips ppc ppc64 sh -sparc x86"
+KEYWORDS="alpha amd64 arm hppa -mips ppc64 sh x86"
 IUSE="debug doc fbcon gif jpeg cpu_flags_x86_mmx png sdl cpu_flags_x86_sse static-libs truetype v4l X zlib ${IUV} ${IUD}"
 
 RDEPEND="sdl? ( media-libs/libsdl )

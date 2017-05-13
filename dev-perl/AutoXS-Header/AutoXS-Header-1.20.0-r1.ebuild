@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Container for the AutoXS header files"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~ppc-aix ~ppc-macos ~x86-solaris"
+KEYWORDS="amd64 x86 ~ppc-aix ~ppc-macos ~x86-solaris"
 IUSE=""
 
 SRC_TEST=do

@@ -12,7 +12,7 @@ SRC_URI="http://download.camlcity.org/download/${P}.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc fam ncurses +ocamlopt readline"
 DEPEND=">=dev-lang/ocaml-3.10.2:=[ocamlopt?]
 	ncurses? ( >=sys-libs/ncurses-5.3:0= )

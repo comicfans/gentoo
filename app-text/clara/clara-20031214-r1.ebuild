@@ -11,7 +11,7 @@ HOMEPAGE="http://www.claraocr.org/"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~x86 ~ppc-macos ~sparc-solaris"
+KEYWORDS="~amd64 ~x86 ~ppc-macos ~sparc-solaris"
 IUSE=""
 
 RDEPEND="x11-libs/libX11"

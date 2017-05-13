@@ -8,7 +8,7 @@ HOMEPAGE="http://www.3proxy.ru/"
 SRC_URI="http://3proxy.ru/${PV}/${P}.tgz"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~x86 ~amd64 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 S="${WORKDIR}/${PN}"

@@ -15,7 +15,7 @@ SRC_URI="http://ftp.musicbrainz.org/pub/musicbrainz/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc ppc64 x86"
+KEYWORDS="amd64 hppa ppc64 x86"
 IUSE="doc examples"
 
 RDEPEND="media-libs/libdiscid"

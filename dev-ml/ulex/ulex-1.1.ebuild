@@ -11,7 +11,7 @@ SRC_URI="http://www.cduce.org/download/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0/${PV}"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="+ocamlopt"
 
 RDEPEND=">=dev-lang/ocaml-3.10.2:=[ocamlopt?]

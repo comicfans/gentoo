@@ -15,7 +15,7 @@ SRC_URI="https://common-lisp.net/project/ecl/files/release/${PV}/${MY_P}.tgz"
 
 LICENSE="BSD LGPL-2"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="cxx debug emacs gengc precisegc cpu_flags_x86_sse +threads +unicode +libatomic X"
 
 CDEPEND="dev-libs/gmp:0

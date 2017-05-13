@@ -10,7 +10,7 @@ SRC_URI="http://www.leo.org/~elmar/nttcp/${P}.tar.gz"
 LICENSE="public-domain"
 
 SLOT="0"
-KEYWORDS="amd64 ~mips ~ppc x86"
+KEYWORDS="amd64 ~mips x86"
 
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-format-security.patch

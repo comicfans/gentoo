@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/podofo/${P}.tar.gz
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ppc64 ~sparc x86"
+KEYWORDS="amd64 ~arm hppa ppc64 x86"
 IUSE="+boost idn debug test"
 
 RDEPEND="dev-lang/lua:=

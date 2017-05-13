@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/xmltv/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~x86-linux"
+KEYWORDS="~amd64 ~x86 ~x86-linux"
 
 IUSE="ar ch_search dk dtvla es_laguiatv eu_dotmedia eu_egon eu_epg fi fi_sv
 fr fr_kazer hr huro il is it na_dd na_dtv na_tvmedia nl no_gf pt pt_meo se_swedb

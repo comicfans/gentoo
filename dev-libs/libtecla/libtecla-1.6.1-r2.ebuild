@@ -11,7 +11,7 @@ SRC_URI="http://www.astro.caltech.edu/~mcs/tecla/${P}.tar.gz"
 
 LICENSE="icu"
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="static-libs"
 
 DEPEND="sys-libs/ncurses"

@@ -16,7 +16,7 @@ HOMEPAGE="https://github.com/judofyr/temple"
 
 LICENSE="MIT"
 SLOT="0.7"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
 ruby_add_bdepend "test? ( dev-ruby/bacon

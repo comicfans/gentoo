@@ -13,7 +13,7 @@ SRC_URI="http://dev.gentoo.org/~monsieurp/packages/${P}.tar.gz
 
 LICENSE="CC-BY-SA-3.0"
 SLOT="3"
-KEYWORDS="amd64 ppc64 ppc x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="pdf"
 
 src_prepare() {

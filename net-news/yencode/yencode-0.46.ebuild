@@ -7,7 +7,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ppc ~sparc arm ~amd64"
+KEYWORDS="~amd64 arm x86"
 IUSE="nls"
 
 DEPEND=""

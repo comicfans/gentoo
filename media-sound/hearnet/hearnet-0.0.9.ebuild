@@ -10,7 +10,7 @@ SRC_URI="http://falcon.fugal.net/~fugalh/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 #-amd64: 0.0.2: No sound sent to jack server
-KEYWORDS="-amd64 ~ppc x86"
+KEYWORDS="-amd64 x86"
 IUSE=""
 
 RDEPEND="net-libs/libpcap

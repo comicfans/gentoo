@@ -7,7 +7,7 @@ SRC_URI="http://dirvish.org/${P}.tgz"
 
 LICENSE="OSL-2.0"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="app-arch/tar"

@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="2"
-KEYWORDS="alpha amd64 ia64 ppc sparc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE="debug doc l10n_he nls socks5 ssl xosd aosd xmpp qt4 msn"
 
 RDEPEND="

@@ -9,7 +9,7 @@ SRC_URI="http://downloads.mikekohn.net/ringtonetools/${P}.tar.gz"
 
 LICENSE="ringtonetools"
 SLOT="0"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 src_unpack() {

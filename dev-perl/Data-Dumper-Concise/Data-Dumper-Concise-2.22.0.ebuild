@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Less indentation and newlines plus sub deparsing"
 
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86 ~ppc-aix ~x86-solaris"
+KEYWORDS="~amd64 ~arm ~x86 ~ppc-aix ~x86-solaris"
 IUSE=""
 
 #RDEPEND="dev-perl/Devel-ArgNames"

@@ -10,7 +10,7 @@ SRC_URI="mirror://gentoo/${P}.tar.bz2"
 LICENSE="GPL-1+"
 SLOT="0"
 IUSE=""
-KEYWORDS="~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~ppc64 ~x86"
 
 RDEPEND="net-im/pidgin"
 DEPEND="app-arch/unzip

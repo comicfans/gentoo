@@ -8,9 +8,9 @@ inherit qt4-build-multilib
 DESCRIPTION="The WebKit module for the Qt toolkit"
 
 if [[ ${QT4_BUILD_TYPE} == live ]]; then
-	KEYWORDS="arm ia64 ppc ppc64"
+	KEYWORDS="arm ppc64"
 else
-	KEYWORDS="amd64 arm ia64 ~mips ppc ppc64 x86 ~amd64-fbsd ~x86-fbsd"
+	KEYWORDS="amd64 arm ~mips ppc64 x86 ~amd64-fbsd ~x86-fbsd"
 fi
 
 IUSE="+gstreamer icu +jit"

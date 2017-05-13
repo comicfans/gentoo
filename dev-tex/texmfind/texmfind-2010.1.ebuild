@@ -8,7 +8,7 @@ SRC_URI="https://launchpad.net/texmfind/2010/${PV}/+download/texmfind-${PV}.tar.
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~mips ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="amd64 ~mips ~ppc64 x86"
 IUSE=""
 
 src_install() {

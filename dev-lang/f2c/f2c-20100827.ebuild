@@ -17,7 +17,7 @@ SRC_URI="
 
 LICENSE="HPND"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~ppc64 ~x86 ~x86-fbsd ~amd64-linux ~x86-linux"
 IUSE="doc"
 
 RDEPEND="dev-libs/libf2c"

@@ -11,7 +11,7 @@ SRC_URI="http://homepage.ntlworld.com/phil.brooke/topal/rel-${PV}/topal-package-
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 RDEPEND=">=app-crypt/gnupg-2.0.7-r1

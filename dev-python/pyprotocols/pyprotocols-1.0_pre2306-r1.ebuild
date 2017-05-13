@@ -17,7 +17,7 @@ SRC_URI="mirror://gentoo/${MY_P}.tar.gz"
 
 LICENSE="|| ( PSF-2 ZPL )"
 SLOT="0"
-KEYWORDS="amd64 ~ia64 ppc x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos"
 IUSE=""
 
 RDEPEND=">=dev-python/decoratortools-1.4[${PYTHON_USEDEP}]"

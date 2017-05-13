@@ -11,7 +11,7 @@ HOMEPAGE="http://www.netsurf-browser.org/"
 
 LICENSE="MIT"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ~arm ~ppc"
+KEYWORDS="~amd64 ~arm"
 IUSE=""
 
 RDEPEND=""

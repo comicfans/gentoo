@@ -11,7 +11,7 @@ SRC_URI="http://download.sarine.nl/Programs/gmpc/11.8/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="doc static-libs"
 
 RDEPEND=">=dev-libs/glib-2.16:2"

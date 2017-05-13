@@ -10,7 +10,7 @@ HOMEPAGE="http://www.mono-project.com/VisualBasic.NET_support"
 
 LICENSE="LGPL-2 MIT"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RESTRICT="test"

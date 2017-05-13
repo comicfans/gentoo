@@ -17,7 +17,7 @@ SRC_URI="${SRC_URI_amd64} ${SRC_URI_ppc} ${SRC_URI_x86} ${SRC_URI_sparc}"
 
 LICENSE="distributed.net GPL-2"
 SLOT="0"
-KEYWORDS="~sparc" # x86,amd64,ppc not available for this version
+KEYWORDS="" # x86,amd64,ppc not available for this version
 IUSE=""
 RESTRICT="mirror"
 

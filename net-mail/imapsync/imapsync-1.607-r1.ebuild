@@ -9,7 +9,7 @@ SRC_URI="https://fedorahosted.org/released/${PN}/${P}.tgz"
 
 LICENSE="WTFPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-lang/perl"
 RDEPEND="${DEPEND}

@@ -10,7 +10,7 @@ HOMEPAGE="http://xanthippe.dyndns.org/Zipper/"
 SRC_URI="http://xanthippe.dyndns.org/Zipper/${P/z/Z}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="gnustep-libs/renaissance"

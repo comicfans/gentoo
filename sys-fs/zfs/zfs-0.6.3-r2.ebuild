@@ -18,7 +18,7 @@ else
 	SRC_URI="https://github.com/zfsonlinux/${PN}/archive/${P}.tar.gz
 		https://dev.gentoo.org/~ryao/dist/${P}-patches-r1.tar.xz"
 	S="${WORKDIR}/${PN}-${P}"
-	KEYWORDS="~amd64 ~arm ~ppc ~ppc64"
+	KEYWORDS="~amd64 ~arm ~ppc64"
 fi
 
 inherit bash-completion-r1 flag-o-matic toolchain-funcs autotools-utils udev systemd

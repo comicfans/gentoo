@@ -13,7 +13,7 @@ SRC_URI="https://dev.gentoo.org/~eva/distfiles/${PN}/${P}.tar.xz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~alpha amd64 ~ppc ~sparc x86"
+KEYWORDS="~alpha amd64 x86"
 
 IUSE="eds examples python"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"

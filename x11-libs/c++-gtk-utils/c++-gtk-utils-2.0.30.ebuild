@@ -9,7 +9,7 @@ HOMEPAGE="http://cxx-gtk-utils.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN/++/xx}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="+gtk nls static-libs"
 SLOT="3"
 

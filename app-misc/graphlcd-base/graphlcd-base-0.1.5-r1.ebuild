@@ -10,7 +10,7 @@ HOMEPAGE="http://projects.vdr-developer.org/projects/graphlcd"
 SRC_URI="mirror://vdr-developerorg/${VERSION}/${P}.tgz
 		mirror://vdrfiles/${PN}/${P}_utf8.diff.tgz"
 
-KEYWORDS="amd64 x86 ~ppc"
+KEYWORDS="amd64 x86"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE="truetype unicode g15"

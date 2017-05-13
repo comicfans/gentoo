@@ -13,7 +13,7 @@ IUSE=""
 DESCRIPTION="PolarBlog is an open source embedded weblog solution"
 HOMEPAGE="http://polarblog.polarlava.com"
 SRC_URI="http://polarblog.polarlava.com/releases/pb_v${MY_PV}.tgz"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-2"
 

@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Detect browser, version, OS from UserAgent"
 
 SLOT="0"
-KEYWORDS="amd64 hppa ~mips ppc x86"
+KEYWORDS="amd64 hppa ~mips x86"
 IUSE="test"
 
 RDEPEND=""

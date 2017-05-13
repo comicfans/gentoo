@@ -11,7 +11,7 @@ SRC_URI="http://www.shiner.info/files/Yellow%20Dog%20Linux%204/quik/quik-${MY_PV
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ppc"
+KEYWORDS="-*"
 IUSE=""
 
 DEPEND="app-arch/rpm2targz"

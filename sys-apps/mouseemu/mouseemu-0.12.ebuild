@@ -8,7 +8,7 @@ HOMEPAGE="http://geekounet.org/powerbook/"
 SRC_URI="http://geekounet.org/powerbook/files/${PN}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ppc"
+KEYWORDS="-*"
 IUSE=""
 DEPEND=""
 

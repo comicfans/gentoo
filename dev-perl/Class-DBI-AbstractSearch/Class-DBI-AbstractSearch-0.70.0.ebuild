@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Abstract Class::DBI's SQL with SQL::Abstract::Limit"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/SQL-Abstract-Limit-0.12

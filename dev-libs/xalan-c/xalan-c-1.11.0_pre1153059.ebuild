@@ -11,7 +11,7 @@ SRC_URI="mirror://gentoo/Xalan-C_r${PV#*_pre}-src.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc examples nls threads"
 
 RDEPEND=">=dev-libs/xerces-c-2.8.0"

@@ -13,7 +13,7 @@ S="${WORKDIR}/${MY_P}"
 
 SLOT="0"
 LICENSE="IBM"
-KEYWORDS="ppc ppc64"
+KEYWORDS="ppc64"
 IUSE=""
 RDEPEND=">=sys-apps/ibm-powerpc-utils-1.1.0
 	sys-libs/librtas

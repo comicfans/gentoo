@@ -11,6 +11,6 @@ SRC_URI="mirror://gentoo/${P}.tar.bz2"
 
 LICENSE="GPL-2" # GPL-2 only
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 SITEFILE="50${PN}-gentoo.el"

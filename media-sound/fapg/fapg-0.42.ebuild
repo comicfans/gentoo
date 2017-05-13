@@ -7,7 +7,7 @@ SRC_URI="http://royale.zerezo.com/fapg/${P}.tar.gz"
 IUSE="xspf"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 RDEPEND="xspf? ( >=dev-libs/uriparser-0.6.3 )"
 DEPEND="${RDEPEND}"
 

@@ -6,7 +6,7 @@ EAPI="4"
 inherit gtk-sharp-module
 
 SLOT="2"
-KEYWORDS="amd64 ppc x86 ~x86-fbsd"
+KEYWORDS="amd64 x86 ~x86-fbsd"
 IUSE=""
 
 RESTRICT="test"

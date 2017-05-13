@@ -18,7 +18,7 @@ HOMEPAGE="https://github.com/jtrupiano/timecop"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ppc64 x86 ~x86-fbsd"
+KEYWORDS="amd64 ~arm hppa ppc64 x86 ~x86-fbsd"
 IUSE=""
 
 ruby_add_bdepend "test? ( dev-ruby/mocha )"

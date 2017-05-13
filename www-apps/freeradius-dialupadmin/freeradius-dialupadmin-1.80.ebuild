@@ -8,7 +8,7 @@ DESCRIPTION="Web administration interface of freeradius server"
 SRC_URI="ftp://ftp.freeradius.org/pub/radius/freeradius-server-${MY_FREERADIUS_PV}.tar.gz"
 HOMEPAGE="http://www.freeradius.org/dialupadmin.html"
 
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 LICENSE="GPL-2"
 

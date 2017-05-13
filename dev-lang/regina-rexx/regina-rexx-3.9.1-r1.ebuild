@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/${PN}/Regina-REXX-${PV}.tar.gz"
 
 LICENSE="LGPL-2.1 MPL-1.0"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 S=${WORKDIR}/Regina-REXX-${PV}

@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2 IBM"
 SLOT="0/10" # subslot = major soname version
-KEYWORDS="~amd64 ~hppa ~ppc ~x86"
+KEYWORDS="~amd64 ~hppa ~x86"
 IUSE="aff ewf static-libs"
 
 DEPEND="dev-db/sqlite:3

@@ -13,7 +13,7 @@ HOMEPAGE="http://mergelog.sourceforge.net"
 IUSE=""
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="sys-libs/zlib"
 DEPEND="${DEPEND}"

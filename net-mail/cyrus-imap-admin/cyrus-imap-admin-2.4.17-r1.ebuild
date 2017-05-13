@@ -13,7 +13,7 @@ SRC_URI="ftp://ftp.cyrusimap.org/cyrus-imapd/cyrus-imapd-${MY_PV}.tar.gz"
 
 LICENSE="BSD-with-attribution"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ppc64 sparc x86"
+KEYWORDS="amd64 ~arm hppa ppc64 x86"
 IUSE="berkdb kerberos ssl"
 
 RDEPEND=">=dev-lang/perl-5.6.1

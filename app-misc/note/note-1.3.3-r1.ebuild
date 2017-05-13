@@ -11,7 +11,7 @@ SRC_URI="http://www.daemon.de/files/mirror/ftp.daemon.de/scip/Apps/note/${P}.tar
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="crypt dbm general mysql text"
 
 DEPEND="dev-perl/TermReadKey

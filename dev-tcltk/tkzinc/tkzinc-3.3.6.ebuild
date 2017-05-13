@@ -13,7 +13,7 @@ SRC_URI="http://www.tkzinc.org/Packages/Tkzinc-${PV}plus.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug doc threads"
 
 DEPEND="

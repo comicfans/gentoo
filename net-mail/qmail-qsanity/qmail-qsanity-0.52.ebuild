@@ -8,7 +8,7 @@ SRC_URI="mirror://qmail/${P}"
 LICENSE="qmail-nelson"
 SLOT="0"
 # Should run on all platforms without issue
-KEYWORDS="x86 ~ppc ~hppa"
+KEYWORDS="~hppa x86"
 IUSE=""
 
 DEPEND=""

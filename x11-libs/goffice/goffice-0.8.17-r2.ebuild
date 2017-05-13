@@ -12,7 +12,7 @@ HOMEPAGE="https://git.gnome.org/browse/goffice/"
 
 LICENSE="GPL-2"
 SLOT="0.8"
-KEYWORDS="~alpha amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~x64-solaris"
+KEYWORDS="~alpha amd64 ~arm ~mips ~ppc64 x86 ~x86-fbsd ~amd64-linux ~x86-linux ~x64-solaris"
 IUSE="gnome"
 
 # Build fails with -gtk

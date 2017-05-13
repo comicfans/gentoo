@@ -16,7 +16,7 @@ SRC_URI="http://data.iana.org/root-anchors/root-anchors.xml -> root-anchors-2010
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~hppa ~ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh ~sparc x86 ~x64-macos"
+KEYWORDS="~alpha amd64 ~arm ~hppa ~m68k ~mips ppc64 ~s390 ~sh x86 ~x64-macos"
 IUSE="test"
 
 RESTRICT="mirror"

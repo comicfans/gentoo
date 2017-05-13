@@ -1,7 +1,7 @@
 # Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 
 DESCRIPTION="replacement for IBM's C-ISAM"
 HOMEPAGE="https://sourceforge.net/projects/vbisam"

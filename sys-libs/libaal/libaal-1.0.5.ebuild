@@ -9,7 +9,7 @@ SRC_URI="mirror://kernel/linux/utils/fs/reiser4/libaal/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm ppc ppc64 -sparc x86"
+KEYWORDS="amd64 arm ppc64 x86"
 IUSE=""
 
 DEPEND=""

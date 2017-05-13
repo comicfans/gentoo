@@ -12,7 +12,7 @@ SRC_URI="http://www.hboehm.info/gc/gc_source/${MY_P}.tar.gz"
 
 LICENSE="boehm-gc"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm ~hppa ~ia64 ppc ppc64 ~sparc x86"
+KEYWORDS="alpha amd64 ~arm ~hppa ppc64 x86"
 IUSE="cxx threads"
 
 src_unpack() {

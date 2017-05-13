@@ -13,7 +13,7 @@ SRC_URI="https://www.freedesktop.org/software/colord/releases/${P}.tar.xz"
 
 LICENSE="LGPL-3+"
 SLOT="0/1" # subslot = libcolord-gtk soname version
-KEYWORDS="~alpha amd64 ~arm ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~x86-fbsd"
+KEYWORDS="~alpha amd64 ~arm ~mips ~ppc64 x86 ~x86-fbsd"
 IUSE="doc +introspection vala"
 REQUIRED_USE="vala? ( introspection )"
 

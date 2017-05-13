@@ -12,7 +12,7 @@ SRC_URI="http://huizen.dds.nl/~frodol/${PN}/${P}.tar.gz"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE="static-libs"
-KEYWORDS="~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~mips ~x86"
 
 src_prepare() {
 	tc-export AR

@@ -10,7 +10,7 @@ HOMEPAGE="http://achurch.org/services/"
 SRC_URI="http://achurch.org/services/tarballs/${P}.tar.gz"
 LICENSE="GPL-2 FDL-1.2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 pkg_setup() {

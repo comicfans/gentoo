@@ -12,7 +12,7 @@ SRC_URI="mirror://gentoo/${PN}/${MY_P}-${MY_REV}.tar.bz2"
 
 SLOT=${PV}
 LICENSE="Artistic GPL-2 BitstreamVera"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 RESTRICT="binchecks strip"
 
 RDEPEND=">=media-gfx/splashutils-1.5.4[png]

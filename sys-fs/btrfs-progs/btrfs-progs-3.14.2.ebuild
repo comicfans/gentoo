@@ -9,7 +9,7 @@ libbtrfs_soname=0
 
 if [[ ${PV} != 9999 ]]; then
 	MY_PV=v${PV}
-	KEYWORDS="~alpha amd64 arm ~ia64 ~mips ppc ppc64 ~sparc x86"
+	KEYWORDS="~alpha amd64 arm ~mips ppc64 x86"
 	SRC_URI="https://www.kernel.org/pub/linux/kernel/people/mason/${PN}/${PN}-${MY_PV}.tar.xz"
 	S="${WORKDIR}"/${PN}-${MY_PV}
 else

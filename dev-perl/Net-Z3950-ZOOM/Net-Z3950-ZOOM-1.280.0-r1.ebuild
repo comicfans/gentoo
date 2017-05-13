@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Perl extension for invoking the ZOOM-C API"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=">=dev-libs/yaz-2.1.50"

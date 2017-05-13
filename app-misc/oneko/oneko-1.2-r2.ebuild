@@ -13,7 +13,7 @@ SRC_URI="http://www.daidouji.com/oneko/distfiles/${P}.sakura.5.tar.gz
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 RDEPEND="
 	x11-libs/libX11

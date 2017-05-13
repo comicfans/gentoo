@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/libspiff/${P}.tar.bz2"
 
 LICENSE="BSD LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris"
 IUSE="doc static-libs test"
 
 RDEPEND=">=dev-libs/expat-2

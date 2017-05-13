@@ -6,7 +6,7 @@ EAPI="5"
 GST_ORG_MODULE=gst-plugins-base
 inherit gstreamer
 
-KEYWORDS="amd64 ~arm hppa ppc ppc64 x86 ~amd64-fbsd ~x64-macos"
+KEYWORDS="amd64 ~arm hppa ppc64 x86 ~amd64-fbsd ~x64-macos"
 IUSE=""
 
 RDEPEND=">=media-libs/tremor-0_pre20130223[${MULTILIB_USEDEP}]"

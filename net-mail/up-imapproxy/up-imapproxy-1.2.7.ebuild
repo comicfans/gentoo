@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/squirrelmail/squirrelmail-imap_proxy-${PV}.tar.bz2
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="kerberos ssl +tcpd"
 
 RDEPEND="sys-libs/ncurses

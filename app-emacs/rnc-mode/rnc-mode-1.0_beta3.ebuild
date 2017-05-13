@@ -12,7 +12,7 @@ SRC_URI="http://www.pantor.com/RncMode-${MY_PV}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 SITEFILE=50${PN}-gentoo.el

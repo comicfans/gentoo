@@ -9,7 +9,7 @@ SRC_URI="mirror://gentoo/roadrunner-${PV}.tar.gz"
 
 LICENSE="Sleepycat"
 SLOT="0"
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 
 # doc		= include documentation
 IUSE="doc"

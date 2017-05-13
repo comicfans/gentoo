@@ -12,7 +12,7 @@ SRC_URI="http://www.fsavigny.de/gpled-software/${P}.tar.gz"
 
 LICENSE="GPL-2+ Texinfo-manual"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="app-text/openjade"
 RDEPEND="${DEPEND}"

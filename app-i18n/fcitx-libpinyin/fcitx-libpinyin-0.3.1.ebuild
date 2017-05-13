@@ -10,7 +10,7 @@ SRC_URI="http://download.fcitx-im.org/${PN}/${P}_dict.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ppc64 ~x86"
+KEYWORDS="amd64 ppc64 ~x86"
 IUSE="dictmanager"
 
 RDEPEND=">=app-i18n/fcitx-4.2.8

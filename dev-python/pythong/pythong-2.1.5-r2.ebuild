@@ -19,7 +19,7 @@ SRC_URI="
 	doc? ( http://marmota.act.uji.es/MTP/pdf/python.pdf )"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ia64 x86"
+KEYWORDS="~amd64 x86"
 SLOT="0"
 IUSE="doc"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"

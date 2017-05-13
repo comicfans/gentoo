@@ -9,7 +9,7 @@ SRC_URI="http://forestent.com/dist/${PN}/${P}.tgz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~ppc x86"
+KEYWORDS="x86"
 IUSE=""
 
 RDEPEND="app-shells/bash"

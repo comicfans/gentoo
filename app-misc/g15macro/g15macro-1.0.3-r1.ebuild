@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/g15daemon/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE=""
 
 DEPEND=">=app-misc/g15daemon-1.9.0

@@ -8,7 +8,7 @@ SRC_URI="https://raw.githubusercontent.com/gentoo/portage/228a860476d7543608b469
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ~hppa ia64 ~mips ppc ~sparc x86 ~x86-fbsd"
+KEYWORDS="alpha amd64 ~hppa ~mips x86 ~x86-fbsd"
 IUSE=""
 
 DEPEND=""

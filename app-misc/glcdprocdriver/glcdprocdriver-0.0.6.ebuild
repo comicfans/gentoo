@@ -9,7 +9,7 @@ DESCRIPTION="Glue library for the glcdlib LCDproc driver based on GraphLCD"
 HOMEPAGE="http://www.muresan.de/graphlcd/lcdproc/"
 SRC_URI="http://www.muresan.de/graphlcd/lcdproc/${P}.tar.bz2"
 
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 SLOT="0"
 LICENSE="GPL-2"
 

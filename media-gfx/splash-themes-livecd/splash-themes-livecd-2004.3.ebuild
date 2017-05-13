@@ -8,7 +8,7 @@ SRC_URI="https://dev.gentoo.org/~wolf31o2/sources/${PN}/${PF}.tar.bz2"
 
 SLOT=${PV}
 LICENSE="GPL-2"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 RESTRICT="binchecks strip"
 

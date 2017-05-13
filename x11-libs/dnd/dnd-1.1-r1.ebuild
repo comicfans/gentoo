@@ -10,7 +10,7 @@ SRC_URI="http://leb.net/offix/${PN}.${PV}.tgz"
 IUSE=""
 SLOT="0"
 LICENSE="GPL-2 LGPL-2"
-KEYWORDS="alpha amd64 hppa ia64 ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 hppa ppc64 x86"
 
 RDEPEND=">=x11-libs/libX11-1.0.0
 	>=x11-libs/libXmu-1.0.0

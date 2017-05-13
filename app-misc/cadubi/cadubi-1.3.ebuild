@@ -9,7 +9,7 @@ SRC_URI="http://langworth.com/downloads/${P}.tar.gz"
 
 LICENSE="Artistic"
 SLOT="0"
-KEYWORDS="~amd64 ppc ppc64 x86"
+KEYWORDS="~amd64 ppc64 x86"
 IUSE=""
 
 DEPEND="dev-lang/perl

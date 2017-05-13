@@ -23,7 +23,7 @@ SRC_URI="ftp://ftp.mrunix.net/pub/webalizer/${MY_P}-src.tar.bz2
 	mirror://gentoo/${PN}.conf.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="alpha amd64 ~arm hppa ppc ppc64 ~sparc x86"
+KEYWORDS="alpha amd64 ~arm hppa ppc64 x86"
 IUSE="geoip nls xtended"
 SLOT="0"
 

@@ -14,7 +14,7 @@ DESCRIPTION="Loop-AES losetup utility"
 HOMEPAGE="https://www.kernel.org/pub/linux/utils/util-linux/"
 SRC_URI="mirror://kernel/linux/utils/util-linux/v${PV:0:4}/${MY_P}.tar.xz
 	http://loop-aes.sourceforge.net/loop-AES/${LOOPAES_P}.tar.bz2"
-KEYWORDS="~amd64 ~arm ~hppa ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~x86"
 
 LICENSE="GPL-2 LGPL-2.1 BSD-4 MIT public-domain"
 SLOT="0"

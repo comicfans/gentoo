@@ -10,7 +10,7 @@ SRC_URI="https://github.com/devnev/${PN}/archive/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm hppa ppc ppc64 x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x64-macos ~x86-solaris"
+KEYWORDS="amd64 arm hppa ppc64 x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x64-macos ~x86-solaris"
 IUSE="doc static-libs"
 
 RDEPEND=""

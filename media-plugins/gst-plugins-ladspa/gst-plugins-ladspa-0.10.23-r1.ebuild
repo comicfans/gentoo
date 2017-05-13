@@ -6,7 +6,7 @@ EAPI="5"
 GST_ORG_MODULE=gst-plugins-bad
 inherit gstreamer
 
-KEYWORDS="alpha amd64 ~ppc ~ppc64 x86"
+KEYWORDS="alpha amd64 ~ppc64 x86"
 IUSE=""
 
 RDEPEND=">=media-libs/ladspa-sdk-1.13-r2[${MULTILIB_USEDEP}]"

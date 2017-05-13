@@ -5,5 +5,5 @@ EAPI="5"
 
 DESCRIPTION="Virtual for the gnat compiler selection"
 SLOT="4.2"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 RDEPEND="=dev-lang/gnat-gcc-${PV}*"

@@ -8,7 +8,7 @@ HOMEPAGE="http://web.taranis.org/drraw"
 SRC_URI="http://web.taranis.org/${PN}/dist/${P}.tgz"
 
 LICENSE="GPL-2"
-KEYWORDS="~x86 ppc"
+KEYWORDS="~x86"
 IUSE=""
 
 RDEPEND=">=dev-lang/perl-5.6

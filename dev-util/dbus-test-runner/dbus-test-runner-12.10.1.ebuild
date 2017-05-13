@@ -11,7 +11,7 @@ SRC_URI="https://launchpad.net/${PN}/${MY_MAJOR_VERSION}/${PV}/+download/${P}.ta
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="~alpha amd64 ~arm ~ppc64 x86"
 
 IUSE="test"
 

@@ -10,7 +10,7 @@ SRC_URI="http://ftp.ivrix.org.il/pub/ivrix/src/cmdline/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~ppc ~sparc x86"
+KEYWORDS="~alpha amd64 x86"
 IUSE=""
 
 RDEPEND=">=dev-libs/fribidi-0.19.2-r2"

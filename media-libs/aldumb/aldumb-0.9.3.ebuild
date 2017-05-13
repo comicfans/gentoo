@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/dumb/dumb-${PV}.tar.gz"
 
 LICENSE="DUMB-0.9.2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="debug"
 
 DEPEND=">=media-libs/dumb-0.9.3

@@ -9,7 +9,7 @@ HOMEPAGE="http://www.glabels.org/"
 
 LICENSE="GPL-2 FDL-1.1 LGPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="barcode eds"
 
 RDEPEND="

@@ -8,9 +8,9 @@ inherit qt4-build-multilib
 DESCRIPTION="Qt screen magnifier"
 
 if [[ ${QT4_BUILD_TYPE} == live ]]; then
-	KEYWORDS="alpha arm ia64 ppc ppc64 sparc"
+	KEYWORDS="alpha arm ppc64"
 else
-	KEYWORDS="alpha amd64 arm ia64 ppc ppc64 sparc x86"
+	KEYWORDS="alpha amd64 arm ppc64 x86"
 fi
 
 IUSE=""

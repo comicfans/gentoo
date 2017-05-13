@@ -9,7 +9,7 @@ HOMEPAGE="http://www.snort.org/"
 SRC_URI="https://www.snort.org/downloads/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~mips ~ppc64 ~x86"
 IUSE="static +gre +mpls +targetbased +ppm +perfprofiling
 +non-ether-decoders control-socket file-inspect high-availability
 shared-rep side-channel sourcefire linux-smp-stats inline-init-failopen

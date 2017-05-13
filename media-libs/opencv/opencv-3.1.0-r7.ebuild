@@ -19,7 +19,7 @@ SRC_URI="${BASE_URI}/archive/${PV}.tar.gz -> ${P}.tar.gz
 	contrib? ( ${BASE_URI}_contrib/archive/${CONTRIB_URI}.tar.gz -> ${CONTRIB_P}.tar.gz )"
 LICENSE="BSD"
 SLOT="0/3.1" # subslot = libopencv* soname version
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86 ~amd64-linux"
+KEYWORDS="~amd64 ~arm ~ppc64 ~x86 ~amd64-linux"
 IUSE="contrib cuda +eigen examples ffmpeg gdal gflags glog gphoto2 gstreamer gtk \
 	ieee1394 ipp jpeg jpeg2k libav opencl openexr opengl openmp pch png \
 	+python qt5 tesseract testprograms threads tiff vaapi v4l vtk webp xine \

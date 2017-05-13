@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/dssi/${P}.tar.gz"
 
 LICENSE="BSD LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="qt4"
 
 RDEPEND="media-libs/alsa-lib

@@ -183,7 +183,7 @@ SRC_URI="${THEME_URI}/Theme-73labAllstar.tar.bz2
 	${THEME_URI}/Theme-Warty.tar.bz2"
 SLOT="0"
 LICENSE="freedist"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND=">=media-gfx/splashutils-1.1.9.6"

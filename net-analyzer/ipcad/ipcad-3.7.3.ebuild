@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/ipcad/${P}.tar.gz"
 
 LICENSE="BSD-2 GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="
 	net-libs/libpcap

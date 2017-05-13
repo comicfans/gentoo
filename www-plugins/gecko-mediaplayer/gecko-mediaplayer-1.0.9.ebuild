@@ -10,7 +10,7 @@ SRC_URI="https://${PN}.googlecode.com/svn/packages/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="+curl"
 
 RDEPEND=">=dev-libs/dbus-glib-0.100

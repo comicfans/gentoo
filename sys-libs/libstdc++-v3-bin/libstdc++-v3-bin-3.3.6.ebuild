@@ -8,7 +8,7 @@ SRC_URI="ia64? ( mirror://gentoo/${PN}-ia64-${PV}.tbz2 )
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="0"
-KEYWORDS="ia64 ppc64"
+KEYWORDS="ppc64"
 IUSE=""
 
 DEPEND=""

@@ -10,7 +10,7 @@ SRC_URI="http://home.worldonline.dk/byrial/spellutils/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ppc ~sparc alpha ~mips ~hppa amd64"
+KEYWORDS="alpha amd64 ~hppa ~mips x86"
 IUSE="nls"
 
 DEPEND="

@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/${PN}/${PV:0:3}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="clipboard pager password test"
 
 RDEPEND=">=dev-perl/BerkeleyDB-0.34

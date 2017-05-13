@@ -11,7 +11,7 @@ SRC_URI="https://github.com/ocaml/tuareg/releases/download/${PV}/tuareg-${PV}.ta
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~x86 ~x86-fbsd"
 
 S="${WORKDIR}/tuareg-${PV}"
 ELISP_REMOVE="tuareg-pkg.el tuareg-site-file.el"

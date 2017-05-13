@@ -9,7 +9,7 @@ HOMEPAGE="http://metawire.org/~vslavik/sw/cvsq/"
 
 SLOT="0"
 LICENSE="public-domain"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 DEPEND=""		# This is just a shell script.
 RDEPEND="dev-vcs/cvs

@@ -11,7 +11,7 @@ SRC_URI="http://www.dsm.fordham.edu/~${PN}/download/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 src_prepare() {

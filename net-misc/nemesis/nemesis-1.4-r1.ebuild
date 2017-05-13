@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P/_}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE=""
 
 RDEPEND="net-libs/libpcap"

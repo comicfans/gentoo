@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/quidscor/${P}-src.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~ppc ~x86"
+KEYWORDS="~x86"
 
 DEPEND="
 	>=dev-libs/libxml2-2.4

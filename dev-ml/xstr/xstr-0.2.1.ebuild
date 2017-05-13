@@ -11,7 +11,7 @@ SRC_URI="http://www.ocaml-programming.de/packages/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 DEPEND=">=dev-lang/ocaml-3.10:=[ocamlopt]"

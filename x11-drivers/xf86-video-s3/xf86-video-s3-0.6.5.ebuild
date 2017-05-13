@@ -6,7 +6,7 @@ inherit xorg-2
 
 DESCRIPTION="X.Org driver for s3 cards"
 
-KEYWORDS="alpha amd64 ia64 ppc x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="alpha amd64 x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""
 
 RDEPEND=">=x11-base/xorg-server-1.0.99"

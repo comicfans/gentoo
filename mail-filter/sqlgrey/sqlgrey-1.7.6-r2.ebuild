@@ -20,7 +20,7 @@ RDEPEND="dev-lang/perl
 	!postgres? ( !mysql? ( !sqlite? ( dev-perl/DBD-Pg ) ) )"
 DEPEND="$RDEPEND
 	sys-apps/sed"
-KEYWORDS="amd64 ~arm ~sparc x86"
+KEYWORDS="amd64 ~arm x86"
 
 pkg_setup() {
 	enewgroup sqlgrey

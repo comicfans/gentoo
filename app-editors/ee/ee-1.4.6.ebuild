@@ -11,7 +11,7 @@ SRC_URI="http://mahon.cwx.net/sources/${P}.src.tgz"
 
 LICENSE="Artistic"
 SLOT="0"
-KEYWORDS="~amd64 ~ia64 ~mips ppc ppc64 ~sparc x86"
+KEYWORDS="~amd64 ~mips ppc64 x86"
 IUSE=""
 
 RDEPEND="!app-editors/ersatz-emacs"

@@ -10,7 +10,7 @@ HOMEPAGE="http://jes.home.cern.ch/jes/gensink/"
 SRC_URI="http://jes.home.cern.ch/jes/gensink/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 PATCHES=( "${FILESDIR}/${P}-make.patch" )
 

@@ -11,7 +11,7 @@ SRC_URI="https://github.com/d-torrance/${PN}/archive/debian/${PV/_p/+}-1.tar.gz 
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="nls xinerama"
 
 RDEPEND="x11-libs/gtk+:2

@@ -18,7 +18,7 @@ SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tar.bz2
 		mirror://sourceforge/${PN}/SiteBarPluginXBELSync_3.3.7_1.1.zip
 	)"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="plugins"
 
 DEPEND="virtual/httpd-php"

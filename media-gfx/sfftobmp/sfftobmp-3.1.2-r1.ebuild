@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/sfftools/${MY_P}_src.zip"
 
 LICENSE="HPND MIT"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ppc x86"
+KEYWORDS="amd64 ~hppa x86"
 IUSE=""
 
 RDEPEND=">=dev-libs/boost-1.49

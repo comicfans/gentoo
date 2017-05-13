@@ -10,7 +10,7 @@ SRC_URI="http://www.resorama.com/maarten/files/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="
 	media-sound/jack-audio-connection-kit

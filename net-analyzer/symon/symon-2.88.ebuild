@@ -10,7 +10,7 @@ SRC_URI="${HOMEPAGE}/philes/${P}.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="perl +symon symux"
 REQUIRED_USE="
 	|| ( perl symon symux )

@@ -11,7 +11,7 @@ SRC_URI="https://github.com/hollow/${PN}/tarball/df727fe -> ${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ~ppc64 x86"
+KEYWORDS="amd64 ~arm hppa ~ppc64 x86"
 IUSE=""
 
 RDEPEND="

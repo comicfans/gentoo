@@ -11,7 +11,7 @@ SRC_URI="http://members.chello.nl/k.holtman/${P}.tgz"
 
 LICENSE="Artistic LGPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~x86"
 IUSE=""
 
 src_prepare() {

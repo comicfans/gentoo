@@ -10,7 +10,7 @@ HOMEPAGE="http://frameworks.polycrystal.org"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~ppc ~x86 ~amd64"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	>=gnome-base/libglade-2

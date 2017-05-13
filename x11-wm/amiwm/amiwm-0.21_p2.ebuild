@@ -12,7 +12,7 @@ SRC_URI="ftp://ftp.lysator.liu.se/pub/X11/wm/${PN}/${MY_P}.tar.gz"
 
 LICENSE="amiwm"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 COMMON_DEPEND="x11-libs/libX11

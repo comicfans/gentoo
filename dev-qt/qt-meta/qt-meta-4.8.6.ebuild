@@ -8,7 +8,7 @@ HOMEPAGE="https://www.qt.io/"
 
 LICENSE="metapackage"
 SLOT="4"
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="amd64 ~arm ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE="+dbus examples kde +qt3support +webkit"
 
 DEPEND=""

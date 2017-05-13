@@ -9,7 +9,7 @@ DESCRIPTION="Recodes HTML file using a new character set"
 HOMEPAGE="http://bisqwit.iki.fi/source/htmlrecode.html"
 SRC_URI="http://bisqwit.iki.fi/src/arch/${P}.tar.bz2"
 
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE=""

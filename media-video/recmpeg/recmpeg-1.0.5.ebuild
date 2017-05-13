@@ -7,7 +7,7 @@ SRC_URI="mirror://sourceforge/fame/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~ppc x86"
+KEYWORDS="x86"
 IUSE="cpu_flags_x86_mmx cpu_flags_x86_sse"
 
 DEPEND=">=media-libs/libfame-0.9.0"

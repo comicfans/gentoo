@@ -11,7 +11,7 @@ SRC_URI="http://www.myrkr.in-berlin.de/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 ELISP_REMOVE="install-package.el lpath.el"
 SITEFILE="50${PN}-gentoo.el"

@@ -13,7 +13,7 @@ PATCH_VER=0.3
 
 LICENSE="GPL-2 LGPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86 ~ppc-aix ~amd64-linux ~x86-linux ~sparc-solaris ~x86-winnt"
+KEYWORDS="~alpha ~amd64 ~x86 ~ppc-aix ~amd64-linux ~x86-linux ~sparc-solaris ~x86-winnt"
 IUSE="gtk postgres qt4 ssl tcl threads X"
 RESTRICT="test" #298101
 

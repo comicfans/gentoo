@@ -11,7 +11,7 @@ SRC_URI="https://github.com/adrianlopezroche/${PN}/archive/v${PV}.tar.gz -> ${P}
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc64 ~s390 ~x86 ~amd64-linux ~x86-linux ~x64-macos"
 IUSE=""
 
 src_prepare() {

@@ -11,7 +11,7 @@ SRC_URI="http://ctwm.free.lp.se/dist/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86 ~x86-fbsd"
+KEYWORDS="amd64 x86 ~x86-fbsd"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

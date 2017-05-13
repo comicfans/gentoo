@@ -10,7 +10,7 @@ DESCRIPTION="Downloads mail from a Yahoo! webmail account to a local mail spool,
 SRC_URI="mirror://sourceforge/yosucker/${MY_P}.tar.gz"
 HOMEPAGE="http://yosucker.sourceforge.net"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 SLOT="0"
 

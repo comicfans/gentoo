@@ -9,7 +9,7 @@ DESCRIPTION="Hassle-free Usenet news system for small sites"
 SRC_URI="http://infa.abo.fi/~patrik/sn/files/${P}.tar.bz2"
 HOMEPAGE="http://infa.abo.fi/~patrik/sn/"
 
-KEYWORDS="~amd64 x86 ~ppc"
+KEYWORDS="~amd64 x86"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE=""

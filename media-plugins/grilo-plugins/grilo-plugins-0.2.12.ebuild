@@ -12,7 +12,7 @@ HOMEPAGE="https://wiki.gnome.org/Projects/Grilo"
 
 LICENSE="LGPL-2.1+"
 SLOT="0.2"
-KEYWORDS="~arm ~ia64"
+KEYWORDS="~arm"
 IUSE="daap +dvd flickr freebox gnome-online-accounts lua pocket tracker upnp-av +vimeo +youtube"
 
 RDEPEND="

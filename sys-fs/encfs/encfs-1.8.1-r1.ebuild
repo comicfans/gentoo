@@ -10,7 +10,7 @@ SRC_URI="https://github.com/vgough/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="xattr nls libressl"
 
 RDEPEND="dev-libs/boost:=

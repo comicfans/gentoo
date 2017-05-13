@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/gauche/${MY_P}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~ppc x86"
+KEYWORDS="x86"
 IUSE="cg examples"
 
 RDEPEND=">=dev-scheme/gauche-0.9.2

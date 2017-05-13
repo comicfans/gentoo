@@ -13,7 +13,7 @@ SRC_URI="https://gitweb.torproject.org/arm.git/snapshot/${COMMIT_ID}.tar.gz -> $
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~ppc64 ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~arm ~mips ~ppc64 ~x86 ~x86-fbsd"
 IUSE="test"
 
 DEPEND="test? ( dev-python/mock[${PYTHON_USEDEP}] )

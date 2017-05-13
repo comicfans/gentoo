@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/omniorb/${P}.tar.gz"
 
 LICENSE="LGPL-2 GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 ~sparc x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="doc ssl static-libs"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

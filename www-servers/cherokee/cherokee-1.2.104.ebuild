@@ -15,7 +15,7 @@ HOMEPAGE="http://www.cherokee-project.com/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~mips ~ppc64 ~x86"
 IUSE="admin ffmpeg debug geoip ipv6 kernel_linux ldap libressl mysql nls pam php rrdtool ssl static static-libs"
 RDEPEND=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"

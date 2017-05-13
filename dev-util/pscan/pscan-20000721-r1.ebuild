@@ -10,7 +10,7 @@ SRC_URI="http://www.striker.ottawa.on.ca/~aland/pscan/pscan.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 IUSE=""
 
 # Does NOT contain a testsuite, but does contain a test.c that confuses src_test

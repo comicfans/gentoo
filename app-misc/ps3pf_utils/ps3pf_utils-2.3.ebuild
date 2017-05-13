@@ -9,7 +9,7 @@ SRC_URI="mirror://kernel/linux/kernel/people/geoff/cell/ps3-utils/ps3-utils-${PV
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~ppc ~ppc64"
+KEYWORDS="~ppc64"
 IUSE=""
 
 # fixme: depend on a version of sys-kernel/linux-headers that supports ps3

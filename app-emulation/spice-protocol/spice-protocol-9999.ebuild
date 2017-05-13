@@ -10,7 +10,7 @@ if [[ ${PV} = *9999* ]]; then
 	KEYWORDS=""
 else
 	SRC_URI="http://spice-space.org/download/releases/${P}.tar.bz2"
-	KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+	KEYWORDS="~alpha ~amd64 ~arm ~ppc64 ~x86"
 fi
 
 DESCRIPTION="Headers defining the SPICE protocol"

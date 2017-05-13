@@ -10,7 +10,7 @@ SRC_URI="http://home.kcore.de/~kiza/software/snownews/download/${P}.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux ~x86-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~x86-macos"
 IUSE="unicode"
 
 COMMON_DEPEND="

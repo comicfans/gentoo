@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/${PN}/${PN}/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="compat sasl ssl"
 
 DEPEND=">=sys-libs/db-4.2:*

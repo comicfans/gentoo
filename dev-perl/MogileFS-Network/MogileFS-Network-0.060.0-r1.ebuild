@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Network awareness and extensions for MogileFS::Server"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-perl/Net-Netmask

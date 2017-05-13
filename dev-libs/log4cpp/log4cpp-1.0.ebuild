@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc s390 x86"
+KEYWORDS="amd64 ~arm s390 x86"
 IUSE="doc"
 
 DEPEND="doc? ( app-doc/doxygen )"

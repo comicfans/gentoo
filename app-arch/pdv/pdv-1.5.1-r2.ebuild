@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/pdv/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ppc x86 ~x86-linux ~ppc-macos"
+KEYWORDS="~amd64 ~hppa x86 ~x86-linux ~ppc-macos"
 IUSE="X"
 
 DEPEND="X? ( >=x11-libs/motif-2.3:0

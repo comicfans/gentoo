@@ -11,7 +11,7 @@ if [[ ${PV} == "9999" ]] ; then
 else
 	SRC_URI="http://repo.or.cz/w/smatch.git/snapshot/${PV}.tar.gz -> ${P}.tar.gz
 		mirror://gentoo/${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+	KEYWORDS="~amd64 ~arm ~hppa ~ppc64 ~s390 ~sh ~x86"
 fi
 
 DESCRIPTION="static analysis tool for C"

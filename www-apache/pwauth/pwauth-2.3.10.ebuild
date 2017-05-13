@@ -11,7 +11,7 @@ SRC_URI="https://pwauth.googlecode.com/files/${P}.tar.gz"
 
 LICENSE="Apache-1.1"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="faillog pam ignore-case domain-aware"
 
 DEPEND="pam? ( virtual/pam )"

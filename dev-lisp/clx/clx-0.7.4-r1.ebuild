@@ -11,7 +11,7 @@ SRC_URI="http://common-lisp.net/~abridgewater/dist/${PN}/${P}.tgz"
 
 LICENSE="HPND"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 DEPEND="sys-apps/texinfo

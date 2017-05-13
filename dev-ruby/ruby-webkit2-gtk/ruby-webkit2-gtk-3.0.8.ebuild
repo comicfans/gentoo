@@ -7,7 +7,7 @@ USE_RUBY="ruby21 ruby22 ruby23"
 inherit virtualx ruby-ng-gnome2
 
 DESCRIPTION="Ruby WebKitGtk+ for Gtk 3.0 bindings"
-KEYWORDS="amd64 ~ppc ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND+=" net-libs/webkit-gtk:4"

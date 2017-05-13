@@ -9,7 +9,7 @@ SRC_URI="http://dev.inversepath.com/pretrace/libpretrace-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 S="${WORKDIR}/lib${P}"

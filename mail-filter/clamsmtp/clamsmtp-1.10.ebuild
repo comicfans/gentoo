@@ -7,7 +7,7 @@ HOMEPAGE="http://thewalter.net/stef/software/clamsmtp/"
 SRC_URI="http://thewalter.net/stef/software/${PN}/${P}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 hppa ~sparc x86"
+KEYWORDS="amd64 hppa x86"
 IUSE=""
 
 DEPEND=">=sys-apps/sed-4"

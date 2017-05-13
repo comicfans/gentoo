@@ -16,7 +16,7 @@ if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="https://github.com/Ettercap/${PN}.git"
 else
 	SRC_URI="https://github.com/Ettercap/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz" #mirror does not work
-	KEYWORDS="~alpha ~amd64 ~arm ~sparc ~x86 ~x86-fbsd"
+	KEYWORDS="~alpha ~amd64 ~arm ~x86 ~x86-fbsd"
 fi
 #IUSE="doc gtk ipv6 ncurses +plugins test"
 IUSE="doc gtk ipv6 libressl ncurses +plugins"

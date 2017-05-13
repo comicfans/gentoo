@@ -9,7 +9,7 @@ DESCRIPTION="vim plugin: a vim plugin with Perl omni completion functions"
 HOMEPAGE="https://github.com/c9s/perlomni.vim"
 SRC_URI="https://github.com/c9s/${PN}.vim/archive/v${PV}.zip -> ${P}.zip"
 LICENSE="vim.org"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 DEPEND="
 	app-arch/unzip

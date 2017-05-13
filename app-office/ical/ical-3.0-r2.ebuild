@@ -11,7 +11,7 @@ SRC_URI="https://launchpad.net/ical-tcl/3.x/${PV}/+download/${P}.tar.gz"
 
 LICENSE="HPND"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="

@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/vimgadgets/${P}.tar.gz"
 
 LICENSE="ZLIB"
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="static-libs"
 
 src_configure() {

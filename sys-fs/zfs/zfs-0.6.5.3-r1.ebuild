@@ -11,7 +11,7 @@ if [ ${PV} == "9999" ] ; then
 else
 	SRC_URI="https://github.com/zfsonlinux/${PN}/releases/download/${P}/${P}.tar.gz
 		https://dev.gentoo.org/~ryao/dist/${P}-patches-p0.tar.xz"
-	KEYWORDS="~amd64 ~arm ~ppc ~ppc64"
+	KEYWORDS="~amd64 ~arm ~ppc64"
 fi
 
 inherit autotools-utils bash-completion-r1 flag-o-matic linux-info python-r1 systemd toolchain-funcs udev

@@ -9,7 +9,7 @@ SRC_URI="https://github.com/samhocevar/zzuf/releases/download/v${PV}/${P}.tar.bz
 
 LICENSE="WTFPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # Uses dlopen hack to hijack many libc functions.

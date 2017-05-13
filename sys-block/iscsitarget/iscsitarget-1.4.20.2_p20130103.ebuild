@@ -10,7 +10,7 @@ if [ ${PV} == "9999" ] ; then
 	ESVN_REPO_URI="https://svn.code.sf.net/p/iscsitarget/code/trunk"
 else
 	SRC_URI="https://dev.gentoo.org/~ryao/dist/${P}.tar.gz"
-	KEYWORDS="amd64 ~ppc x86"
+	KEYWORDS="amd64 x86"
 fi
 
 DESCRIPTION="Open Source iSCSI target with professional features"

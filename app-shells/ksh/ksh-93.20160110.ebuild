@@ -13,7 +13,7 @@ SRC_URI="https://github.com/att/ast/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="CPL-1.0 EPL-1.0"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha ~amd64 ~arm ~ppc64 ~s390 ~x86 ~amd64-linux ~x86-linux"
 IUSE=""
 
 RDEPEND="!app-shells/pdksh"

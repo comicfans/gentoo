@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Roles with composition parameters"
 
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86 ~x64-macos"
+KEYWORDS="~amd64 ~arm ~x86 ~x64-macos"
 IUSE="test"
 
 RDEPEND="

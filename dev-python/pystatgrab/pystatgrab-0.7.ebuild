@@ -12,7 +12,7 @@ SRC_URI="http://www.mirrorservice.org/sites/ftp.i-scream.org/pub/i-scream/pystat
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ia64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=">=sys-libs/libstatgrab-0.91"

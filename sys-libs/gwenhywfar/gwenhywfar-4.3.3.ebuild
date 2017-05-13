@@ -9,7 +9,7 @@ SRC_URI="http://www.aquamaniac.de/sites/download/download.php?package=01&release
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc ~ppc64 ~sparc x86"
+KEYWORDS="amd64 hppa ~ppc64 x86"
 IUSE="debug doc fox gtk qt4"
 
 RDEPEND="dev-libs/libgpg-error

@@ -5,7 +5,7 @@ EAPI=2
 
 inherit eutils multilib autotools
 
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 
 DESCRIPTION="NSS MySQL Library"
 HOMEPAGE="http://libnss-mysql.sourceforge.net/"

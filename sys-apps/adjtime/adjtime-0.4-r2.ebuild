@@ -9,7 +9,7 @@ SRC_URI="http://www.gentoogeek.org/files/${PN}.zip"
 
 LICENSE="all-rights-reserved"	#441922
 SLOT="0"
-KEYWORDS="ppc"
+KEYWORDS=""
 RESTRICT="mirror bindist"
 
 DEPEND="app-arch/unzip"

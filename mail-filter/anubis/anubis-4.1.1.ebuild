@@ -11,7 +11,7 @@ SRC_URI="mirror://gnu/anubis/${P}.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 IUSE="crypt guile mysql postgres nls pam pcre sasl socks5 +gnutls tcpd test"
 
 RDEPEND="sys-libs/gdbm

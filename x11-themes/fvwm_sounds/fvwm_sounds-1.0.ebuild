@@ -7,7 +7,7 @@ SRC_URI="http://www.fvwm.org/generated/sounds_download/fvwm_sounds.tgz"
 
 LICENSE="GPL-2 FVWM"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="~alpha amd64 ~ppc64 x86"
 IUSE=""
 
 RDEPEND=">=x11-wm/fvwm-2.6.2"

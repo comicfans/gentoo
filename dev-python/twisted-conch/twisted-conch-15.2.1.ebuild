@@ -8,7 +8,7 @@ inherit twisted-r1
 
 DESCRIPTION="Twisted SSHv2 implementation"
 
-KEYWORDS="~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~ppc64 ~s390 ~sh ~x86"
 IUSE=""
 
 DEPEND="

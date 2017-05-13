@@ -11,7 +11,7 @@ SRC_URI="http://bricxcc.sourceforge.net/nqc/release/${P/_p/.r}.tgz"
 
 LICENSE="MPL-1.0"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="usb"
 
 DEPEND="usb? ( dev-libs/legousbtower )"

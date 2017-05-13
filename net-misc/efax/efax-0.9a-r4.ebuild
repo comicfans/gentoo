@@ -11,7 +11,7 @@ HOMEPAGE="http://www.cce.com/efax"
 SRC_URI="http://www.cce.com/efax/download/${P}-001114.tar.gz
 	mirror://debian/pool/main/e/efax/efax_0.9a-19.diff.gz"
 
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 SLOT="0"
 LICENSE="GPL-2"

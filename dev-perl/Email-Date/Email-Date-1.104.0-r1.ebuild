@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Find and Format Date Headers"
 
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/TimeDate-1.16

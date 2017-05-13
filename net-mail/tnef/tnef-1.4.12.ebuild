@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/tnef/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 hppa ppc ppc64 ~sparc x86"
+KEYWORDS="amd64 hppa ppc64 x86"
 
 src_test() {
 	emake -j1 check

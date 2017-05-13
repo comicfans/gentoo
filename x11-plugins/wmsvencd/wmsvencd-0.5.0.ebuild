@@ -14,7 +14,7 @@ RDEPEND="${DEPEND}"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="x86 ~ppc"
+KEYWORDS="x86"
 IUSE=""
 
 src_unpack() {

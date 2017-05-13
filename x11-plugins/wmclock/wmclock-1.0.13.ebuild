@@ -11,7 +11,7 @@ HOMEPAGE="http://www.bluestop.org/wmclock/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

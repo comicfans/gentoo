@@ -9,5 +9,5 @@ DESCRIPTION="A command-line arguments parser"
 
 LICENSE="PHP-3"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ia64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE=""

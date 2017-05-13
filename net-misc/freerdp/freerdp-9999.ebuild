@@ -8,7 +8,7 @@ inherit cmake-utils
 if [[ ${PV} != 9999 ]]; then
 	COMMIT=""
 	SRC_URI="https://github.com/FreeRDP/FreeRDP/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~alpha ~amd64 ~arm ~ppc ~ppc64 ~x86"
+	KEYWORDS="~alpha ~amd64 ~arm ~ppc64 ~x86"
 	S="${WORKDIR}/FreeRDP-${COMMIT}"
 else
 	inherit git-r3

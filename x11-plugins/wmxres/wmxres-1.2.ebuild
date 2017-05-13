@@ -10,7 +10,7 @@ SRC_URI="http://yalla.free.fr/wn/${PN}-1.1-0.tar.gz"
 
 LICENSE="GPL-1"
 SLOT="0"
-KEYWORDS="~amd64 x86 ~ppc"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

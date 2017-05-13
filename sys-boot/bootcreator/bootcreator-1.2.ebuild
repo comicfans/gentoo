@@ -9,7 +9,7 @@ HOMEPAGE="http://tbs-software.com/morgoth/projects.html"
 SRC_URI="http://tbs-software.com/morgoth/files/bootcreator-src.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="ppc -*"
+KEYWORDS="-*"
 IUSE=""
 DEPEND=""
 

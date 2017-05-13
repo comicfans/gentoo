@@ -7,7 +7,7 @@ SRC_URI="http://fhist.sourceforge.net/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~ppc x86"
+KEYWORDS="x86"
 IUSE="test"
 
 RDEPEND="sys-devel/gettext

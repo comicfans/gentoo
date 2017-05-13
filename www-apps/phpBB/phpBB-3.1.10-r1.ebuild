@@ -9,7 +9,7 @@ DESCRIPTION="An open-source bulletin board package"
 HOMEPAGE="http://www.phpbb.com/"
 SRC_URI="http://download.phpbb.com/pub/release/${PV:0:3}/${PV}/${P}.tar.bz2"
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~arm64 ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm64 ~x86"
 IUSE="ftp gd imagemagick mssql mysqli postgres sqlite xml zlib"
 
 PHPV="5*:*"

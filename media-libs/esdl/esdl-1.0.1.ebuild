@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/esdl/${P}.src.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha amd64 ppc ppc64 x86"
+KEYWORDS="~alpha amd64 ppc64 x86"
 IUSE="image truetype"
 
 RDEPEND=">=dev-lang/erlang-13

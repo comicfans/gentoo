@@ -10,7 +10,7 @@ SRC_URI="http://monkey.org/~marius/nylon/${P}.tar.gz"
 
 LICENSE="BSD GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 ~sparc x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND=">=dev-libs/libevent-0.6"

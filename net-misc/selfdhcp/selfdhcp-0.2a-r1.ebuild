@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/selfdhcp/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~ppc ~sparc ~x86"
+KEYWORDS="~x86"
 IUSE=""
 
 DEPEND="dev-libs/popt

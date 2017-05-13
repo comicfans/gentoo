@@ -12,7 +12,7 @@ SRC_URI="https://repo.palkeo.com/repositories/mirror7.meh.or.id/Tools/OTHER_TOOL
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 S=${WORKDIR}/${MY_P}
 

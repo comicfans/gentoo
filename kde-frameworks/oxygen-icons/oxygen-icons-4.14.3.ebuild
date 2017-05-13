@@ -19,7 +19,7 @@ SRC_URI="
 "
 
 LICENSE="LGPL-3"
-KEYWORDS="amd64 ~arm ~arm64 ppc ppc64 x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ~arm64 ppc64 x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux"
 IUSE="sources"
 
 DEPEND=""

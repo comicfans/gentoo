@@ -10,7 +10,7 @@ SRC_URI="https://github.com/storaged-project/${PN}/archive/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="2"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~mips ~ppc64 ~sh ~x86"
 IUSE="acl cryptsetup debug +gptfdisk +introspection lvm nls selinux systemd"
 
 COMMON_DEPEND="

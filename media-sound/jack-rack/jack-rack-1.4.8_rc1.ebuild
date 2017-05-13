@@ -13,7 +13,7 @@ SRC_URI="${DEB_URI}/${MY_P}.orig.tar.gz ${DEB_URI}/${MY_P}-1.debian.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="alsa gnome lash +xml"
 
 RDEPEND=">=x11-libs/gtk+-2.12:2

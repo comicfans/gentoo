@@ -14,7 +14,7 @@ SRC_URI="http://www.modsurvey.org/download/tarballs/${MY_PN}-${PV}.tgz
 	doc? ( http://www.modsurvey.org/download/tarballs/${MY_PN}-docs-${PV}.tgz )"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc mysql nls postgres"
 
 LANGS="en de fr it sv"

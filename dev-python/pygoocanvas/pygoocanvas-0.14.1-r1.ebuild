@@ -14,7 +14,7 @@ HOMEPAGE="https://live.gnome.org/PyGoocanvas"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc examples"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

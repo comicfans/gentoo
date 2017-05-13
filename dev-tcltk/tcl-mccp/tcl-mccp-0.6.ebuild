@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/tcl-mccp/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE="static-libs"
 
 DEPEND="dev-lang/tcl:0="

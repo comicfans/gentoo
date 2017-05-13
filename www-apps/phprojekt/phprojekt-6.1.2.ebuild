@@ -12,7 +12,7 @@ HOMEPAGE="http://www.phprojekt.com/"
 SRC_URI="https://github.com/Mayflower/${MY_PN}/tarball/${PV} -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="postgres mysql"
 
 RDEPEND="virtual/httpd-php

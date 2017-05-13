@@ -21,7 +21,7 @@ HOMEPAGE="https://code.qt.io/cgit/qt-labs/messagingframework.git/"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="debug doc examples icu test zlib"
 
 RDEPEND="

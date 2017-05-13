@@ -10,7 +10,7 @@ SRC_URI="https://abby.googlecode.com/files/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE=""
 
 RDEPEND="|| ( >=media-video/clive-2.2.5 >=media-video/cclive-0.5.0 )

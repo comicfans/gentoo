@@ -12,7 +12,7 @@ MY_PN=SuperLU
 if [[ ${PV} != *9999* ]]; then
 	inherit versionator
 	SRC_URI="http://crd.lbl.gov/~xiaoye/SuperLU//${PN}_${PV}.tar.gz"
-	KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux"
+	KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc64 ~x86 ~amd64-linux ~x86-linux"
 	SLOT="0/$(get_major_version)"
 	S="${WORKDIR}/SuperLU_${PV}"
 else

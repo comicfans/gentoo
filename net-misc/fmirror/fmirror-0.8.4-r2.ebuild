@@ -8,7 +8,7 @@ HOMEPAGE="http://linux.maruhn.com/sec/fmirror.html"
 SRC_URI="http://www.ibiblio.org/pub/solaris/freeware/SOURCES/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 RDEPEND=""

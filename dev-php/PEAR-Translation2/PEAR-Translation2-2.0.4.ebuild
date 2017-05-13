@@ -7,7 +7,7 @@ inherit php-pear-r1
 DESCRIPTION="Class for multilingual applications management"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 hppa ia64 ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 hppa ppc64 x86"
 IUSE="minimal xml"
 
 RDEPEND="dev-lang/php[nls]

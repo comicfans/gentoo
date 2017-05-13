@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Graceful exit for large children"
 
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm ppc ppc64 x86"
+KEYWORDS="alpha amd64 ~arm ppc64 x86"
 IUSE="test"
 
 # mod_perl < 2.0.5 bundles Apache-SizeLimit

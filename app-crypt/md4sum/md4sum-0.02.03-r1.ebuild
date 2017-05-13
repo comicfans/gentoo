@@ -10,7 +10,7 @@ HOMEPAGE="http://linux.xulin.de/c/"
 SRC_URI="http://linux.xulin.de/c/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 src_prepare() {

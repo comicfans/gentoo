@@ -10,7 +10,7 @@ SRC_URI="http://pwsp.net/~qbob/moodbar-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="mp3 ogg vorbis flac"
 
 RDEPEND="media-libs/gst-plugins-base:0.10

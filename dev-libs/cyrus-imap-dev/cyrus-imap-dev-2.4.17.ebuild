@@ -12,7 +12,7 @@ SRC_URI="ftp://ftp.cyrusimap.org/cyrus-imapd/cyrus-imapd-${MY_PV}.tar.gz"
 
 LICENSE="BSD-with-attribution"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ppc64 sparc x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="afs berkdb kerberos snmp ssl tcpd"
 
 RDEPEND=">=dev-libs/cyrus-sasl-2.1.13

@@ -12,7 +12,7 @@ SRC_URI="http://download.sarine.nl/Programs/gmpc/11.8/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="nls xspf +unique"
 
 RDEPEND="dev-db/sqlite:3

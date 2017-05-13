@@ -1,6 +1,11 @@
 # Unmask the flag which corresponds to ARCH.
 -ppc
 
+# David Seifert <soap@gentoo.org> (13 May 2017)
+# ppc32 is in deep maintenance mode, where only a
+# packages required for bootstrapping are keyworded
+emacs gcj python X
+
 # James Le Cuirot <chewi@gentoo.org> (12 Jan 2015)
 # Java is no longer supported on ppc.
 java

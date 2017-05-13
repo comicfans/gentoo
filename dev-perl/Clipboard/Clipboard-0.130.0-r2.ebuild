@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Copy and paste with any OS"
 
 SLOT="0"
-KEYWORDS="amd64 arm ppc ppc64 x86"
+KEYWORDS="amd64 arm ppc64 x86"
 IUSE=""
 
 # See bug 521890.

@@ -11,7 +11,7 @@ SRC_URI="mirror://gentoo/${P}.tar.bz2"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 SITEFILE="50${PN}-gentoo.el"
 DOC_CONTENTS="Uptimes is not enabled as a site default. Add the following

@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/${PN}.berlios/${P}.tar.gz"
 IUSE="gtk qt4"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="gtk? ( >=dev-python/pygtk-2.10 )
 		qt4? ( >=dev-python/PyQt4-4.1.1[X] )"

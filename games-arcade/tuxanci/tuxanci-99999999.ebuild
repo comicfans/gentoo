@@ -15,7 +15,7 @@ if [[ ${PV} = 9999* ]]; then
 	KEYWORDS=""
 else
 	SRC_URI="http://download.${PN}.org/${P}.tar.bz2"
-	KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+	KEYWORDS="~amd64 ~ppc64 ~x86"
 fi
 LICENSE="GPL-2"
 

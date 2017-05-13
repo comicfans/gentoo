@@ -12,7 +12,7 @@ SRC_URI="http://www.mwolson.org/static/dist/emacs-wiki/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/htmlize
 	app-emacs/httpd"

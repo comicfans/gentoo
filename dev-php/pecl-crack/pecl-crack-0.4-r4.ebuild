@@ -12,7 +12,7 @@ USE_PHP="php5-6 php5-5 php5-4"
 
 inherit php-ext-pecl-r2
 
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 DESCRIPTION="PHP interface to the cracklib libraries"
 LICENSE="PHP-3 CRACKLIB"

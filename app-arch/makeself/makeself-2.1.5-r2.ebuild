@@ -9,7 +9,7 @@ SRC_URI="http://www.megastep.org/makeself/${P}.run"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 hppa x86 ~amd64-linux ~x86-linux"
 IUSE=""
 
 RDEPEND="sys-apps/gentoo-functions"

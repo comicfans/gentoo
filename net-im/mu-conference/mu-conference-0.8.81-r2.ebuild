@@ -10,7 +10,7 @@ HOMEPAGE="https://gna.org/projects/mu-conference/"
 SRC_URI="http://download.gna.org/mu-conference/${P}.tar.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="mysql"
 

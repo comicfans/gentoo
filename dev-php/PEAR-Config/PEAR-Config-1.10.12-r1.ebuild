@@ -8,6 +8,6 @@ inherit php-pear-r1
 DESCRIPTION="Provides methods for configuration manipulation. Your configuration's swiss-army knife"
 LICENSE="PHP-2.02"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~hppa ~ppc64 ~x86"
 IUSE="xml"
 RDEPEND="xml? ( dev-php/PEAR-XML_Parser dev-php/PEAR-XML_Util )"

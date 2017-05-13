@@ -8,7 +8,7 @@ HOMEPAGE="http://www.disobey.com/amphetadesk/"
 SRC_URI="mirror://sourceforge/sourceforge/amphetadesk/${PN}-src-v${PV}.tar.gz"
 LICENSE="Artistic"
 SLOT="0"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 DEPEND="dev-lang/perl
 	dev-perl/libwww-perl

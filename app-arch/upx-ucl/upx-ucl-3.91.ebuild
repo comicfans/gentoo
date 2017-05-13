@@ -15,7 +15,7 @@ SRC_URI="http://upx.sourceforge.net/download/${MY_P}.tar.bz2
 
 LICENSE="GPL-2+ UPX-exception" # Read the exception before applying any patches
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~x86 ~x86-fbsd"
 IUSE="lzma zlib"
 
 RDEPEND=">=dev-libs/ucl-1.02

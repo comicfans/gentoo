@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3 LGPL-3"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ppc ppc64 x86"
+KEYWORDS="alpha amd64 arm hppa ppc64 x86"
 IUSE="alsa debug"
 
 DEPEND="alsa? ( media-libs/alsa-lib )"

@@ -11,7 +11,7 @@ DESCRIPTION="Metadot is a CMS with file, page and link management, and collabora
 HOMEPAGE="http://www.metadot.com"
 SRC_URI="http://download.metadot.com/${MY_P}.tar.gz"
 
-KEYWORDS="~x86 ppc"
+KEYWORDS="~x86"
 
 RDEPEND="
 	>=dev-lang/perl-5.005

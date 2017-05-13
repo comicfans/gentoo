@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}-stable-1.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="net-libs/libpcap
 	>=dev-libs/libdnet-1.7"

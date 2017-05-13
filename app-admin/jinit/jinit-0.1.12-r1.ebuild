@@ -9,7 +9,7 @@ SRC_URI="http://john.fremlin.de/programs/linux/jinit/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-amd64 ~ppc ~sparc ~x86"
+KEYWORDS="-amd64 ~x86"
 IUSE=""
 
 DEPEND=""

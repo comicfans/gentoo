@@ -17,6 +17,6 @@ HOMEPAGE="https://rubygems.org/gems/blankslate"
 IUSE=""
 LICENSE="MIT"
 SLOT="2"
-KEYWORDS="~alpha ~amd64 ~x86 ~ppc ~ppc64"
+KEYWORDS="~alpha ~amd64 ~ppc64 ~x86"
 
 RESTRICT="test"

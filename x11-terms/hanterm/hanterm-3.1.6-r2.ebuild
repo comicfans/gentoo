@@ -7,7 +7,7 @@ SRC_URI="http://download.kldp.net/hanterm/${P}.tar.gz"
 
 LICENSE="MIT HPND"
 SLOT="0"
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND="x11-libs/libXmu

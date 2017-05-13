@@ -13,7 +13,7 @@ SRC_URI="mirror://gentoo/curator-3.0_pf078f1686a78.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ~mips ppc x86"
+KEYWORDS="amd64 ~hppa ~mips x86"
 IUSE=""
 
 DEPEND=""

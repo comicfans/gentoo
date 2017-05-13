@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/bochs/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE="3dnow avx debugger doc gdb ncurses readline svga sdl +smp wxwidgets vnc X +x86-64"
 REQUIRED_USE="avx? ( x86-64 )
 	gdb? ( !debugger !smp )

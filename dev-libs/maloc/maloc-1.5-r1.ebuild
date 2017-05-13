@@ -14,7 +14,7 @@ SRC_URI="http://www.fetk.org/codes/download/${P}.tar.gz"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE="doc mpi static-libs"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux"
 
 RDEPEND="
 	sys-libs/readline

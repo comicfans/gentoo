@@ -10,7 +10,7 @@ SRC_URI="http://www.cs.mun.ca/~scotth/download/${P/wmpop3/WMPop3}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="x11-wm/windowmaker

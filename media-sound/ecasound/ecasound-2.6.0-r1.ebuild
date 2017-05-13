@@ -12,7 +12,7 @@ SRC_URI="http://${PN}.seul.org/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="1"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="alsa audiofile debug doc jack libsamplerate mikmod ncurses vorbis oss python ruby sndfile"
 
 RDEPEND="python? ( ${PYTHON_DEPS} )

@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/tclx/${PN}${PV}.tar.bz2"
 LICENSE="BSD"
 IUSE="tk threads"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux ~x86-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~x86-macos"
 
 DEPEND="
 	dev-lang/tcl:0=

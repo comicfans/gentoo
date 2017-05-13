@@ -13,7 +13,7 @@ SRC_URI="mirror://gnu/libextractor/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND=">=media-libs/libextractor-0.6.3"

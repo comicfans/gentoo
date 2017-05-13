@@ -7,7 +7,7 @@ SRC_URI="http://elvine.org/code/cbview/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86 ~ppc ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-perl/Gtk2

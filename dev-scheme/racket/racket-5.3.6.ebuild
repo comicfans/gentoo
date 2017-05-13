@@ -16,7 +16,7 @@ EGIT_REPO_URI="git://git.racket-lang.org/plt.git"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="backtrace cairo doc futures jit places plot threads X"
 
 RDEPEND="dev-db/sqlite:3 x11-libs/cairo[X?] virtual/libffi"

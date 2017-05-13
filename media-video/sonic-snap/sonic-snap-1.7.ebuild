@@ -10,7 +10,7 @@ SRC_URI="http://www.stolk.org/${PN}/downloads/${P}.tar.gz"
 
 LICENSE="GPL-1"
 SLOT="0"
-KEYWORDS="~amd64 ~mips ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~mips ~ppc64 ~x86"
 IUSE="mpeg"
 
 DEPEND="x11-libs/fltk:1

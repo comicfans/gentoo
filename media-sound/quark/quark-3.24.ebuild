@@ -11,7 +11,7 @@ SRC_URI="https://hsgg.github.com/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="gnome"
 
 RDEPEND="dev-libs/glib:2

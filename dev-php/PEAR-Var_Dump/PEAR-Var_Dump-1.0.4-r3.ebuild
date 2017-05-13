@@ -8,7 +8,7 @@ inherit php-pear-r2
 DESCRIPTION="Dump structured information about a variable"
 LICENSE="PHP-3.01"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE="examples test"
 
 DEPEND="test? ( dev-php/PEAR-PEAR )"

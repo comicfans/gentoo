@@ -11,7 +11,7 @@ SRC_URI="http://www.fourmilab.ch/${PN}/${PN}.zip -> ${P}.zip"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"

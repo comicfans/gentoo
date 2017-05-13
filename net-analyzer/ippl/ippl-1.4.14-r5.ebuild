@@ -10,7 +10,7 @@ SRC_URI="http://pltplp.net/ippl/archive/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="virtual/yacc
 	>=sys-devel/flex-2.5.4a-r4"

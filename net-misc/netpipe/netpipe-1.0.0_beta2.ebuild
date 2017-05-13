@@ -9,7 +9,7 @@ SRC_URI="http://www.wudika.de/~jan/netpipe/${PN}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND=""

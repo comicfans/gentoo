@@ -11,7 +11,7 @@ HOMEPAGE="http://phpwebsite.appstate.edu"
 SRC_URI="mirror://sourceforge/${PN}/${PN}_${MY_PV}.tar.gz"
 
 LICENSE="LGPL-2.1"
-KEYWORDS="~amd64 ppc ~ppc64 x86"
+KEYWORDS="~amd64 ~ppc64 x86"
 IUSE="+mysql postgres"
 REQUIRED_USE="|| ( mysql postgres )"
 

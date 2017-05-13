@@ -10,7 +10,7 @@ SRC_URI="http://www.bincimap.org/dl/tarballs/1.2/${P}final.tar.bz2"
 HOMEPAGE="http://freshmeat.net/projects/bincimap/"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~x86"
+KEYWORDS="~amd64 ~hppa ~x86"
 IUSE="libressl ssl"
 
 DEPEND="ssl? (

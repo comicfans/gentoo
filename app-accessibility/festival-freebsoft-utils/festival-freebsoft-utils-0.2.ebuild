@@ -7,7 +7,7 @@ SRC_URI="http://www.freebsoft.org/pub/projects/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND=">=app-accessibility/festival-1.4.3"

@@ -10,7 +10,7 @@ HOMEPAGE="http://www.gnutelliums.com/linux_unix/gnut/"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 IUSE=""
 
 src_unpack() {

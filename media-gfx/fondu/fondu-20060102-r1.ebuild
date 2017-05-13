@@ -13,7 +13,7 @@ SRC_URI="http://fondu.sourceforge.net/${PN}_src-${MY_PV}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos"
 IUSE=""
 
 S=${WORKDIR}/${PN}-${MY_PV}

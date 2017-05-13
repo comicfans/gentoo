@@ -15,7 +15,7 @@ else
 	SRC_URI="https://github.com/sarnold/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 fi
 
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~hppa ~mips ~ppc64 ~x86 ~x86-fbsd"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE="debug"

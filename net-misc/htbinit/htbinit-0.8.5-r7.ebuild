@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/htbinit/htb.init-v${PV}"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="ipv6 esfq"
 
 DEPEND="sys-apps/iproute2"

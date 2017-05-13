@@ -11,7 +11,7 @@ SRC_URI="http://ck.kolivas.org/apps/${PN}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm hppa ~mips ppc ppc64 ~sparc x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="amd64 arm hppa ~mips ppc64 x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""
 
 RDEPEND="dev-libs/lzo

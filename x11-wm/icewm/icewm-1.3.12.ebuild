@@ -12,7 +12,7 @@ LICENSE="GPL-2"
 SRC_URI="https://github.com/bbidulock/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="bidi debug doc gnome minimal nls truetype uclibc xinerama"
 REQUIRED_USE="gnome? ( ${PYTHON_REQUIRED_USE} )"
 

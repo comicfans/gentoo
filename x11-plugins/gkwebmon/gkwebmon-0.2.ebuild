@@ -10,4 +10,4 @@ SRC_URI="mirror://sourceforge/gkwebmon/${P}.tgz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="alpha ppc ~sparc x86"
+KEYWORDS="alpha x86"

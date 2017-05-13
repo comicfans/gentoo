@@ -14,7 +14,7 @@ SRC_URI="http://www.h5l.org/dist/src/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-fbsd"
+KEYWORDS="alpha amd64 arm ~arm64 hppa ~mips ppc64 ~s390 ~sh x86 ~amd64-fbsd"
 IUSE="afs +berkdb caps hdb-ldap ipv6 otp +pkinit selinux ssl static-libs threads test X"
 
 CDEPEND="ssl? ( >=dev-libs/openssl-1.0.1h-r2[${MULTILIB_USEDEP}] )

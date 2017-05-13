@@ -11,7 +11,7 @@ HOMEPAGE="http://www.antlr3.org/"
 SRC_URI="https://github.com/${MY_PN}/${MY_PN}3/archive/${PV}.tar.gz -> ${MY_PN}-${PV}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug debugger doc static-libs"
 
 DEPEND="doc? ( app-doc/doxygen[dot] )"

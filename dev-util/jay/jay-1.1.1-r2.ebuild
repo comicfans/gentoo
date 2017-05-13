@@ -11,7 +11,7 @@ SRC_URI="http://www.cs.rit.edu/~ats/projects/lp/doc/jay/doc-files/src.zip -> ${P
 
 LICENSE="public-domain BSD"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE="java mono"
 
 COMMON_DEPEND="!<=dev-lang/mono-2.4

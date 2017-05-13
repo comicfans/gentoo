@@ -13,7 +13,7 @@ SRC_URI="mirror://gnu/commoncpp/${P}.tar.gz"
 
 LICENSE="LGPL-3"
 SLOT="0/6"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux"
+KEYWORDS="~amd64 ~ppc64 ~x86 ~amd64-linux"
 IUSE="doc static-libs socks +cxx debug libressl ssl gnutls"
 
 RDEPEND="

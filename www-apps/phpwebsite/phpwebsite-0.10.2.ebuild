@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}-full.tar.gz
 http://phpwebsite.appstate.edu/downloads/security/phpws_patch_20060419.2.tgz"
 
 LICENSE="LGPL-2.1"
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 IUSE=""
 
 RDEPEND="virtual/httpd-php"

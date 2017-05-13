@@ -10,7 +10,7 @@ SRC_URI="mirror://gentoo/wm-icons-${PV}-cvs-01092003.tar.bz2"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="alpha amd64 ia64 ppc ppc64 x86"
+KEYWORDS="alpha amd64 ppc64 x86"
 
 IUSE=""
 RDEPEND="virtual/awk dev-lang/perl"

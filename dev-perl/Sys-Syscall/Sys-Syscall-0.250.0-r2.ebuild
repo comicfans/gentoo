@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Access system calls that Perl doesn't normally provide access to"
 
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 SRC_TEST="do"

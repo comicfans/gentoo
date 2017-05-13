@@ -10,7 +10,7 @@ HOMEPAGE="https://sourceforge.net/projects/lxr"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tgz"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="cvs mysql postgres"
 WEBAPP_MANUAL_SLOT="yes"
 SLOT="0"

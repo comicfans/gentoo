@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P/_p/-}mdk.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="gtk"
 
 RDEPEND=">=media-video/transcode-1.0.2-r2[dvd]

@@ -12,7 +12,7 @@ DESCRIPTION="The phpDocumentor package provides automatic documenting of php api
 LICENSE="MIT"
 SLOT="0"
 
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE="doc"
 
 # block old version that provides the same binary

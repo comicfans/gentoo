@@ -12,7 +12,7 @@ SRC_URI="http://violating.us/projects/bigeye/download/${P}.tgz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 src_prepare() {
 	epatch \

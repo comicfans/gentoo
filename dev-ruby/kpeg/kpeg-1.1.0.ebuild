@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/evanphx/kpeg"
 
 LICENSE="MIT"
 SLOT="1"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc64 ~s390 ~sh ~x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""
 
 each_ruby_test() {

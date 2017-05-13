@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/peephole/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ppc ~sparc"
+KEYWORDS="x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

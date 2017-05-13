@@ -12,7 +12,7 @@ SRC_URI="https://github.com/ddccontrol/ddccontrol/archive/${COMMIT_ID}.tar.gz ->
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc gtk nls +pci static-libs video_cards_fglrx"
 S=${WORKDIR}/${PN}-${COMMIT_ID}
 

@@ -9,7 +9,7 @@ HOMEPAGE="https://sourceforge.net/projects/odessa/"
 SRC_URI="mirror://sourceforge/odessa/${MY_P}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 S=${WORKDIR}/${MY_P}

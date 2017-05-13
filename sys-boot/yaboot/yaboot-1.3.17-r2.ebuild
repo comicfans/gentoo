@@ -11,7 +11,7 @@ SRC_URI="http://yaboot.ozlabs.org/releases/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ppc -ppc64"
+KEYWORDS="-* -ppc64"
 IUSE="ibm"
 
 DEPEND="sys-apps/powerpc-utils

@@ -12,7 +12,7 @@ SRC_URI="mirror://gentoo/${P}.tar.xz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 arm hppa ppc ppc64 sparc x86 ~amd64-fbsd"
+KEYWORDS="amd64 arm hppa ppc64 x86 ~amd64-fbsd"
 IUSE="static-libs"
 
 RDEPEND="media-libs/libogg"

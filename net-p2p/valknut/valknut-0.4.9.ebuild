@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/wxdcgui/${P}.tar.bz2
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc ppc64 x86"
+KEYWORDS="amd64 hppa ppc64 x86"
 IUSE="gnome kde"
 
 RDEPEND="dev-qt/qtgui:4[qt3support]

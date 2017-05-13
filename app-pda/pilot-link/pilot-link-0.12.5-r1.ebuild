@@ -13,7 +13,7 @@ SRC_URI="http://pilot-link.org/source/${P}.tar.bz2"
 
 LICENSE="|| ( GPL-2 LGPL-2 )"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm hppa ia64 ppc ppc64 x86 ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="alpha amd64 ~arm hppa ppc64 x86 ~x86-fbsd ~amd64-linux ~x86-linux"
 IUSE="bluetooth debug java perl png python readline static-libs threads usb"
 
 COMMON_DEPEND="dev-libs/popt

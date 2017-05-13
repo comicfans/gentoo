@@ -12,7 +12,7 @@ SRC_URI="http://caca.zoy.org/files/${PN}/${P}.tar.gz
 
 LICENSE="WTFPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # fails with sandbox enabled

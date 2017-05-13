@@ -11,7 +11,7 @@ SRC_URI="https://sourceforge.net/projects/sdif/files/sdif/SDIF-${PV}/SDIF-${PV}-
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug ftruncate threads"
 
 PATCHES=(

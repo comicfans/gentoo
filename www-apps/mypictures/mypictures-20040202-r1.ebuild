@@ -8,7 +8,7 @@ HOMEPAGE="http://www.splitbrain.org/Programming/PHP/mypictures/index.php"
 SRC_URI="http://www.splitbrain.org/Programming/PHP/${PN}/${PN}.tgz"
 
 LICENSE="GPL-2"
-KEYWORDS="~x86 ~ppc"
+KEYWORDS="~x86"
 IUSE=""
 
 RDEPEND="media-gfx/imagemagick"

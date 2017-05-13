@@ -9,7 +9,7 @@ SRC_URI="http://geekounet.org/powerbook/files/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ~ppc"
+KEYWORDS="-*"
 IUSE=""
 
 DEPEND=""

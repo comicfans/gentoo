@@ -11,7 +11,7 @@ SRC_URI="https://fedorahosted.org/released/gtkterm/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="nls"
 
 inherit eutils autotools

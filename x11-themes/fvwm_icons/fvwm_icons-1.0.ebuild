@@ -7,7 +7,7 @@ SRC_URI="http://www.fvwm.org/generated/icon_download/fvwm_icons.tar.bz2"
 
 LICENSE="GPL-2 FVWM"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86 ~x86-fbsd"
+KEYWORDS="~alpha amd64 ~ppc64 x86 ~x86-fbsd"
 IUSE=""
 
 RDEPEND=">=x11-wm/fvwm-2.6.2"

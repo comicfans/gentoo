@@ -47,7 +47,7 @@ SRC_URI="http://jefklak.suidzer0.org/downloads/qingy/qingy_lila.tar.bz2
 # lila -> freedist
 # all the others -> GPL
 LICENSE="GPL-2 freedist"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 SLOT="0"
 IUSE=""

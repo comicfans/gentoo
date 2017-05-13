@@ -15,7 +15,7 @@ SRC_URI="mirror://nongnu/linphone/plugins/sources/${MY_PN}-${PV}.tar.gz
 
 LICENSE="GPL-2+ Clear-BSD SILK-patent-license"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 RDEPEND=">=media-libs/mediastreamer-2.8.2:="
 DEPEND="${RDEPEND}

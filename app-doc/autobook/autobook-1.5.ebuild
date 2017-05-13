@@ -13,7 +13,7 @@ SRC_URI="https://sourceware.org/autobook/${P}.tar.gz
 
 LICENSE="OPL"
 SLOT="0"
-KEYWORDS="amd64 arm hppa ia64 m68k ppc s390 sh x86"
+KEYWORDS="amd64 arm hppa m68k s390 sh x86"
 IUSE="examples"
 
 DEPEND=""

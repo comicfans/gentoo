@@ -15,7 +15,7 @@ SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tgz"
 
 LICENSE="BSD LGPL-2"
 SLOT="0/${PV}"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="debug emacs gengc precisegc cpu_flags_x86_sse +threads +unicode X"
 
 CDEPEND="dev-libs/gmp

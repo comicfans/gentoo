@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Format POD source into various output formats"
 
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc ppc64 x86"
+KEYWORDS="amd64 ~arm ppc64 x86"
 IUSE=""
 
 RDEPEND=">=dev-lang/perl-5.8.8-r8

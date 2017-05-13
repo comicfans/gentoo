@@ -12,7 +12,7 @@ SRC_URI="${HOMEPAGE}downloads/${PN}/${MY_P}.tar"
 LICENSE="GPL-2"
 SLOT="0"
 
-KEYWORDS="~amd64 ~arm ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="tk"
 
 RDEPEND="

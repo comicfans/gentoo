@@ -15,7 +15,7 @@ SRC_URI="http://handhelds.org/download/packages/ipkg-utils/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~hppa ~mips ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~mips ~x86"
 IUSE="minimal"
 
 DEPEND="

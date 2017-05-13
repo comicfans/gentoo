@@ -8,6 +8,6 @@ inherit php-pear-r1
 DESCRIPTION="Utility class for dealing with MIME types"
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~hppa ~ia64 ppc ppc64 ~sparc x86"
+KEYWORDS="~alpha amd64 ~hppa ppc64 x86"
 IUSE=""
 RDEPEND="dev-php/PEAR-System_Command"

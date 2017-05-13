@@ -17,7 +17,7 @@ LICENSE="BSD"
 SLOT="0"
 IUSE=""
 
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc ~ppc64 ~s390 ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc64 ~s390 ~x86"
 
 DEPEND=""
 RDEPEND="${DEPEND}

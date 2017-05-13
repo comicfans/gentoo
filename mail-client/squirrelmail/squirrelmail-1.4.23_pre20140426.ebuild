@@ -38,7 +38,7 @@ SRC_URI="http://snapshots.squirrelmail.org/${MY_P}.tar.bz2
 HOMEPAGE="http://www.squirrelmail.org/"
 
 LICENSE="GPL-2"
-KEYWORDS="amd64 ~ppc ~ppc64 sparc x86"
+KEYWORDS="amd64 ~ppc64 x86"
 
 DEPEND=""
 

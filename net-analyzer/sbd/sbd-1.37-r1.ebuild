@@ -11,7 +11,7 @@ SRC_URI="http://tigerteam.se/dl/sbd/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ~ppc x86"
+KEYWORDS="amd64 ~hppa x86"
 
 src_prepare() {
 	sed -i \

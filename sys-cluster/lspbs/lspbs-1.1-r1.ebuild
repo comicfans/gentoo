@@ -11,7 +11,7 @@ RDEPEND="${DEPEND}"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~x86 ~amd64 ~ppc"
+KEYWORDS="~amd64 ~x86"
 
 src_install() {
 	emake DESTDIR="${D}" install || die "install failed"

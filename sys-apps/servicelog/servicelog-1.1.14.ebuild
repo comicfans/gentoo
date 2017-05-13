@@ -9,7 +9,7 @@ HOMEPAGE="http://linux-diag.sourceforge.net/servicelog/"
 
 SLOT="0"
 LICENSE="IBM"
-KEYWORDS="~ppc ~ppc64"
+KEYWORDS="~ppc64"
 
 DEPEND="
 	sys-libs/libservicelog

@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/opensc/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc64 ~s390 ~sh ~x86"
 IUSE="curl doc ldap nss +pcsc-lite"
 
 RDEPEND="sys-libs/pam

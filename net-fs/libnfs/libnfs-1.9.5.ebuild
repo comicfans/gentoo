@@ -11,7 +11,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-2 autotools-utils
 else
 	SRC_URI="https://github.com/sahlberg/${PN}/archive/${P}.tar.gz"
-	KEYWORDS="alpha amd64 arm hppa ppc ppc64 x86"
+	KEYWORDS="alpha amd64 arm hppa ppc64 x86"
 	inherit autotools-utils
 fi
 
