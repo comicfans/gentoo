@@ -4,7 +4,7 @@ DESCRIPTION=phpWebSite Content Management System
 EAPI=4
 HOMEPAGE=http://phpwebsite.appstate.edu
 IUSE=+mysql postgres vhosts
-KEYWORDS=~amd64 ppc ~ppc64 x86
+KEYWORDS=~amd64 ~ppc64 x86
 LICENSE=LGPL-2.1
 RDEPEND=virtual/httpd-php dev-lang/php[gd,mysql?,postgres?] >=app-admin/webapp-config-1.50.15
 REQUIRED_USE=|| ( mysql postgres )
@@ -12,4 +12,4 @@ SLOT=1.7.2
 SRC_URI=mirror://sourceforge/phpwebsite/phpwebsite_1_7_2.tar.gz
 _eclass_exported_funcs=pkg_prerm:webapp pkg_postinst:webapp pkg_setup:webapp src_install:-
 _eclasses_=webapp	a76ebd3cb5649737496e8238992dd7ca
-_md5_=74cc9acc6ca63c29763a67f453fc9518
+_md5_=f30a1d97e54a1e104f43e9e07279ad9d

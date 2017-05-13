@@ -3,10 +3,10 @@ DEPEND=>=media-libs/libsdl-1.2.4
 DESCRIPTION=A C++ Wrapper for the Simple DirectMedia Layer
 EAPI=0
 HOMEPAGE=http://sdlmm.sourceforge.net/
-KEYWORDS=~alpha ~amd64 ppc ~sparc x86
+KEYWORDS=~alpha ~amd64 x86
 LICENSE=LGPL-2
 RDEPEND=>=media-libs/libsdl-1.2.4
 SLOT=0
 SRC_URI=mirror://sourceforge/sdlmm/SDLmm-0.1.8.tar.bz2
 _eclass_exported_funcs=src_install:-
-_md5_=47f96567d2b3d6b5a482268e07dc569f
+_md5_=1491a43be96f4821b4587def0fb23bc5

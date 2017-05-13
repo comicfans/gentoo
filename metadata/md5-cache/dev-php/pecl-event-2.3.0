@@ -4,7 +4,7 @@ DESCRIPTION=PHP wrapper for libevent2
 EAPI=6
 HOMEPAGE=http://pecl.php.net/event
 IUSE=debug examples +extra libressl +sockets +ssl threads php_targets_php5-6 php_targets_php7-0 php_targets_php7-1
-KEYWORDS=~amd64 ~ia64 ~x86
+KEYWORDS=~amd64 ~x86
 LICENSE=PHP-3
 RDEPEND=>=dev-libs/libevent-2.0.2 ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) ) php_targets_php5-6? ( dev-lang/php:5.6[sockets?] ) php_targets_php7-0? ( dev-lang/php:7.0[sockets?] ) php_targets_php7-1? ( dev-lang/php:7.1[sockets?] ) !dev-php/pecl-libevent php_targets_php5-6? ( dev-lang/php:5.6 ) php_targets_php7-0? ( dev-lang/php:7.0 ) php_targets_php7-1? ( dev-lang/php:7.1 )
 REQUIRED_USE=|| ( php_targets_php5-6 php_targets_php7-0 php_targets_php7-1 )
@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=http://pecl.php.net/get/event-2.3.0.tgz
 _eclass_exported_funcs=src_unpack:php-ext-source-r3 src_prepare:php-ext-source-r3 src_configure:- src_compile:php-ext-source-r3 src_test:php-ext-pecl-r3 src_install:php-ext-pecl-r3
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	e32ea84bf82cf8987965b574672dba93	multilib	0236be304ee52e7f179ed2f337075515	php-ext-pecl-r3	f0b4914f85a3c676561454b15a910dc6	php-ext-source-r3	02131d21ec5edc689a1ef97096214131	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=92ebbe3fa674a87d9a7abd433bdff692
+_md5_=00e24b54791fe10185833bb639a69b7f

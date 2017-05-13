@@ -8,4 +8,4 @@ RDEPEND=>=sys-apps/portage-2.1 >=app-portage/portage-utils-0.55 app-shells/bash 
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=a3bd27064b61cbd6d1f14781556971a9
+_md5_=c08bb2bf53646e27b91060f73da30428

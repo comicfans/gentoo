@@ -8,4 +8,4 @@ RDEPEND=sys-apps/gentoo-functions || ( >=sys-apps/portage-2.1.6 >=sys-apps/palud
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=44cd05d18f510baade541e6ddaff0225
+_md5_=eaaad744b2012623a210c7516a0eaa4d

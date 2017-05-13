@@ -4,11 +4,11 @@ DESCRIPTION=D-Bus abstraction for enumerating power devices, querying history an
 EAPI=5
 HOMEPAGE=https://upower.freedesktop.org/
 IUSE=doc +introspection ios kernel_FreeBSD kernel_linux selinux
-KEYWORDS=alpha amd64 arm ~arm64 ia64 ~mips ppc ppc64 sparc x86 ~x86-fbsd
+KEYWORDS=alpha amd64 arm ~arm64 ~mips ppc64 x86 ~x86-fbsd
 LICENSE=GPL-2
 RDEPEND=>=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.34:2 sys-apps/dbus:= introspection? ( dev-libs/gobject-introspection:= ) kernel_linux? ( virtual/libusb:1 virtual/libgudev:= virtual/udev ios? ( >=app-pda/libimobiledevice-1:= >=app-pda/libplist-1:= ) ) selinux? ( sec-policy/selinux-devicekit )
 SLOT=0/3
 SRC_URI=https://upower.freedesktop.org/releases/upower-0.99.4.tar.xz
 _eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=092aa26e70e481b170503fd36816dc79
+_md5_=dd6b3ec16dc6510aca5d538677cc3bca

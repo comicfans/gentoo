@@ -3,10 +3,10 @@ DEPEND=x11-libs/libX11 x11-libs/libXpm x11-libs/libXext >=sys-apps/sed-4
 DESCRIPTION=A simple pager docklet for the WindowMaker window manager
 EAPI=2
 HOMEPAGE=http://wmpager.sourceforge.net/
-KEYWORDS=amd64 ~sparc x86
+KEYWORDS=amd64 x86
 LICENSE=BSD
 RDEPEND=x11-libs/libX11 x11-libs/libXpm x11-libs/libXext
 SLOT=0
 SRC_URI=mirror://sourceforge/wmpager/wmpager-1.2.tar.gz
 _eclass_exported_funcs=src_prepare:- src_install:-
-_md5_=54e34bea5be089ad48c2796df4d83b71
+_md5_=c23ccb996f093bb7fdd45489a71654b7

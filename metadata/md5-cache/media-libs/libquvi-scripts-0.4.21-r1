@@ -4,11 +4,11 @@ DESCRIPTION=Embedded lua scripts for libquvi
 EAPI=5
 HOMEPAGE=http://quvi.sourceforge.net/
 IUSE=offensive
-KEYWORDS=~alpha amd64 ~arm hppa ~ia64 ~ppc ~ppc64 ~sparc x86
+KEYWORDS=~alpha amd64 ~arm hppa ~ppc64 x86
 LICENSE=GPL-3
 RDEPEND=!=media-libs/libquvi-scripts-0.4*:0
 RESTRICT=test
 SLOT=0.4
 SRC_URI=mirror://sourceforge/quvi/0.4/libquvi-scripts-0.4.21.tar.xz
 _eclass_exported_funcs=src_configure:-
-_md5_=f14710fb23a39e1ec7919aa6a196cfd7
+_md5_=ff0ad5ec41ff44d76ea648b3ded808bc

@@ -4,7 +4,7 @@ DESCRIPTION=A library to raise flags on DBus for other components of the desktop
 EAPI=5
 HOMEPAGE=https://launchpad.net/libindicate
 IUSE=gtk +introspection
-KEYWORDS=alpha amd64 ~arm hppa ~mips ppc ~ppc64 sparc x86
+KEYWORDS=alpha amd64 ~arm hppa ~mips ~ppc64 x86
 LICENSE=LGPL-2.1 LGPL-3
 RDEPEND=>=dev-libs/dbus-glib-0.100 >=dev-libs/glib-2.30 >=dev-libs/libdbusmenu-0.6.2[introspection?] dev-libs/libxml2 gtk? ( dev-libs/libdbusmenu[gtk3] >=x11-libs/gtk+-3.2:3 ) introspection? ( >=dev-libs/gobject-introspection-1 ) !<dev-libs/libindicate-0.6.1-r201
 RESTRICT=test
@@ -12,4 +12,4 @@ SLOT=3
 SRC_URI=https://launchpad.net/libindicate/12.10/12.10.1/+download/libindicate-12.10.1.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vala	45cd5c637ea9287eeaf983960768e17c	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
-_md5_=10ca60e21e1761fd74b265591390eb69
+_md5_=c32f974131a4dd50bec37d0d446152dd

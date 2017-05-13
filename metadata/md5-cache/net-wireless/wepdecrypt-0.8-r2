@@ -4,10 +4,10 @@ DESCRIPTION=Enhanced version of WepAttack a tool for breaking 802.11 WEP keys
 EAPI=6
 HOMEPAGE=http://wepdecrypt.sourceforge.net/
 IUSE=X
-KEYWORDS=~amd64 ~ppc ~x86
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-libs/openssl:= net-libs/libpcap sys-libs/zlib X? ( x11-libs/fltk:1 )
 SLOT=0
 SRC_URI=mirror://sourceforge/wepdecrypt/wepdecrypt-0.8.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:-
-_md5_=67531779ace1d3e6f20eab83bea35d63
+_md5_=a94b65fd8d927e8c16b4b4fc43c2c14c

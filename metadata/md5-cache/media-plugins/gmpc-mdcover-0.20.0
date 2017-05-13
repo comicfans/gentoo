@@ -4,10 +4,10 @@ DESCRIPTION=This plugin fetches cover art, artist art, album and artist informat
 EAPI=3
 HOMEPAGE=http://gmpc.wikia.com/wiki/GMPC_PLUGIN_MDCOVER
 IUSE=nls
-KEYWORDS=amd64 ppc x86
+KEYWORDS=amd64 x86
 LICENSE=GPL-2
 RDEPEND=>=media-sound/gmpc-0.20.0 dev-libs/libxml2 || ( x11-libs/gdk-pixbuf:2[jpeg] x11-libs/gtk+:2[jpeg] )
 SLOT=0
 SRC_URI=mirror://sourceforge/musicpd/gmpc-mdcover-0.20.0.tar.gz
 _eclass_exported_funcs=src_configure:- src_install:-
-_md5_=7115be4d9af3f5948d91341abc909d1a
+_md5_=d5b73a9a30f4f2c8252ec95e2c36b96d

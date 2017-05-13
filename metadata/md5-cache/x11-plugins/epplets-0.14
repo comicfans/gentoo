@@ -4,10 +4,10 @@ DESCRIPTION=Base files for Enlightenment epplets and some epplets
 EAPI=4
 HOMEPAGE=https://www.enlightenment.org/
 IUSE=static-libs
-KEYWORDS=alpha amd64 ppc x86
+KEYWORDS=alpha amd64 x86
 LICENSE=GPL-2
 RDEPEND=x11-libs/libX11 x11-libs/libXext media-libs/freeglut media-libs/imlib2 >=x11-wm/enlightenment-0.16.4
 SLOT=0
 SRC_URI=mirror://sourceforge/enlightenment/epplets-0.14.tar.gz
 _eclass_exported_funcs=src_configure:- src_install:-
-_md5_=4d17274346cc84232bb2bda5b097fd0c
+_md5_=d1a9e8e1f3cc43e4344aebb0db51532e

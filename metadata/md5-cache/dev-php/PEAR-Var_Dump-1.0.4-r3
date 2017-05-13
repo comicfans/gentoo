@@ -4,7 +4,7 @@ DESCRIPTION=Dump structured information about a variable
 EAPI=6
 HOMEPAGE=https://pear.php.net/package/Var_Dump
 IUSE=examples test
-KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc64 ~x86
 LICENSE=PHP-3.01
 RDEPEND=>=dev-php/pear-1.8.1
 RESTRICT=test
@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=https://pear.php.net/get/Var_Dump-1.0.4.tgz
 _eclass_exported_funcs=pkg_postrm:php-pear-r2 pkg_postinst:php-pear-r2 src_test:- src_install:-
 _eclasses_=php-pear-r2	6566af3a3c4392595873a44415abe0ff
-_md5_=02b5fbb419ef21434c3df1528f43148a
+_md5_=392d6ee982d6ccfa37293a75a0b4c5ee

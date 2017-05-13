@@ -3,10 +3,10 @@ DEPEND=>=dev-lang/tk-8.0
 DESCRIPTION=full-featured 2D table widget
 EAPI=2
 HOMEPAGE=http://tktable.sourceforge.net/
-KEYWORDS=amd64 ppc x86
+KEYWORDS=amd64 x86
 LICENSE=BSD
 RDEPEND=>=dev-lang/tk-8.0
 SLOT=0
 SRC_URI=mirror://sourceforge/tktable/Tktable2.10.tar.gz
 _eclass_exported_funcs=src_prepare:- src_install:-
-_md5_=3363f18712c2952012cbf403c90e5375
+_md5_=40bc568eb9818206ebb5bfe50155d804
