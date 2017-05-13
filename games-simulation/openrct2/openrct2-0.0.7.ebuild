@@ -42,7 +42,16 @@ RDEPEND="
 		media-libs/fontconfig
 	)
 	media-libs/libsdl2
-	media-libs/speexdsp
+	|| (
+		(
+			>=media-libs/speex-1.2.0
+			media-libs/speexdsp
+		)
+		(
+			<media-libs/speex-1.2.0
+			>=media-libs/speex-1.2_rc1
+		)
+	)
 	>=dev-libs/jansson-2.5
 	>=dev-libs/libzip-1.0
 	media-libs/libpng:=
