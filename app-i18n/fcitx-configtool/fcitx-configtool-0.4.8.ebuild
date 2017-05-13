@@ -10,7 +10,7 @@ SRC_URI="http://download.fcitx-im.org/${PN}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ppc64 ~x86"
+KEYWORDS="amd64 ppc64 ~x86"
 IUSE="gtk +gtk3"
 REQUIRED_USE="|| ( gtk gtk3 )"
 

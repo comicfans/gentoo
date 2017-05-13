@@ -15,7 +15,7 @@ SRC_URI="https://dev.gentoo.org/~pacho/maintainer-needed/${P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug gtk hammer ipv6 nls pcre profile ssl"
 
 RDEPEND="virtual/libintl:=

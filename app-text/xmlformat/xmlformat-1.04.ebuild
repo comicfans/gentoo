@@ -13,7 +13,7 @@ HOMEPAGE="http://www.kitebird.com/software/xmlformat/"
 
 SLOT="0"
 LICENSE="xmlformat"
-KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos"
 
 DEPEND="ruby? ( ${RUBY_DEPS} )
 	!ruby? ( dev-lang/perl )"

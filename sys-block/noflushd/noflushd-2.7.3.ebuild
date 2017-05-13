@@ -5,7 +5,7 @@ DESCRIPTION="A daemon to spin down your disks and force accesses to be cached"
 HOMEPAGE="http://noflushd.sourceforge.net"
 SRC_URI="mirror://sourceforge/noflushd/${P}.tar.gz"
 LICENSE="GPL-2"
-KEYWORDS="x86 amd64 ppc"
+KEYWORDS="amd64 x86"
 IUSE=""
 SLOT="0"
 

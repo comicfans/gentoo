@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/mediatomb/${P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ppc x86"
+KEYWORDS="amd64 ~arm x86"
 
 IUSE="curl debug +exif +ffmpeg flac id3tag +inotify +javascript lastfm
 		libextractor +magic +mp4 mysql +sqlite +taglib thumbnail +zlib"

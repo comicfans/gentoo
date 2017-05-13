@@ -11,7 +11,7 @@ SRC_URI="http://namazu.org/~satoru/ttyrec/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="~alpha ~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 
 # Bug 331843
 PATCHES=( "${FILESDIR}/${P}-ldflags.patch" )

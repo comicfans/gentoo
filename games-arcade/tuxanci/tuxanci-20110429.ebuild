@@ -15,7 +15,7 @@ if [[ ${PV} = 9999* ]]; then
 	KEYWORDS=""
 else
 	SRC_URI="http://dev.gentooexperimental.org/~scarabeus/${P}.tar.xz"
-	KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+	KEYWORDS="~amd64 ~ppc64 ~x86"
 fi
 LICENSE="GPL-2"
 

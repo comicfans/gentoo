@@ -9,7 +9,7 @@ DESCRIPTION="DVB/MPEG stream analyzer program"
 SRC_URI="mirror://sourceforge/dvbsnoop/${P}.tar.gz"
 HOMEPAGE="http://dvbsnoop.sourceforge.net/"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 DEPEND="virtual/linuxtv-dvb-headers"
 
 RDEPEND=""

@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/${PN}/${MY_PN}-${PV}.tar.bz2
 	gallery? ( mirror://sourceforge/${PN}/${MY_PN}-gallery-${PV}.tar.bz2 )"
 
 LICENSE="GPL-2"
-KEYWORDS="amd64 hppa ppc ~sparc x86"
+KEYWORDS="amd64 hppa x86"
 IUSE="+jpgraph ldap mysql postgres gallery"
 
 # php deps taken from rpm spec

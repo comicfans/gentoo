@@ -16,7 +16,7 @@ SRC_URI="https://protobuf.googlecode.com/files/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0/8" # subslot = soname major version
-KEYWORDS="amd64 arm -hppa ~ia64 ~mips ppc ~ppc64 x86 ~amd64-linux ~arm-linux ~x86-linux ~x64-macos ~x86-macos"
+KEYWORDS="amd64 arm -hppa ~mips ~ppc64 x86 ~amd64-linux ~arm-linux ~x86-linux ~x64-macos ~x86-macos"
 IUSE="emacs examples java python static-libs vim-syntax"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 

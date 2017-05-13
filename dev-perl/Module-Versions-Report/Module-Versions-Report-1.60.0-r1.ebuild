@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Report versions of all modules in memory"
 
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 SRC_TEST="do"

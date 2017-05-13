@@ -9,7 +9,7 @@ SRC_URI="http://www.jamesa.com/projects/ogg2mp3/releases/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="media-sound/lame

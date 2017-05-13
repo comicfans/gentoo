@@ -6,7 +6,7 @@ HOMEPAGE="http://home.comcast.net/~bobyetman/"
 SRC_URI="http://home.comcast.net/~bobyetman/${P}.tar.gz"
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="ssl perl"
 
 DEPEND="sys-libs/db

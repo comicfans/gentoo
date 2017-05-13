@@ -14,7 +14,7 @@ S="${WORKDIR}/${P//ibm-}"
 
 SLOT="0"
 LICENSE="IBM"
-KEYWORDS="~ppc ~ppc64"
+KEYWORDS="~ppc64"
 
 DEPEND="
 	sys-devel/bc

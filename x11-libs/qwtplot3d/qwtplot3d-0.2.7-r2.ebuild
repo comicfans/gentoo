@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tgz"
 LICENSE="ZLIB"
 SLOT="0"
 IUSE="doc examples"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 
 RDEPEND="dev-qt/qtgui:4
 	dev-qt/qtopengl:4

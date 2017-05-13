@@ -11,7 +11,7 @@ SRC_URI="${HOMEPAGE}archive/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="mysql postgres test vpopmail"
 
 RDEPEND="dev-db/cdb"

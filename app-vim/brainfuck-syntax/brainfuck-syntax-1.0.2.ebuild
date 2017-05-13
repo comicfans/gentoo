@@ -6,7 +6,7 @@ inherit vim-plugin
 DESCRIPTION="vim plugin: BrainFuck source file syntax highlighting"
 HOMEPAGE="http://www.vim.org/scripts/script.php?script_id=716"
 LICENSE="vim.org"
-KEYWORDS="amd64 ~mips ppc ppc64 x86"
+KEYWORDS="amd64 ~mips ppc64 x86"
 IUSE=""
 
 VIM_PLUGIN_HELPTEXT=\

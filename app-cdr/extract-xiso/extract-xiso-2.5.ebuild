@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/extract-xiso/${PN}_v${MY_PV}_src.tgz"
 
 LICENSE="BSD-4"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 S=${WORKDIR}/${PN}

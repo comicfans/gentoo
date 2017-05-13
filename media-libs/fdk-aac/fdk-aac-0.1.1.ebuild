@@ -26,7 +26,7 @@ LICENSE="FraunhoferFDK"
 SLOT="0"
 
 [[ ${PV} == *9999 ]] || \
-KEYWORDS="amd64 arm ppc ppc64 x86 ~x86-fbsd ~x64-macos"
+KEYWORDS="amd64 arm ppc64 x86 ~x86-fbsd ~x64-macos"
 IUSE="static-libs examples"
 
 src_prepare() {

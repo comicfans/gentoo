@@ -16,7 +16,7 @@ SRC_URI="https://github.com/ruby-prof/${PN}/archive/v${PV}.tar.gz -> ${P}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 ruby_add_bdepend "test? ( dev-ruby/test-unit:2 dev-ruby/minitest )"

@@ -9,7 +9,7 @@ SRC_URI="http://vigna.dsi.unimi.it/fax4CUPS/fax4CUPS-${PV}.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 IUSE="+hylafax mgetty-fax efax"
 REQUIRED_USE="|| ( hylafax mgetty-fax efax )"

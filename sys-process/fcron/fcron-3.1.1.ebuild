@@ -13,7 +13,7 @@ HOMEPAGE="http://fcron.free.fr/"
 SRC_URI="http://fcron.free.fr/archives/${MY_P}.src.tar.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="amd64 arm hppa ia64 ~mips ppc sparc x86 ~x86-fbsd"
+KEYWORDS="amd64 arm hppa ~mips x86 ~x86-fbsd"
 IUSE="debug pam selinux l10n_fr +system-crontab readline"
 
 DEPEND="selinux? ( sys-libs/libselinux )

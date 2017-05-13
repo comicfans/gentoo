@@ -13,7 +13,7 @@ SRC_URI="http://bbdb.sourceforge.net/${P}.tar.gz
 
 LICENSE="GPL-2+ Texinfo-manual"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris"
 IUSE="tex"
 
 RDEPEND="tex? ( virtual/tex-base )"

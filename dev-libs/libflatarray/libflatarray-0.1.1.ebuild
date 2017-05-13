@@ -6,7 +6,7 @@ EAPI=5
 inherit cmake-utils cuda
 
 SRC_URI="http://www.libgeodecomp.org/archive/${P}.tar.bz2"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 DESCRIPTION="Struct of arrays library with object oriented interface for C++"
 HOMEPAGE="http://www.libgeodecomp.org/libflatarray.html"

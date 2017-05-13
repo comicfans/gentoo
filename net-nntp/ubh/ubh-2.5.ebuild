@@ -7,7 +7,7 @@ SRC_URI="http://ubh.sourceforge.net/download/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 DEPEND=">=virtual/perl-libnet-1.0607
 	>=dev-perl/News-Newsrc-1.07
 	>=dev-perl/IO-stringy-1.220

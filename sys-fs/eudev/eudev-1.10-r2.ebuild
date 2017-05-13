@@ -12,7 +12,7 @@ if [[ ${PV} = 9999* ]]; then
 	inherit git-2
 else
 	SRC_URI="https://dev.gentoo.org/~blueness/${PN}/${P}.tar.gz"
-	KEYWORDS="amd64 arm hppa ~mips ppc ppc64 x86"
+	KEYWORDS="amd64 arm hppa ~mips ppc64 x86"
 fi
 
 DESCRIPTION="Linux dynamic and persistent device naming support (aka userspace devfs)"

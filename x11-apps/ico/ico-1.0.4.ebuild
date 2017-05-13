@@ -6,7 +6,7 @@ EAPI=5
 inherit xorg-2
 
 DESCRIPTION="animate an icosahedron or other polyhedron"
-KEYWORDS="amd64 arm ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~x86-linux"
+KEYWORDS="amd64 arm ~mips ~ppc64 ~s390 ~sh x86 ~x86-linux"
 IUSE=""
 
 RDEPEND="x11-libs/libX11"

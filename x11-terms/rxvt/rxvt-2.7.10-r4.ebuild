@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/rxvt/${P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 hppa ~mips ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 hppa ~mips ppc64 x86"
 IUSE="motif cjk xgetdefault linguas_ja linuxkeys"
 
 RDEPEND="x11-libs/libX11

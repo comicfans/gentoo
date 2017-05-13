@@ -11,7 +11,7 @@ SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 
 LICENSE="GPL-2" # GPL-2 only
 SLOT="0"
-KEYWORDS="~x86 ~ppc ~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="!=sys-apps/usbutils-0.72-r2"

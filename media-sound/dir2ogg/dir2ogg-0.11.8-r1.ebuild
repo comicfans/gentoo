@@ -12,7 +12,7 @@ SRC_URI="http://jak-linux.org/projects/${PN}/${MY_PR}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="aac cdparanoia flac mac mp3 musepack wavpack wma"
 
 RDEPEND=">=dev-lang/python-2.5

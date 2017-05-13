@@ -11,7 +11,7 @@ SRC_URI="http://smarden.org/socklog/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc64 ~s390 ~x86"
 IUSE="static"
 
 RDEPEND=">=sys-process/runit-1.4.0"

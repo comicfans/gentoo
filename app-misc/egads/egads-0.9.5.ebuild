@@ -9,7 +9,7 @@ SRC_URI="http://www.securesoftware.com/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~ppc x86 ~amd64"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 DEPEND=""

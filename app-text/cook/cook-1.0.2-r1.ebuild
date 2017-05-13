@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/cook/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ppc x86 ~x86-linux ~ppc-macos ~sparc-solaris"
+KEYWORDS="~amd64 x86 ~x86-linux ~ppc-macos ~sparc-solaris"
 IUSE=""
 
 DEPEND=""

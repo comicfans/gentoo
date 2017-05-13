@@ -11,7 +11,7 @@ SRC_URI="https://github.com/taem/${PN}/archive/upstream/1.4.tar.gz -> ${P}.tar.g
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 ppc ppc64 x86"
+KEYWORDS="~alpha amd64 ppc64 x86"
 
 S=${WORKDIR}/${PN}-upstream-${PV}
 

@@ -9,7 +9,7 @@ HOMEPAGE="http://www.outoforder.cc/projects/apache/mod_depends/"
 
 SLOT="0"
 LICENSE="Apache-2.0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 APACHE2_MOD_CONF="0.7/09_${PN}"

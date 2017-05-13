@@ -9,7 +9,7 @@ HOMEPAGE="http://www.openclipart.org/"
 SRC_URI="http://download.openclipart.org/downloads/${PV}/${P}.tar.bz2"
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="svg png gzip"
 
 # We don't really need anything to run

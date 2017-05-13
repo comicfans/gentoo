@@ -9,7 +9,7 @@ SRC_URI="http://www.security.nnov.ru/soft/3proxy/${PV}/${P}.tgz"
 
 LICENSE="3proxy"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""

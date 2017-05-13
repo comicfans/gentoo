@@ -9,7 +9,7 @@ SRC_URI="http://www.ezmlm.org/archive/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~mips ~x86"
 IUSE="mysql postgres"
 
 DEPEND="mysql? ( virtual/mysql )

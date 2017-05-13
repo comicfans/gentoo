@@ -12,7 +12,7 @@ SRC_URI="http://furius.ca/downloads/${PN}/releases/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~x86-linux"
+KEYWORDS="amd64 x86 ~x86-linux"
 IUSE="doc examples"
 
 DEPEND=""

@@ -18,5 +18,5 @@ DESCRIPTION="Welsh dictionaries for myspell/hunspell"
 LICENSE="GPL-2"
 HOMEPAGE="http://lingucomponent.openoffice.org/"
 
-KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 sh sparc x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="alpha amd64 arm hppa ~mips ppc64 sh x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""

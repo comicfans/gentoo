@@ -11,7 +11,7 @@ HOMEPAGE="http://alleyoop.sourceforge.net/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-alpha amd64 ~ppc -sparc x86"
+KEYWORDS="-alpha amd64 x86"
 IUSE=""
 
 RDEPEND="

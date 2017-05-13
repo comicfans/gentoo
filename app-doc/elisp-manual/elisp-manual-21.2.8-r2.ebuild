@@ -13,7 +13,7 @@ SRC_URI="mirror://gnu/emacs/${MY_P}.tar.gz
 
 LICENSE="FDL-1.1+"
 SLOT="21"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="sys-apps/texinfo"
 

@@ -7,7 +7,7 @@ HOMEPAGE="http://vmips.sourceforge.net/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="-* ppc"
+KEYWORDS="-*"
 DEPEND=""
 IUSE=""
 

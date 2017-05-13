@@ -3,7 +3,7 @@
 
 inherit apache-module
 
-KEYWORDS="~ppc ~x86"
+KEYWORDS="~x86"
 
 DESCRIPTION="An Apache module to talk to Zope Corporation's PCGI"
 HOMEPAGE="http://www.zope.org/Members/phd/mod_pcgi2/"

@@ -10,7 +10,7 @@ SRC_URI="ftp://ftp.suse.com/pub/projects/init/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 arm hppa ~mips ppc64 x86"
 
 src_prepare() {
 	epatch \

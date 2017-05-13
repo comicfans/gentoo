@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/vde/${MY_P}.tar.bz2"
 HOMEPAGE="http://vde.sourceforge.net/"
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 
 # The slirpvde-buffer-overflow patch was made by Ludwig Nussel and submitted upstream at
 # https://sourceforge.net/tracker/?func=detail&aid=2138410&group_id=95403&atid=611248

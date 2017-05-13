@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/lufs/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ppc ~amd64"
+KEYWORDS="~amd64 x86"
 IUSE="debug"
 
 RDEPEND="sys-fs/lufis"

@@ -9,7 +9,7 @@ SRC_URI="http://dizzy.roedu.net/unix2tcp/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 arm hppa ia64 ~ppc s390 x86"
+KEYWORDS="~amd64 arm hppa s390 x86"
 IUSE=""
 
 DEPEND=""

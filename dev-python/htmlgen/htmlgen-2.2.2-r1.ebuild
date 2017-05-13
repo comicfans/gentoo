@@ -13,7 +13,7 @@ SRC_URI="http://starship.python.net/crew/friedrich/${MY_P}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ia64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 DEPEND="${PYTHON_DEPS}

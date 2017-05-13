@@ -13,7 +13,7 @@ SRC_URI="
 "
 
 LICENSE="alternate"
-KEYWORDS="~alpha ~amd64 ~ia64 ~mips ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="~alpha ~amd64 ~mips ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 
 VIM_PLUGIN_HELPTEXT=\
 "This plugin provides a new :A command which will switch between a .c

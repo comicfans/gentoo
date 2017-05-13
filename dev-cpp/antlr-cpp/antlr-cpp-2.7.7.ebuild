@@ -19,7 +19,7 @@ HOMEPAGE="http://www.antlr2.org/"
 SRC_URI="http://www.antlr2.org/download/${MY_P}.tar.gz"
 LICENSE="public-domain"
 SLOT="2"
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="doc examples static-libs"
 RESTRICT="test" # No tests but test target blows up!
 

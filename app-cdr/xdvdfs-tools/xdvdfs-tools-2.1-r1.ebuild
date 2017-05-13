@@ -9,7 +9,7 @@ SRC_URI="http://www.layouts.xbox-scene.com/main/files/XDVDFSToolsv${PV}.rar"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 DEPEND="|| ( app-arch/unrar app-arch/rar )"

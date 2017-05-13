@@ -11,7 +11,7 @@ SRC_URI="https://dev.gentoo.org/~ulm/distfiles/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="~alpha ~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE="l10n_ja"
 
 DEPEND="virtual/w3m"

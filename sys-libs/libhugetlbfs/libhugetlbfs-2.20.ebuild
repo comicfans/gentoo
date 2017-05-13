@@ -13,7 +13,7 @@ SRC_URI="https://github.com/libhugetlbfs/libhugetlbfs/archive/${PV}.tar.gz -> ${
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~s390 ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~s390 ~x86"
 IUSE="perl static-libs test"
 
 DEPEND="test? ( ${PYTHON_DEPS} )"

@@ -7,7 +7,7 @@ SRC_URI="http://lakedaemon.netmindz.net/dvd9to5/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 RDEPEND=">=media-video/transcode-0.6.11
 	>=media-video/mjpegtools-1.6.2

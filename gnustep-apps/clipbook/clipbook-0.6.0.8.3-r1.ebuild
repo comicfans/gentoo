@@ -9,6 +9,6 @@ DESCRIPTION="A clipboard for GNUstep that can hold things for later copy and pas
 HOMEPAGE="http://www.gnustep.it/enrico/gworkspace/"
 SRC_URI="http://www.gnustep.it/enrico/gworkspace/gworkspace-${PV/0.6.}.tar.gz"
 
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 LICENSE="GPL-2"
 SLOT="0"

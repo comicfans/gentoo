@@ -12,7 +12,7 @@ SRC_URI="http://www.bitkipper.net/bytes/debian/dists/unstable/source/${PN}_${PV}
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="qt4 gtk"
 
 DEPEND=""

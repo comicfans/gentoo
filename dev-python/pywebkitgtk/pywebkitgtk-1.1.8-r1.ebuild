@@ -12,7 +12,7 @@ SRC_URI="https://github.com/jmalonzo/${PN}/archive/${PN^^}_${PV//./_}.tar.gz -> 
 
 LICENSE="LGPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

@@ -11,7 +11,7 @@ SRC_URI="http://www.garloff.de/kurt/linux/${SRC_NAME}"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc64 ~sh ~x86"
 IUSE=""
 
 DEPEND=""

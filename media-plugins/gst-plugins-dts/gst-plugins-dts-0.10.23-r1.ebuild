@@ -7,7 +7,7 @@ GST_ORG_MODULE=gst-plugins-bad
 inherit gstreamer
 
 DESCRIPTION="GStreamer plugin for MPEG-1/2 video encoding"
-KEYWORDS="amd64 ~arm hppa ~ppc ~ppc64 x86 ~amd64-fbsd"
+KEYWORDS="amd64 ~arm hppa ~ppc64 x86 ~amd64-fbsd"
 IUSE="+orc"
 
 RDEPEND="

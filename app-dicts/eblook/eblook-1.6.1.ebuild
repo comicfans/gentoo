@@ -9,7 +9,7 @@ SRC_URI="http://openlab.ring.gr.jp/edict/eblook/dist/${P/_/}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 DEPEND=">=dev-libs/eb-3.3.4"

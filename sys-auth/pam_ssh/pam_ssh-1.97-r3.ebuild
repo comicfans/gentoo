@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/pam-ssh/${P}.tar.bz2"
 
 LICENSE="BSD-2 BSD ISC"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~m68k ~mips ~ppc64 ~s390 ~sh ~x86 ~amd64-linux ~x86-linux"
 IUSE=""
 
 # Doesn't work on OpenPAM; looks for OpenSSH at build time (bug

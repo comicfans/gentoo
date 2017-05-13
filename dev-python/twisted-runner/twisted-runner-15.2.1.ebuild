@@ -8,7 +8,7 @@ inherit twisted-r1
 
 DESCRIPTION="Twisted Runner is a process management library and inetd replacement"
 
-KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~ppc64 ~x86"
 IUSE=""
 
 DEPEND="

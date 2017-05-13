@@ -13,7 +13,7 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 else
 	SRC_URI="https://github.com/openembedded/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="amd64 ppc x86"
+	KEYWORDS="amd64 x86"
 fi
 
 DESCRIPTION="package management tool for OpenEmbedded"

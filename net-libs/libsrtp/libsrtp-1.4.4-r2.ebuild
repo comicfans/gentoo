@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/${MY_PN}/${MY_P}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 -sparc ~x86 ~x86-fbsd ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86 ~x86-fbsd ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="aesicm console debug doc static-libs syslog"
 PATCHES=( "${FILESDIR}/${P}-shared.patch"
 	  "${FILESDIR}/${P}-invalid-index.patch" )

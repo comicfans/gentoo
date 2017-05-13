@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/hunspell/MyThes/${PV}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ~ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="static-libs"
 
 RDEPEND="app-text/hunspell"

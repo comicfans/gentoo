@@ -10,7 +10,7 @@ SRC_URI="ftp://ftp.ibr.cs.tu-bs.de/pub/local/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~amd64-linux ~ppc x86"
+KEYWORDS="amd64 x86 ~amd64-linux"
 IUSE="static-libs"
 
 DEPEND="

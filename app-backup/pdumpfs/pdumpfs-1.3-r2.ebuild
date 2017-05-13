@@ -11,7 +11,7 @@ SRC_URI="http://0xcc.net/pdumpfs/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="l10n_ja"
 
 DEPEND=">=dev-lang/ruby-2.0.0_p598"

@@ -5,7 +5,7 @@ DESCRIPTION="linux implementation of the mirc dccserver command"
 SRC_URI="http://www.nih.at/dccserver/${P}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 HOMEPAGE="http://www.nih.at/dccserver/"
 

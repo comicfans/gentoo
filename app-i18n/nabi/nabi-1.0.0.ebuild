@@ -12,7 +12,7 @@ SRC_URI="https://github.com/choehwanjin/${PN}/archive/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="debug nls"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND=">=app-i18n/libhangul-0.1.0
 	dev-libs/glib:2

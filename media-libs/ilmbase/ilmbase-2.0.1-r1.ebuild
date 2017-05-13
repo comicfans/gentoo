@@ -10,7 +10,7 @@ SRC_URI="http://download.savannah.gnu.org/releases/openexr/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0/2.0.1" # 2.0.1 for the namespace off -> on switch, caused library renaming
-KEYWORDS="~amd64 -arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="~amd64 -arm ~hppa ~ppc64 ~x86 ~amd64-fbsd ~x86-fbsd"
 IUSE="static-libs"
 
 DOCS=( AUTHORS ChangeLog NEWS README )

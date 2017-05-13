@@ -11,7 +11,7 @@ SRC_URI="http://angst.sourceforge.net/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 DEPEND="net-libs/libpcap
 	net-libs/libnet:1.0"

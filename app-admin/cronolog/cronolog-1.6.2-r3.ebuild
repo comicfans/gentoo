@@ -9,7 +9,7 @@ SRC_URI="http://cronolog.org/download/${P}.tar.gz"
 
 LICENSE="GPL-2+ Apache-1.0"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND=""

@@ -10,7 +10,7 @@ SRC_URI="http://0pointer.de/lennart/projects/nss-mdns/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~hppa ~mips ppc x86"
+KEYWORDS="amd64 ~arm ~hppa ~mips x86"
 IUSE="search-domains"
 
 RDEPEND=">=net-dns/avahi-0.6.31-r2[${MULTILIB_USEDEP}]"

@@ -10,7 +10,7 @@ if [[ ${PV} == *9999 ]] ; then
 else
 	SRC_URI="http://downloads.xiph.org/releases/${PN}/${P/_/-}.tar.gz"
 	if [[ "${PV}" != *_alpha* ]] &&  [[ "${PV}" != *_beta* ]] ; then
-		KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-fbsd"
+		KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc64 ~x86 ~amd64-fbsd"
 	fi
 fi
 

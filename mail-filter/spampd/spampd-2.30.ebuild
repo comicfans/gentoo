@@ -6,7 +6,7 @@ HOMEPAGE="http://www.worlddesign.com/index.cfm/rd/mta/spampd.htm"
 SRC_URI="http://www.worlddesign.com/Content/rd/mta/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 RDEPEND="dev-lang/perl

@@ -11,7 +11,7 @@ SRC_URI="http://chewing.csie.net/download/libchewing/${P}.tar.bz2"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="debug test static-libs"
 
 RDEPEND=""

@@ -56,7 +56,7 @@ SRC_URI="${THEME_URI}/icecrack/icecrack-default-2.0.0.tar.gz
 ## BSD:
 # icequa
 LICENSE="GPL-2 public-domain freedist free-noncomm BSD"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE=""
 

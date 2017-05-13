@@ -10,7 +10,7 @@ HOMEPAGE="http://www.brython.info"
 SRC_URI="https://github.com/${PN}-dev/${PN}/archive/${PV}.zip -> ${P}.zip"
 
 LICENSE="BSD"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 
 RDEPEND="dev-lang/python:*"
 DEPEND="${RDEPEND}"

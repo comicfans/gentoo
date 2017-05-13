@@ -9,7 +9,7 @@ SRC_URI="mirror://github/rvoicilas/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm hppa ~mips ~sparc x86"
+KEYWORDS="amd64 arm hppa ~mips x86"
 IUSE="doc"
 
 DEPEND="doc? ( app-doc/doxygen )"

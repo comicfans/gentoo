@@ -11,7 +11,7 @@ SRC_URI="http://www1.clearlight.com/~oakley/tcl/combobox/${P}.tar.gz"
 
 LICENSE="freedist"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux"
 IUSE=""
 
 RDEPEND="dev-lang/tcl:0="

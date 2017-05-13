@@ -13,7 +13,7 @@ SRC_URI="http://www.psybnc.at/download/beta/psyBNC-${MY_PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE="ipv6 ssl oidentd scripting multinetwork"
 
 DEPEND="ssl? ( >=dev-libs/openssl-0.9.7d )

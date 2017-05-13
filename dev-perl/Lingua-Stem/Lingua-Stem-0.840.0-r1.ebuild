@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Porter's stemming algorithm for 'generic' English"
 
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="dev-perl/Snowball-Norwegian

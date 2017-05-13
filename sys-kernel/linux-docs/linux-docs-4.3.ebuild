@@ -13,7 +13,7 @@ SRC_URI="mirror://kernel/linux/kernel/v3.x/${MY_P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~m68k ~ppc64 ~s390 ~sh ~x86"
 
 IUSE="html"
 DEPEND="app-text/docbook-sgml-utils

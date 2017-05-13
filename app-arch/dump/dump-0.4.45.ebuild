@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/dump/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE="bzip2 debug ermt libressl lzo readline selinux sqlite ssl static zlib"
 REQUIRED_USE="
 	ermt? ( ssl )

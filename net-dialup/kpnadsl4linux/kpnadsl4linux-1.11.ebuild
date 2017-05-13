@@ -12,7 +12,7 @@ SRC_URI="http://home.planet.nl/~mcdon001/${P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 
 RDEPEND=">=net-dialup/pptpclient-1.7.0
 	>=net-dialup/ppp-2.4.2"

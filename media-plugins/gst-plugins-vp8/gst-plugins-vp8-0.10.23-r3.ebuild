@@ -7,7 +7,7 @@ GST_ORG_MODULE=gst-plugins-bad
 inherit eutils gstreamer
 
 DESCRIPTION="GStreamer decoder for vpx video format"
-KEYWORDS="~alpha amd64 ~arm hppa ~ia64 ~ppc ~ppc64 ~sparc x86 ~amd64-fbsd"
+KEYWORDS="~alpha amd64 ~arm hppa ~ppc64 x86 ~amd64-fbsd"
 IUSE=""
 
 RDEPEND=">=media-libs/libvpx-1.2.0_pre20130625[${MULTILIB_USEDEP}]"

@@ -11,7 +11,7 @@ HOMEPAGE="http://aa-project.sourceforge.net/aview/"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=">=media-libs/aalib-1.4_rc4"

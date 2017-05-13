@@ -10,7 +10,7 @@ SRC_URI="${SRC_URI} mirror://debian/pool/main/e/elilo/elilo_3.12-1.diff.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ia64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # gnu-efi contains only static libs, so there's no run-time dep on it

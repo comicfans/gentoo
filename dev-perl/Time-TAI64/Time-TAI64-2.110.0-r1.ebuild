@@ -10,5 +10,5 @@ inherit perl-module
 DESCRIPTION="Time manipulation in the TAI64* formats"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""

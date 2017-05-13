@@ -15,7 +15,7 @@ SRC_URI="mirror://sourceforge/ntwag/${P}-src.tgz
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc x86"
+KEYWORDS="~amd64 ~hppa x86"
 IUSE="doc"
 
 DEPEND="

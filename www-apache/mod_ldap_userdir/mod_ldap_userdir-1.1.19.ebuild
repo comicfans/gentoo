@@ -11,7 +11,7 @@ SRC_URI="http://horde.net/~jwm/software/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-1"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="ssl"
 
 DEPEND="net-nds/openldap

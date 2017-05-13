@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/pyx/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ia64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="doc"
 
 RDEPEND="virtual/tex-base

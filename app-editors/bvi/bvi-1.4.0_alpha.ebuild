@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/bvi/$(replace_version_separator 4 '' ${P}).src.tar
 LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
-KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~sparc64-solaris ~x86-solaris"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~sparc64-solaris ~x86-solaris"
 
 DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"

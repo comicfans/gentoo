@@ -7,7 +7,7 @@ SRC_URI="http://www.rahul.net/dholmes/ctorrent/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="dev-lang/perl

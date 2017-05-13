@@ -9,7 +9,7 @@ HOMEPAGE="http://sun.hasenbraten.de/~frank/projects/"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
-KEYWORDS="~ppc ~ppc-macos"
+KEYWORDS="~ppc-macos"
 
 src_unpack() {
 	mkdir -p "${S}"/LinuxPPC

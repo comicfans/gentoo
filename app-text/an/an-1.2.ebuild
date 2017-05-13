@@ -11,7 +11,7 @@ SRC_URI="mirror://debian/pool/main/a/${PN}/${PN}_${PV}.orig.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc ppc64 x86"
+KEYWORDS="amd64 hppa ppc64 x86"
 IUSE=""
 
 CDEPEND="

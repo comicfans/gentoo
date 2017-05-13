@@ -12,7 +12,7 @@ SRC_URI="https://github.com/gnp/psh/archive/${P}.tar.gz -> ${PF}.tar.gz"
 S="${WORKDIR}/${PN}-${P}" # github--
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="readline"
 
 RDEPEND="

@@ -13,7 +13,7 @@ SRC_URI="http://www.rekallrevealed.org/packages/${P}.tgz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc static-libs"
 
 RDEPEND="

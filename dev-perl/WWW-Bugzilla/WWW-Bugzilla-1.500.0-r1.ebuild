@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="WWW::Bugzilla - automate interaction with bugzilla"
 
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="dev-perl/WWW-Mechanize

@@ -12,7 +12,7 @@ HOMEPAGE="http://www.kokkinizita.net/linuxaudio/"
 SRC_URI="http://www.kokkinizita.net/linuxaudio/downloads/${MY_P}.tar.bz2"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 amd64 ~ppc"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="media-libs/ladspa-sdk"

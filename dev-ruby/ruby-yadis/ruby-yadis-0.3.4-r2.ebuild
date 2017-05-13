@@ -16,7 +16,7 @@ HOMEPAGE="http://yadis.rubyforge.org/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 each_ruby_prepare() {

@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Apache::DBI module for perl"
 
 SLOT="0"
-KEYWORDS="alpha amd64 ppc ppc64 x86"
+KEYWORDS="alpha amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/Digest-SHA1-2.01

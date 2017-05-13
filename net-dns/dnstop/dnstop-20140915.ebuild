@@ -11,7 +11,7 @@ SRC_URI="http://dnstop.measurement-factory.com/src/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~hppa ~ppc x86"
+KEYWORDS="amd64 ~arm ~hppa x86"
 IUSE="ipv6"
 
 RDEPEND="sys-libs/ncurses

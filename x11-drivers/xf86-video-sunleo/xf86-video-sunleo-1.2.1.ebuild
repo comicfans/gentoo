@@ -7,7 +7,7 @@
 inherit x-modular
 
 DESCRIPTION="Leo video driver"
-KEYWORDS="-* sparc"
+KEYWORDS="-*"
 RDEPEND=">=x11-base/xorg-server-1.0.99"
 DEPEND="${RDEPEND}
 	x11-proto/fontsproto

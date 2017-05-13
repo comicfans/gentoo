@@ -5,7 +5,7 @@ EAPI=3
 
 IUSE=""
 S=${WORKDIR}/wmwave
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 DESCRIPTION="Dockapp that displays quality, link, level and noise of an iee802.11 connection"
 SRC_URI="mirror://sourceforge/wmwave/${PN}-0-4.tgz"
 HOMEPAGE="http://wmwave.sourceforge.net/"

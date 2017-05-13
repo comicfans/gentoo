@@ -11,7 +11,7 @@ SRC_URI="http://www.xindy.org/xindy-2.4.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ia64 ppc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE="doc"
 
 RDEPEND="virtual/latex-base

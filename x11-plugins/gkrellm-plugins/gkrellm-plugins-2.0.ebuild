@@ -6,7 +6,7 @@ HOMEPAGE="http://www.gkrellm.net/"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~ppc ~x86"
+KEYWORDS="~x86"
 IUSE="wifi"
 
 RDEPEND="!<app-admin/gkrellm-2

@@ -10,7 +10,7 @@ SRC_URI="http://www.aquamaniac.de/sites/download/download.php?package=03&release
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="chipcard debug doc examples gtk ofx"
 
 RDEPEND=">=app-misc/ktoblzcheck-1.39

@@ -7,7 +7,7 @@ SRC_URI="http://www.fourmilab.ch/webtools/${PN}/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~ppc-macos"
+KEYWORDS="amd64 x86 ~ppc-macos"
 IUSE=""
 
 DEPEND=""

@@ -20,7 +20,7 @@ SRC_URI="http://www.zope.org/Products/Zope/${ZOPE_PV}/${ZOPE_P}.tgz
 		 mirror://gentoo/PCGI-HOWTO-${DOCDATE}.html.bz2"
 LICENSE="ZPL"
 SLOT="0"
-KEYWORDS="~x86 ~ppc"
+KEYWORDS="~x86"
 IUSE=""
 DEPEND="${DEPEND}"
 RDEPEND="${RDEPEND}

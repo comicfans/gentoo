@@ -10,7 +10,7 @@ SRC_URI="http://www.j10n.org/libspt/${P}.tar.bz2"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ppc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE=""
 
 RESTRICT="test"

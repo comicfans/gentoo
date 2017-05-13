@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Keep imports out of your namespace"
 
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc x86 ~x64-macos"
+KEYWORDS="amd64 ~arm x86 ~x64-macos"
 IUSE="test"
 
 RDEPEND=">=dev-perl/namespace-clean-0.200

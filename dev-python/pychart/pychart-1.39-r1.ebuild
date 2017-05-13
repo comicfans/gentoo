@@ -16,7 +16,7 @@ SRC_URI="http://download.gna.org/pychart/${MY_P}.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ia64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc examples"
 
 DEPEND="app-text/ghostscript-gpl"

@@ -12,7 +12,7 @@ HOMEPAGE="http://www.openvas.org/"
 SRC_URI="http://wald.intevation.org/frs/download.php/${DL_ID}/${P/_beta/+beta}.tar.gz"
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS=" ~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE=""
 
 RDEPEND="

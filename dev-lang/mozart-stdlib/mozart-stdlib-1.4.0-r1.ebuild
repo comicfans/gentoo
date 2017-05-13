@@ -13,7 +13,7 @@ SRC_URI="http://www.mozart-oz.org/download/mozart-ftp/store/1.4.0-2008-07-02-tar
 LICENSE="Mozart"
 
 SLOT="0"
-KEYWORDS="-amd64 ppc -ppc64 x86"
+KEYWORDS="-amd64 -ppc64 x86"
 IUSE=""
 
 DEPEND="dev-lang/mozart"

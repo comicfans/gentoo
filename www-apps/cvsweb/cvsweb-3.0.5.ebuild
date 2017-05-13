@@ -8,7 +8,7 @@ HOMEPAGE="http://www.freebsd.org/projects/cvsweb.html"
 SRC_URI="ftp://ftp.freebsd.org/pub/FreeBSD/ports/local-distfiles/scop/${P}.tar.gz"
 
 LICENSE="BSD"
-KEYWORDS="~x86 ~sparc ~ppc"
+KEYWORDS="~x86"
 IUSE=""
 
 RDEPEND=">=dev-lang/perl-5.8

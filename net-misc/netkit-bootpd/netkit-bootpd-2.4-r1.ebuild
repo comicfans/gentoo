@@ -12,7 +12,7 @@ SRC_URI="ftp://ftp.uk.linux.org/pub/linux/Networking/netboot/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ~mips ppc ~sparc x86"
+KEYWORDS="amd64 ~hppa ~mips x86"
 IUSE=""
 
 S=${WORKDIR}/${MY_P}

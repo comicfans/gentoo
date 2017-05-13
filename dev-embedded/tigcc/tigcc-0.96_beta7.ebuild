@@ -28,7 +28,7 @@ SRC_URI="mirror://gentoo/tigcc-0.96_beta7.tar.bz2
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 RDEPEND=">=sys-devel/binutils-2.14.90.0.6-r1"

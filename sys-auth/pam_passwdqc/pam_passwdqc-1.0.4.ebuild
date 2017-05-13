@@ -9,7 +9,7 @@ SRC_URI="http://www.openwall.com/pam/modules/pam_passwdqc/${P}.tar.gz"
 
 LICENSE="Openwall BSD public-domain"
 SLOT="0"
-KEYWORDS="alpha ~amd64 arm ~hppa m68k ~mips ppc s390 sh ~sparc x86"
+KEYWORDS="alpha ~amd64 arm ~hppa m68k ~mips s390 sh x86"
 
 DEPEND="virtual/pam"
 RDEPEND="${DEPEND}"

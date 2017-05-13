@@ -13,7 +13,7 @@ SRC_URI="ftp://ftp.gnu.org/old-gnu/emacs/${MY_P}.tar.gz
 
 LICENSE="Texinfo-manual"
 SLOT="18"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="sys-apps/texinfo"
 

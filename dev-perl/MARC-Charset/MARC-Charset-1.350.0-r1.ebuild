@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="convert MARC-8 encoded strings to UTF-8"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="

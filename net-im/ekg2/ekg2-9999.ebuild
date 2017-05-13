@@ -20,7 +20,7 @@ SRC_URI="http://pl.ekg2.org/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="gadu gpm gpg gtk minimal ncurses nls nntp openssl
 	perl python readline rss spell sqlite ssl xmpp unicode zlib"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"

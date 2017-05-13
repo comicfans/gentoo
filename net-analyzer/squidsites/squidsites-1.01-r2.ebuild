@@ -10,7 +10,7 @@ LICENSE="GPL-2"
 HOMEPAGE="http://www.stefanopassiglia.com/misc.htm"
 SRC_URI="http://www.stefanopassiglia.com/downloads/${P}.tar.gz"
 SLOT="1"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 S="${WORKDIR}/src"
 

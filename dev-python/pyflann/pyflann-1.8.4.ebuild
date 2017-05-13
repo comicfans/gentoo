@@ -14,7 +14,7 @@ SRC_URI="http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann-${PV}-src.zip
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 
 RDEPEND="

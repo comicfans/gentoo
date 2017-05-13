@@ -11,7 +11,7 @@ SRC_URI="http://lttng.org/files/urcu/${P}.tar.bz2"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~ppc64 ~x86"
 IUSE="static-libs test"
 
 DEPEND="test? ( sys-process/time )"

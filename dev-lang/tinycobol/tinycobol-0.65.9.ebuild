@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/tiny-cobol/${P}.tar.bz2"
 LICENSE="GPL-2 LGPL-2"
 SLOT="0"
 IUSE=""
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 
 RDEPEND=">=dev-libs/glib-2.0
 	sys-libs/db

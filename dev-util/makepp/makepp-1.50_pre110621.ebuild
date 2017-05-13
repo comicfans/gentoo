@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/${PN}/${PV%_pre*}/${MY_P}.txz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/perl-5.6.0"

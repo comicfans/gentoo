@@ -12,7 +12,7 @@ SRC_URI="https://dev.gentoo.org/~ulm/distfiles/${P}.el.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 SITEFILE="50${PN}-gentoo.el"
 DOC_CONTENTS="Initsplit is not enabled as a site default. Add the following

@@ -10,7 +10,7 @@ SRC_URI="https://github.com/K-3D/${PN}/archive/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="3ds cuda gnome gts imagemagick jpeg nls openexr png python tiff truetype" #TODO cgal tbb
 
 RDEPEND="

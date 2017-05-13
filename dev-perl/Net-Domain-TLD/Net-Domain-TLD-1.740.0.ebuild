@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Current top level domain names including new ICANN additions and ccTLDs"
 
 SLOT="0"
-KEYWORDS="amd64 hppa ~mips ppc ppc64 x86"
+KEYWORDS="amd64 hppa ~mips ppc64 x86"
 IUSE=""
 
 RDEPEND="

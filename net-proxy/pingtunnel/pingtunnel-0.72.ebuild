@@ -11,7 +11,7 @@ SRC_URI="http://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-${PV}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~sh ~x86"
+KEYWORDS="~amd64 ~arm ~sh ~x86"
 IUSE="doc selinux"
 
 DEPEND="

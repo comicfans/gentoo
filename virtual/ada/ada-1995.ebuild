@@ -7,7 +7,7 @@ DESCRIPTION="Virtual for selecting an appropriate Ada compiler"
 # Different versions of Ada compilers can and likely will be installed side by
 # side
 SLOT="1995"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="|| (
 	=dev-lang/gnat-gcc-4.2*

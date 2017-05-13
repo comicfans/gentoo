@@ -23,7 +23,7 @@ PF_FILE="patch-${PV/_p*/}-pf${PV/*_p/}${COMPRESSTYPE}"
 PF_URI="http://pf.natalenko.name/sources/$(get_version_component_range 1-2)/${PF_FILE}"
 SRC_URI="${KERNEL_URI} ${PF_URI}" # \${EXPERIMENTAL_URI}
 
-KEYWORDS="-* ~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="-* ~amd64 ~ppc64 ~x86"
 IUSE=""
 
 KV_FULL="${PVR}-pf"

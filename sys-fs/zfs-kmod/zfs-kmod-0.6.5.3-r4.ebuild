@@ -15,7 +15,7 @@ else
 	SRC_URI="https://github.com/zfsonlinux/zfs/releases/download/zfs-${PV}/zfs-${PV}.tar.gz
 		https://dev.gentoo.org/~ryao/dist/zfs-${PV}-patches-p3.tar.xz"
 	S="${WORKDIR}/zfs-${PV}"
-	KEYWORDS="~amd64 ~arm ~ppc ~ppc64"
+	KEYWORDS="~amd64 ~arm ~ppc64"
 fi
 
 inherit flag-o-matic linux-info linux-mod toolchain-funcs autotools-utils

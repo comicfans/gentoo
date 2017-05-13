@@ -16,7 +16,7 @@ HOMEPAGE="https://dtao.github.com/safe_yaml"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="test"
 
 ruby_add_bdepend "test? ( dev-ruby/hashie

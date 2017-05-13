@@ -14,7 +14,7 @@ SRC_URI="https://github.com/basho/${MY_PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 
 DEPEND=">=dev-erlang/riak_pb-2.1.4.1
 	>=dev-lang/erlang-17.1"

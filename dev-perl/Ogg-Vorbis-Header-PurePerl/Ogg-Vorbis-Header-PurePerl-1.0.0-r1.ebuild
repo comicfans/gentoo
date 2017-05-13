@@ -11,7 +11,7 @@ DESCRIPTION="Object-oriented interface to Ogg Vorbis information and comment fie
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~x86-solaris"
+KEYWORDS="amd64 ppc64 x86 ~amd64-linux ~x86-linux ~x86-solaris"
 IUSE=""
 
 SRC_TEST="do"

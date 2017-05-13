@@ -11,5 +11,5 @@ inherit stardict
 
 HOMEPAGE="http://download.huzheng.org/Quick/"
 
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""

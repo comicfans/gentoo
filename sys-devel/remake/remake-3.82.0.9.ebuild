@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/bashdb/${MY_P}.tar.bz2"
 
 LICENSE="GPL-1"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ppc x86"
+KEYWORDS="amd64 ~hppa x86"
 IUSE="readline"
 
 RDEPEND="readline? ( sys-libs/readline )"

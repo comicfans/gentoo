@@ -7,7 +7,7 @@ SRC_URI="mirror://sourceforge/allinone/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11

@@ -9,7 +9,7 @@ HOMEPAGE="http://www.snort.org/"
 SRC_URI="http://snort.org/downloads/2320 -> ${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~mips ~ppc64 ~x86"
 IUSE="static +dynamicplugin +zlib +gre +mpls +targetbased
 +ppm +perfprofiling +non-ether-decoders control-socket
 shared-rep sourcefire linux-smp-stats inline-init-failopen

@@ -7,7 +7,7 @@ SRC_URI="ftp://platan.vc.cvut.cz/pub/linux/matrox-latest/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~ppc ~x86"
+KEYWORDS="~x86"
 IUSE=""
 
 src_compile() {

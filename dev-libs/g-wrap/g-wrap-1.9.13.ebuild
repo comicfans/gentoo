@@ -8,7 +8,7 @@ inherit eutils
 DESCRIPTION="A tool for exporting C libraries into Scheme"
 HOMEPAGE="http://www.nongnu.org/g-wrap/"
 SRC_URI="http://download.savannah.gnu.org/releases/g-wrap/${P}.tar.gz"
-KEYWORDS="amd64 hppa ppc ppc64 x86"
+KEYWORDS="amd64 hppa ppc64 x86"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE=""

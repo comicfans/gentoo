@@ -17,7 +17,7 @@ S="${WORKDIR}/xsp-${EGIT_COMMIT}"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc test developer"
 
 RDEPEND="dev-db/sqlite:3"

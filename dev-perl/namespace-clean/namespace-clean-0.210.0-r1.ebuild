@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Keep imports and functions out of your namespace"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~x64-macos"
+KEYWORDS="amd64 x86 ~x64-macos"
 IUSE="test"
 
 RDEPEND=">=dev-perl/Package-Stash-0.220"

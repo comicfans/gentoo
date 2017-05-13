@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Getopt::Long with usage text"
 
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86 ~ppc-aix ~ppc-macos ~x86-solaris"
+KEYWORDS="~amd64 ~arm ~x86 ~ppc-aix ~ppc-macos ~x86-solaris"
 IUSE="test minimal"
 
 # File::Basename -> perl

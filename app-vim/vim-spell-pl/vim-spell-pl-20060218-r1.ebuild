@@ -8,5 +8,5 @@ VIM_SPELL_LANGUAGE="Polish"
 inherit vim-spell
 
 LICENSE="CC-BY-SA-2.0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""

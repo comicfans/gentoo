@@ -12,7 +12,7 @@ HOMEPAGE="http://www.snafu.priv.at/mystuff/kuvert/"
 SRC_URI="http://www.snafu.priv.at/mystuff/kuvert/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="amd64 ~ppc"
+KEYWORDS="amd64"
 IUSE=""
 SLOT="0"
 

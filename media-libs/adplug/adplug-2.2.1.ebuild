@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ppc ppc64 x86"
+KEYWORDS="alpha amd64 arm hppa ppc64 x86"
 IUSE="debug static-libs"
 
 RDEPEND=">=dev-cpp/libbinio-1.4"

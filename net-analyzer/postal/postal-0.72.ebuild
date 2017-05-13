@@ -9,7 +9,7 @@ HOMEPAGE="http://www.coker.com.au/postal/"
 SRC_URI="http://www.coker.com.au/postal/${P}.tgz"
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~hppa ~x86"
 IUSE="ssl gnutls"
 #ssl is an alias for openssl. If both ssl and gnutls are enabled, automagic will
 #enable only gnutls.

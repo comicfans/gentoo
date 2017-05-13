@@ -7,7 +7,7 @@ USE_RUBY="ruby21 ruby22 ruby23"
 inherit virtualx ruby-ng-gnome2
 
 DESCRIPTION="Ruby GDK-3.x bindings"
-KEYWORDS="amd64 ~ppc ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND+=" x11-libs/gtk+:3"

@@ -9,7 +9,7 @@ SRC_URI="http://untroubled.org/mailfront/archive/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 ~sparc ~ppc"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND=">=dev-libs/bglibs-1.006"

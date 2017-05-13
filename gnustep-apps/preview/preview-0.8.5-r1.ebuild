@@ -10,7 +10,7 @@ HOMEPAGE="http://home.gna.org/gsimageapps/"
 SRC_URI="http://download.gna.org/gsimageapps/${P/p/P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 src_unpack() {
 	unpack ${A}

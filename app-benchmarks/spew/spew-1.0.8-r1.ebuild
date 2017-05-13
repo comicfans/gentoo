@@ -11,7 +11,7 @@ SRC_URI="ftp://ftp.berlios.de/pub/spew/1.0.8/spew-1.0.8.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~mips ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~arm ~mips ~ppc64 x86"
 IUSE="static"
 
 DEPEND="static? ( sys-libs/ncurses[-gpm] dev-libs/popt[static-libs] )

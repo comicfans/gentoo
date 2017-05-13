@@ -9,7 +9,7 @@ SRC_URI="http://downloads.asterisk.org/pub/telephony/libiax/${P}.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="debug snomhack"
 
 src_prepare() {

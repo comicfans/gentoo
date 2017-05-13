@@ -11,7 +11,7 @@ SRC_URI="http://git.opensvc.com/?p=multipath-tools/.git;a=snapshot;h=${COMMIT_ID
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~x86"
 IUSE="systemd"
 
 RDEPEND=">=sys-fs/lvm2-2.02.45

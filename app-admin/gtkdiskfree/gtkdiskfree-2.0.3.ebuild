@@ -11,7 +11,7 @@ SRC_URI="https://gitlab.com/mazes_80/${PN}/repository/archive.tar.bz2?ref=${PV} 
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="gtk2"
 
 RDEPEND="

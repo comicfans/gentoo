@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Represent a regular expression of some sort"
 
 SLOT="0"
-KEYWORDS="alpha amd64 ppc ~ppc64 x86"
+KEYWORDS="alpha amd64 ~ppc64 x86"
 IUSE="test examples"
 
 RDEPEND="

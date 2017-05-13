@@ -15,7 +15,7 @@ SRC_URI="ftp://ftp.irc.org/irc/server/${MY_P}.tgz
 # GPL-2 is for the init script, bug 426038.
 LICENSE="GPL-1 GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="zlib ipv6"
 
 RDEPEND="sys-libs/ncurses:0

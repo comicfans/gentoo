@@ -10,7 +10,7 @@ HOMEPAGE="http://blackboxwm.sourceforge.net/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="ppc x86 ~x86-fbsd"
+KEYWORDS="x86 ~x86-fbsd"
 IUSE=""
 
 src_prepare() {

@@ -17,7 +17,7 @@ RDEPEND=">=net-misc/curl-7.9.8
 		>=dev-lang/ocaml-3.12:=[ocamlopt]"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
-KEYWORDS="amd64 ppc"
+KEYWORDS="amd64"
 
 src_compile()
 {

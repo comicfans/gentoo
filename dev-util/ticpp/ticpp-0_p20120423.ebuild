@@ -8,7 +8,7 @@ HOMEPAGE="https://github.com/rjpcomputing/ticpp"
 SRC_URI="https://dev.gentoo.org/~ago/distfiles/${P}.tar.bz2"
 
 LICENSE="MIT"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE="debug doc"
 

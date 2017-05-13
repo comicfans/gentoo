@@ -13,7 +13,7 @@ SRC_URI="mirror://gentoo/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="1"
-KEYWORDS="amd64 ppc ~s390 x86"
+KEYWORDS="amd64 ~s390 x86"
 IUSE="doc static-libs"
 
 DEPEND="doc? ( app-doc/doxygen )"

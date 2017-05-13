@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Client library for the MogileFS distributed file system"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=">=dev-perl/IO-stringy-2.110

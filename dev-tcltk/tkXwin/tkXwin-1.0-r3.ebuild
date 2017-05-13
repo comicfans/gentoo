@@ -12,7 +12,7 @@ SRC_URI="http://beepcore-tcl.sourceforge.net/${P}.tgz"
 LICENSE="BSD"
 SLOT="0"
 IUSE="debug static-libs threads"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="
 	dev-lang/tk[threads?]

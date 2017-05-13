@@ -15,7 +15,7 @@ SRC_URI="https://github.com/openSUSE/libsolv/archive/${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="bzip2 lzma perl python rpm ruby tcl"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 

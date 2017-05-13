@@ -7,7 +7,7 @@ PHP_LIB_NAME="Zend"
 
 inherit php-lib-r1
 
-KEYWORDS="amd64 hppa ~ppc x86"
+KEYWORDS="amd64 hppa x86"
 
 DESCRIPTION="Zend Framework is a high quality and open source framework for developing Web Applications"
 HOMEPAGE="http://framework.zend.com/"

@@ -9,7 +9,7 @@ SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~mips ~ppc x86"
+KEYWORDS="amd64 ~mips x86"
 IUSE=""
 
 RDEPEND="dev-libs/libxslt

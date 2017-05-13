@@ -7,7 +7,7 @@ SRC_URI="http://tedia2sql.tigris.org/files/documents/282/19423/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 DEPEND=">=dev-lang/perl-5.8

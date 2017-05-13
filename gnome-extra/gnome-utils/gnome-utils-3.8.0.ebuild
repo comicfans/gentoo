@@ -9,7 +9,7 @@ HOMEPAGE="https://live.gnome.org/GnomeUtils"
 LICENSE="metapackage"
 SLOT="0"
 IUSE=""
-KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sh ~sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha amd64 ~arm ~ppc64 ~sh x86 ~x86-fbsd ~amd64-linux ~x86-linux"
 
 DEPEND=""
 RDEPEND="

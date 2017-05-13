@@ -10,7 +10,7 @@ DESCRIPTION="The open source, cross platform, free C++ IDE"
 HOMEPAGE="http://www.codeblocks.org/"
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~arm ~x86 ~x86-fbsd"
 SRC_URI="mirror://sourceforge/codeblocks/${P/-/_}.tar.gz"
 
 IUSE="contrib debug pch static-libs"

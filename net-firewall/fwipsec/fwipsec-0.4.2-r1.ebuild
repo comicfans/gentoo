@@ -9,7 +9,7 @@ SRC_URI="mirror://gentoo/${P}.tar.bz2"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
-KEYWORDS="alpha amd64 ~hppa ia64 ~mips ~ppc ~sparc x86"
+KEYWORDS="alpha amd64 ~hppa ~mips x86"
 
 DEPEND=">=net-firewall/iptables-1.2.7
 		sys-apps/iproute2"

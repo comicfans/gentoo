@@ -13,7 +13,7 @@ SRC_URI="mirror://gentoo/${MY_P}.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="static-libs"
 
 DOCS=( AUTHORS ChangeLog README TODO )

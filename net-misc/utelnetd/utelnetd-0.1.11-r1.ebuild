@@ -11,7 +11,7 @@ SRC_URI="http://www.pengutronix.de/software/utelnetd/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~s390 ~sparc ~x86"
+KEYWORDS="~amd64 ~s390 ~x86"
 IUSE=""
 
 DEPEND="virtual/shadow"

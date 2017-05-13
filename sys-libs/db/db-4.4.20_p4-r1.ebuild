@@ -26,7 +26,7 @@ done
 
 LICENSE="Sleepycat BSD"
 SLOT="4.4"
-KEYWORDS="~amd64 ~arm ~arm64 ~ia64 ~m68k ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~arm ~arm64 ~m68k ~ppc64 ~s390 ~sh ~x86 ~x86-fbsd"
 IUSE="tcl java doc cxx rpc"
 
 DEPEND="tcl? ( >=dev-lang/tcl-8.4 )

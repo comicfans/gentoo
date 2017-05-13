@@ -11,7 +11,7 @@ SRC_URI="http://www.linuxbrit.co.uk/downloads/${P}.tar.gz"
 
 LICENSE="feh LGPL-2+"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc64 ~sh ~x86 ~amd64-fbsd ~x86-fbsd"
 IUSE=""
 
 RDEPEND=">=media-libs/imlib2-1.0.3

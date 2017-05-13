@@ -18,7 +18,7 @@ else
 	DEPEND="app-arch/cpio
 		static? ( dev-libs/klibc )"
 	SRC_URI="http://www.mirbsd.org/MirOS/dist/mir/mksh/${PN}-R${PV}.cpio.gz"
-	KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux"
+	KEYWORDS="~amd64 ~x86 ~amd64-linux"
 fi
 
 DESCRIPTION="MirBSD Korn Shell"

@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Portable LIMIT emulation"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~x86-solaris"
+KEYWORDS="~amd64 ~x86 ~x86-solaris"
 IUSE="test"
 
 RDEPEND="dev-perl/SQL-Abstract

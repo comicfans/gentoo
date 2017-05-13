@@ -10,7 +10,7 @@ if [[ ${PV} == "9999" ]] ; then
 else
 	SRC_URI="https://github.com/zfsonlinux/zfs/releases/download/zfs-${PV}/${P}.tar.gz
 		https://dev.gentoo.org/~ryao/dist/${P}-patches-p0.tar.xz"
-	KEYWORDS="~amd64 ~arm ~ppc ~ppc64"
+	KEYWORDS="~amd64 ~arm ~ppc64"
 fi
 
 inherit flag-o-matic linux-info linux-mod autotools-utils

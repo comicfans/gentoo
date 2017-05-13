@@ -8,7 +8,7 @@ inherit php-pear-r2
 DESCRIPTION="PHP parser for RDF and RSS documents"
 LICENSE="PHP-3.01"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc64 ~s390 ~sh ~x86"
 IUSE=""
 
 # Only needs PEAR_Exception (not in the tree), not all of PEAR.

@@ -8,6 +8,6 @@ inherit php-pear-r1
 DESCRIPTION="Add-On for HTML_QuickForm that allows building of multipage forms"
 LICENSE="PHP-3.01"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE=""
 RDEPEND=">=dev-php/PEAR-HTML_QuickForm-3.2.5"

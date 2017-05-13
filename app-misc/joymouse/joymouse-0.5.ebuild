@@ -8,7 +8,7 @@ SRC_URI="mirror://sourceforge/joymouse-linux/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~mips ~ppc x86"
+KEYWORDS="amd64 ~mips x86"
 IUSE=""
 
 DEPEND="x11-proto/xextproto

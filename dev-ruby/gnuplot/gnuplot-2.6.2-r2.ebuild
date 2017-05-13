@@ -16,7 +16,7 @@ DESCRIPTION="Gnuplot drawing library - Ruby Bindings"
 HOMEPAGE="http://rgplot.rubyforge.org/"
 
 LICENSE="BSD"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 SLOT="0"
 

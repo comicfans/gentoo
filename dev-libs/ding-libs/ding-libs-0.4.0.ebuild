@@ -12,7 +12,7 @@ SRC_URI="https://fedorahosted.org/released/${PN}/${P}.tar.gz"
 LICENSE="LGPL-3 GPL-3"
 SLOT="0"
 
-KEYWORDS="amd64 ~arm ~hppa ~ppc ~ppc64 x86 ~amd64-linux"
+KEYWORDS="amd64 ~arm ~hppa ~ppc64 x86 ~amd64-linux"
 IUSE="test static-libs"
 
 RDEPEND=""

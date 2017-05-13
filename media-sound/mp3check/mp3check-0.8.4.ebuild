@@ -10,7 +10,7 @@ SRC_URI="http://jo.ath.cx/soft/mp3check/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 src_prepare() {

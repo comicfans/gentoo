@@ -9,7 +9,7 @@ DESCRIPTION="A very small and very fast http daemon"
 SRC_URI="http://www.boa.org/${MY_P}.tar.gz"
 HOMEPAGE="http://www.boa.org/"
 
-KEYWORDS="~amd64 ~mips ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~mips ~x86"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="doc"

@@ -11,7 +11,7 @@ HOMEPAGE="http://langfeldt.net/w3mir/"
 
 SLOT="0"
 LICENSE="Artistic"
-KEYWORDS="alpha ~amd64 ppc ~sparc x86 ~arm-linux ~x86-linux"
+KEYWORDS="alpha ~amd64 x86 ~arm-linux ~x86-linux"
 
 DEPEND="${DEPEND}
 	>=dev-perl/URI-1.0.9

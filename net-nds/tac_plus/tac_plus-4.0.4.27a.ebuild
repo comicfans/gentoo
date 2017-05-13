@@ -14,7 +14,7 @@ SRC_URI="ftp://ftp.shrubbery.net/pub/tac_plus/${MY_P}.tar.gz"
 
 LICENSE="HPND RSA GPL-2" # GPL-2 only for init script
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug finger maxsess tcpd skey static-libs"
 
 DEPEND="skey? ( >=sys-auth/skey-1.1.5-r1 )

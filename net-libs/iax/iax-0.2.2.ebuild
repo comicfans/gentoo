@@ -13,7 +13,7 @@ SRC_URI="http://www.digium.com/pub/libiax/${P}.tar.gz"
 
 D_PREFIX=/usr
 
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 
 src_compile() {
 	./configure --prefix=${D_PREFIX} --enable-autoupdate

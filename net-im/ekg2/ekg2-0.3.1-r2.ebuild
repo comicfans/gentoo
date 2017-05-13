@@ -11,7 +11,7 @@ SRC_URI="http://pl.ekg2.org/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="gadu gif gnutls gpg gpm gsm gtk idn jpeg ncurses nls
 	oracle perl python readline rss spell sqlite ssl threads unicode
 	xmpp xosd zlib"

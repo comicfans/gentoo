@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/nodebrain/nodebrain-${PV}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="static-libs"
 
 CDEPEND="dev-libs/libedit"

@@ -14,7 +14,7 @@ SRC_URI="http://lbj.free.fr/wmpop3/${MY_P}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ~sparc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="x11-libs/libX11
 	x11-libs/libXext

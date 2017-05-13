@@ -14,7 +14,7 @@ SRC_URI="http://oss.oracle.com/~mason/mpatch/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""

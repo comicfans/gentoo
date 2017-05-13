@@ -11,7 +11,7 @@ SRC_URI=""
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ppc ppc64 sh sparc x86 ~amd64-fbsd"
+KEYWORDS="alpha amd64 arm hppa ppc64 sh x86 ~amd64-fbsd"
 IUSE=""
 
 DEPEND=""

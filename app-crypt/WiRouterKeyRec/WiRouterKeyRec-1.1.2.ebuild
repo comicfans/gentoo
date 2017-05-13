@@ -12,7 +12,7 @@ DESCRIPTION="Recovery tool for wpa passphrase"
 HOMEPAGE="http://www.salvatorefresta.net"
 SRC_URI="http://tools.salvatorefresta.net/${MY_P}.zip -> ${P}.zip"
 
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 LICENSE="GPL-2"
 SLOT="0"

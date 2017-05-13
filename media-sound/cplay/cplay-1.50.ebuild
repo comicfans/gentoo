@@ -13,7 +13,7 @@ SRC_URI="https://github.com/hukka/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~hppa ~ppc64 ~x86"
 IUSE="mp3 vorbis"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 

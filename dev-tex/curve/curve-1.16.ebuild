@@ -17,7 +17,7 @@ DEPEND="${RDEPEND}
 IUSE="doc examples"
 
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 
 TEXMF=/usr/share/texmf-site
 

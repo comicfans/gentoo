@@ -11,7 +11,7 @@ SRC_URI="http://kadu.net/download/additions/powiedz-1.0.tgz"
 
 LICENSE="GPL-1"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 S=${WORKDIR}/${PN}

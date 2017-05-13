@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/premake/${P}-src.zip"
 
 LICENSE="BSD"
 SLOT=$(get_major_version)
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"

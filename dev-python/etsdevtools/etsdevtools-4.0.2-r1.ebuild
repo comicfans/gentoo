@@ -13,7 +13,7 @@ SRC_URI="http://www.enthought.com/repo/ets/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="doc examples test"
 
 RDEPEND="dev-python/numpy[${PYTHON_USEDEP}]

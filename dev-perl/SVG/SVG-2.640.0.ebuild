@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Perl extension for generating Scalable Vector Graphics (SVG) documents"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="test"
 
 RDEPEND="

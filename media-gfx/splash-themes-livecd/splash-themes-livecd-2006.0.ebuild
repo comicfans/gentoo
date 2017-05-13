@@ -9,7 +9,7 @@ SRC_URI="https://dev.gentoo.org/~wolf31o2/sources/${PN}/${MY_P}-${MY_REV}.tar.bz
 
 SLOT=${PV}
 LICENSE="Artistic GPL-2 BitstreamVera"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 RESTRICT="binchecks strip"
 

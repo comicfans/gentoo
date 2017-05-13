@@ -11,7 +11,7 @@ SRC_URI="http://delta.affinix.com/download/psimedia/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ~ppc64 x86"
+KEYWORDS="amd64 ~arm hppa ~ppc64 x86"
 IUSE="demo"
 
 COMMON_DEPEND=">=dev-libs/glib-2.18

@@ -9,7 +9,7 @@ DESCRIPTION="framework used to create icons using different elements"
 HOMEPAGE="http://www.etoile-project.org"
 SRC_URI="http://download.gna.org/etoile/etoile-${PV}.tar.bz2"
 LICENSE="LGPL-2.1"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 SLOT="0"
 IUSE=""
 

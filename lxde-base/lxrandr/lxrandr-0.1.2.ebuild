@@ -10,7 +10,7 @@ HOMEPAGE="http://lxde.sf.net/"
 SRC_URI="mirror://sourceforge/lxde/${P}.tar.gz"
 
 LICENSE="GPL-3"
-KEYWORDS="~alpha amd64 arm ~arm64 ppc x86 ~arm-linux ~x86-linux"
+KEYWORDS="~alpha amd64 arm ~arm64 x86 ~arm-linux ~x86-linux"
 SLOT="0"
 IUSE=""
 

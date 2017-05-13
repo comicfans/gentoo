@@ -11,7 +11,7 @@ HOMEPAGE="http://www.netsurf-browser.org/projects/librosprite/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~m68k-mint"
+KEYWORDS="~amd64 ~arm ~m68k-mint"
 IUSE=""
 
 PATCHES=( "${FILESDIR}"/${P}-Werror.patch )

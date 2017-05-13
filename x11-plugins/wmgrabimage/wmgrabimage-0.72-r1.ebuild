@@ -11,7 +11,7 @@ HOMEPAGE="http://dockapps.windowmaker.org/file.php/id/12"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 RDEPEND=">=net-misc/wget-1.9-r2

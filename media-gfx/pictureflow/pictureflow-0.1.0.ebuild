@@ -10,7 +10,7 @@ SRC_URI="https://${PN}.googlecode.com/files/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="debug"
 
 DEPEND="dev-qt/qtgui:4"

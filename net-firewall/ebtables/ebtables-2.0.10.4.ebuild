@@ -12,7 +12,7 @@ DESCRIPTION="Utility that enables basic Ethernet frame filtering on a Linux brid
 HOMEPAGE="http://ebtables.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tar.gz"
 
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="static"
 LICENSE="GPL-2"
 SLOT="0"

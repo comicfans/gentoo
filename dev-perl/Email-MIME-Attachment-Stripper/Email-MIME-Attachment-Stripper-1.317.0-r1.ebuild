@@ -13,7 +13,7 @@ LICENSE="|| ( GPL-2 GPL-3 )" # GPL-2+
 # under the same terms as Tony's original module
 # Mail::Message::Attachment::Stripper
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="test"
 
 RDEPEND=">=dev-perl/Email-MIME-1.900

@@ -10,7 +10,7 @@ HOMEPAGE="http://www.psmon.com/"
 SRC_URI="http://www.psmon.com/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=">=dev-lang/perl-5.6.0

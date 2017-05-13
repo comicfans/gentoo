@@ -10,7 +10,7 @@ SRC_URI="http://homepage3.nifty.com/slokar/stimg/${P}.tar.gz"
 
 LICENSE="LGPL-2+ MIT-with-advertising"
 SLOT="0"
-KEYWORDS="alpha amd64 ppc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE="linguas_ja static-libs"
 
 RDEPEND="media-libs/libpng

@@ -9,7 +9,7 @@ DESCRIPTION="Yet Another TeX mode for Emacs"
 HOMEPAGE="http://www.yatex.org/"
 SRC_URI="http://www.yatex.org/${P/-/}.tar.gz"
 
-KEYWORDS="amd64 ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 SLOT="0"
 LICENSE="YaTeX"
 IUSE="l10n_ja"

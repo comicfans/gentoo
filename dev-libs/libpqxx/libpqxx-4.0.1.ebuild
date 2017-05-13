@@ -6,7 +6,7 @@ EAPI="4"
 PYTHON_COMPAT=( python2_7 )
 inherit python-any-r1
 
-KEYWORDS="alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~x86-fbsd"
+KEYWORDS="alpha amd64 hppa ppc64 x86 ~x86-fbsd"
 
 DESCRIPTION="C++ client API for PostgreSQL. The standard front-end for writing C++ programs that use PostgreSQL"
 SRC_URI="http://pqxx.org/download/software/${PN}/${P}.tar.gz"

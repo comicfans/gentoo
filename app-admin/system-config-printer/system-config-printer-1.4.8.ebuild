@@ -15,7 +15,7 @@ HOMEPAGE="http://cyberelk.net/tim/software/system-config-printer/"
 SRC_URI="http://cyberelk.net/tim/data/system-config-printer/${MY_V}/${P}.tar.xz"
 
 LICENSE="GPL-2"
-KEYWORDS="~alpha amd64 ~arm ~ia64 ppc ppc64 ~sh ~sparc x86"
+KEYWORDS="~alpha amd64 ~arm ppc64 ~sh x86"
 SLOT="0"
 
 IUSE="doc gnome-keyring policykit"

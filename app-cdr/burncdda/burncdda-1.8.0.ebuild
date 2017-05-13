@@ -9,7 +9,7 @@ SRC_URI="http://www.thenktor.homepage.t-online.de/burncdda/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ppc ~sparc x86"
+KEYWORDS="~amd64 x86"
 IUSE="flac mp3 vorbis"
 
 RDEPEND="

@@ -11,7 +11,7 @@ SRC_URI="https://sites.google.com/site/makovick/projects/${P}.tgz"
 
 SLOT="2"
 LICENSE="GPL-2"
-KEYWORDS="alpha amd64 ppc sparc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE=""
 
 RDEPEND="

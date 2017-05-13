@@ -14,7 +14,7 @@ else
 	MY_P="s${P}"
 	S="${WORKDIR}/${MY_P}"
 	SRC_URI="http://opensource.dyc.edu/pub/sthttpd/${MY_P}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~arm-linux ~x86-linux"
+	KEYWORDS="~amd64 ~arm ~hppa ~mips ~ppc64 ~x86 ~amd64-linux ~arm-linux ~x86-linux"
 fi
 
 DESCRIPTION="Fork of thttpd, a small, fast, multiplexing webserver"

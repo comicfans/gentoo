@@ -10,7 +10,7 @@ SRC_URI="mirror://xfce/src/panel-plugins/${PN}/${PV%.*}/${P}.tar.bz2"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~hppa ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~arm ~hppa ~ppc64 x86"
 IUSE="debug kernel_linux"
 
 COMMON_DEPEND=">=xfce-base/libxfce4ui-4.8:=

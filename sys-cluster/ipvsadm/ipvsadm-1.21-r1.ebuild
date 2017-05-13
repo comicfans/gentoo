@@ -15,7 +15,7 @@ DEPEND=">=sys-libs/ncurses-5.2"
 SRC_URI="http://www.linuxvirtualserver.org/software/kernel-2.4/${MY_P}.tar.gz"
 
 SLOT="0"
-KEYWORDS="~ppc ~ppc64 x86"
+KEYWORDS="~ppc64 x86"
 IUSE=""
 
 S="${WORKDIR}/${MY_P}"

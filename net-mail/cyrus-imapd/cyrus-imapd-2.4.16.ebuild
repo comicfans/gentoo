@@ -13,7 +13,7 @@ SRC_URI="ftp://ftp.cyrusimap.org/cyrus-imapd/${MY_P}.tar.gz"
 
 LICENSE="BSD-with-attribution"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ~ia64 ppc ppc64 sparc x86"
+KEYWORDS="amd64 ~arm hppa ppc64 x86"
 IUSE="afs berkdb kerberos mysql nntp pam postgres replication sieve snmp sqlite ssl tcpd"
 
 RDEPEND="sys-libs/zlib

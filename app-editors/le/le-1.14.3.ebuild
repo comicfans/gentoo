@@ -9,7 +9,7 @@ SRC_URI="ftp://ftp.yars.free.net/pub/source/le/le-${PV}.tar.lzma"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="sys-libs/ncurses:0="

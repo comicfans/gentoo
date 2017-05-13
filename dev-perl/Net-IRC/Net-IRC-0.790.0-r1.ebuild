@@ -11,7 +11,7 @@ DESCRIPTION="Perl IRC module"
 
 SLOT="0"
 LICENSE="Artistic"
-KEYWORDS="amd64 ~arm ~mips ppc x86"
+KEYWORDS="amd64 ~arm ~mips x86"
 IUSE=""
 
 SRC_TEST="do"

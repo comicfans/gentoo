@@ -11,7 +11,7 @@ SRC_URI="https://savannah.nongnu.org/download/${PN}/${P}.tar.gz
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="python +shout +xiph"
 
 RDEPEND="

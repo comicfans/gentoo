@@ -11,7 +11,7 @@ SRC_URI="http://files.ayoy.net/qoauth/release/${PV}/src/${P}-src.tar.bz2"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="debug doc static-libs test"
 
 COMMON_DEPEND="app-crypt/qca:2[debug?,qt4(+)]"

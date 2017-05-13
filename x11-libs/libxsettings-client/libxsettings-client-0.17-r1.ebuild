@@ -9,7 +9,7 @@ DESCRIPTION="XSETTINGS client code"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~hppa ~ppc ~sh ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~sh ~x86"
 IUSE="static-libs"
 
 DOCS=( ChangeLog )

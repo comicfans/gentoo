@@ -1,7 +1,7 @@
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 DESCRIPTION="Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh"
 HOMEPAGE="http://www.miek.nl/projects/hdup2/index.html"
 SRC_URI="http://www.miek.nl/projects/${PN}2/${P}.tar.bz2"

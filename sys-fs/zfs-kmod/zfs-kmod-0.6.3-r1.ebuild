@@ -17,7 +17,7 @@ else
 	SRC_URI="https://github.com/zfsonlinux/zfs/archive/zfs-${PV}.tar.gz
 		https://dev.gentoo.org/~ryao/dist/zfs-${PV}-patches-${PR}.tar.xz"
 	S="${WORKDIR}/zfs-zfs-${PV}"
-	KEYWORDS="~amd64 ~arm ~ppc ~ppc64"
+	KEYWORDS="~amd64 ~arm ~ppc64"
 fi
 
 DESCRIPTION="Linux ZFS kernel module for sys-fs/zfs"

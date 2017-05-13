@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/pslib/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="amd64 ~ppc64 ~x86"
 IUSE="debug jpeg linguas_de png tiff"
 
 RDEPEND="png? ( >=media-libs/libpng-1.2.43-r2:0 )

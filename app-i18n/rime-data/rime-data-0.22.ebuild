@@ -11,7 +11,7 @@ SRC_URI="https://rimeime.googlecode.com/files/${MY_P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE=""
 
 DEPEND="app-i18n/librime"

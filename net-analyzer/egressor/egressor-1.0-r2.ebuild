@@ -10,7 +10,7 @@ SRC_URI="${HOMEPAGE}${PN}_release${PV}.tar.gz"
 
 LICENSE="egressor"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="<net-libs/libnet-1.1
 	>=net-libs/libnet-1.0.2a-r3"

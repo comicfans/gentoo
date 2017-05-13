@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Perl interface to the JavaScript Engine"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-perl/Log-Log4perl

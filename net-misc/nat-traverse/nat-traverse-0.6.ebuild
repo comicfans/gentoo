@@ -7,7 +7,7 @@ SRC_URI="http://linide.sourceforge.net/${PN}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~mips ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~arm ~mips ~ppc64 x86"
 IUSE=""
 
 RDEPEND=">=dev-lang/perl-5.6.1"

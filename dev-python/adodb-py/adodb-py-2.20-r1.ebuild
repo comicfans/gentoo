@@ -15,7 +15,7 @@ SRC_URI="mirror://sourceforge/adodb/${MY_P}.zip"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ia64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="mysql postgres sqlite"
 
 RDEPEND="postgres? ( dev-python/psycopg:0[${PYTHON_USEDEP}] )

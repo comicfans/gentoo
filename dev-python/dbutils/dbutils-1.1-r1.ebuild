@@ -15,7 +15,7 @@ SRC_URI="http://www.webwareforpython.org/downloads/DBUtils/${MY_P}.tar.gz"
 
 LICENSE="OSL-2.0"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc examples"
 
 DEPEND=""

@@ -9,7 +9,7 @@ GTK_SHARP_MODULE_DIR="gnomedesktop"
 inherit eutils gtk-sharp-module
 
 SLOT="2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RESTRICT="test"

@@ -11,7 +11,7 @@ SRC_URI="mirror://gentoo/${P}.zip"
 HOMEPAGE="ftp://ftp.dante.de/tex-archive/help/Catalogue/entries/quotchap.html"
 LICENSE="LPPL-1.2"
 SLOT="0"
-KEYWORDS="x86 ppc ~amd64"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"

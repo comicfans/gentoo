@@ -17,7 +17,7 @@ else
 	inherit eutils versionator
 	SRC_URI="https://github.com/zfsonlinux/${PN}/archive/${P}.tar.gz"
 	S="${WORKDIR}/${PN}-${P}"
-	KEYWORDS="~amd64 ~arm ~ppc ~ppc64"
+	KEYWORDS="~amd64 ~arm ~ppc64"
 fi
 
 inherit bash-completion-r1 flag-o-matic toolchain-funcs autotools-utils udev systemd

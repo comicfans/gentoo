@@ -8,7 +8,7 @@ inherit multilib-minimal
 DESCRIPTION="Watches a process for termination"
 SRC_URI="mirror://gentoo/${PN}_${PV}.tar.gz"
 HOMEPAGE="http://www.codepark.org/"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 SLOT="0"
 LICENSE="GPL-2"

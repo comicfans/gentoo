@@ -7,7 +7,7 @@ SRC_URI="http://www.coda.cs.cmu.edu/pub/rvm/src/${P}.tar.gz"
 IUSE=""
 SLOT="1"
 LICENSE="LGPL-2.1"
-KEYWORDS="~alpha ~amd64 ~hppa ia64 ~mips ~ppc ~sparc x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~mips x86"
 
 DEPEND=">=sys-libs/lwp-2.0
 	sys-apps/grep

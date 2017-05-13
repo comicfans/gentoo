@@ -12,7 +12,7 @@ SRC_URI="http://proofgeneral.inf.ed.ac.uk/releases/${MY_PN}-${PV}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND=">=app-emacs/mmm-mode-0.4.8-r2"
 RDEPEND="${DEPEND}"

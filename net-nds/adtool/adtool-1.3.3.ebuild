@@ -13,7 +13,7 @@ SRC_URI="http://gp2x.org/adtool/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="ssl"
 
 DEPEND="

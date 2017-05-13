@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/ocamlsdl/${P}.tar.gz"
 LICENSE="LGPL-2"
 
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="doc +ocamlopt opengl truetype" #noimage nomixer
 
 RDEPEND="

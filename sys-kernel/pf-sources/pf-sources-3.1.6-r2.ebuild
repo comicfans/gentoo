@@ -32,7 +32,7 @@ EXPERIMENTAL_URI="
 "
 SRC_URI="${KERNEL_URI} ${PF_URI}" # \${EXPERIMENTAL_URI}
 
-KEYWORDS="-* ~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="-* ~amd64 ~ppc64 ~x86"
 IUSE="" # experimental
 
 KV_FULL="${PVR}-pf"

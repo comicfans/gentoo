@@ -9,7 +9,7 @@ DESCRIPTION="Bandwidth Monitor NG is a small and simple console-based bandwidth 
 SRC_URI="http://www.gropp.org/bwm-ng/${P}.tar.gz"
 HOMEPAGE="http://www.gropp.org/"
 
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="csv html"

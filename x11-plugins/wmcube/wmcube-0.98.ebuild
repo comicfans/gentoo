@@ -10,7 +10,7 @@ SRC_URI="http://kling.mine.nu/kling/files/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86 amd64 ~mips ppc ppc64 ~sparc"
+KEYWORDS="amd64 ~mips ppc64 x86"
 
 IUSE=""
 

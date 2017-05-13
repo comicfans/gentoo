@@ -9,7 +9,7 @@ SRC_URI="http://rubyforge.org/frs/download.php/76053/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="bittorrent"
 
 RDEPEND=">=dev-lang/ruby-1.8.2

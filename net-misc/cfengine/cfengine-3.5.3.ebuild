@@ -16,7 +16,7 @@ SRC_URI="http://cfengine.com/source-code/download?file=${MY_P}.tar.gz -> ${MY_P}
 
 LICENSE="GPL-3"
 SLOT="3"
-KEYWORDS="~amd64 ~arm ~ppc ~s390 ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~s390 ~x86"
 
 IUSE="acl examples libvirt mysql postgres +qdbm selinux tokyocabinet vim-syntax xml"
 

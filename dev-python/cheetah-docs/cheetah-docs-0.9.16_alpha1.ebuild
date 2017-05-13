@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/cheetahtemplate/CheetahDocs-${PV/_alpha/a}.tgz"
 
 IUSE=""
 LICENSE="OPL"
-KEYWORDS="~amd64 ~ia64 ppc x86"
+KEYWORDS="~amd64 x86"
 SLOT="0"
 
 S=${WORKDIR}/CheetahDocs

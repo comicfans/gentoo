@@ -16,7 +16,7 @@ SRC_URI="mirror://gnupg/gnupg/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~x86-fbsd ~amd64-linux ~x86-linux ~x86-macos"
+KEYWORDS="alpha amd64 arm hppa ~mips ppc64 ~s390 ~sh x86 ~x86-fbsd ~amd64-linux ~x86-linux ~x86-macos"
 IUSE="bzip2 curl ldap mta nls readline selinux smartcard static usb zlib"
 
 COMMON_DEPEND="

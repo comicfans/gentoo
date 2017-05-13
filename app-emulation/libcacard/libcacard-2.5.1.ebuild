@@ -9,7 +9,7 @@ SRC_URI="http://spice-space.org/download/${PN}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="~alpha amd64 ~arm ~ppc64 x86"
 IUSE="static-libs"
 
 RDEPEND=">=dev-libs/nss-3.13

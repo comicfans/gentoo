@@ -9,7 +9,7 @@ SRC_URI="http://www.fefe.de/djb/djb-${PV}.tar.bz2"
 
 LICENSE="all-rights-reserved public-domain"
 SLOT="0"
-KEYWORDS="~x86 ~ppc"
+KEYWORDS="~x86"
 RESTRICT="mirror bindist"
 
 S=${WORKDIR}/${PN}

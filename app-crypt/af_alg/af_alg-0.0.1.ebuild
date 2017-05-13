@@ -13,7 +13,7 @@ SRC_URI="mirror://gentoo/${MY_PN}-${PV}.tar.gz"
 
 LICENSE="openssl"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc64 ~x86"
 IUSE="libressl"
 
 DEPEND="virtual/linux-sources

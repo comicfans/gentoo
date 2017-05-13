@@ -11,7 +11,7 @@ SRC_URI="https://bitbucket.org/camlspotter/camlimages/get/${PV}.tar.bz2 -> ${P}.
 
 LICENSE="LGPL-2.1"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="exif gif gtk jpeg png postscript tiff truetype X xpm"
 
 RDEPEND=">=dev-lang/ocaml-3.10.2:=[X?,ocamlopt]

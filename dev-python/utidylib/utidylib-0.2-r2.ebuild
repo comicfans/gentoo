@@ -16,7 +16,7 @@ SRC_URI="mirror://gentoo/${MY_P}.zip"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="doc test"
 
 RDEPEND="app-text/htmltidy"

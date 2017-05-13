@@ -11,7 +11,7 @@ SRC_URI="http://www.iro.umontreal.ca/~monnier/elisp/${P}.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE=""
 RESTRICT="test"
 

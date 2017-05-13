@@ -21,7 +21,7 @@ SRC_URI="ftp://ftp.mrunix.net/pub/webalizer/old/${WEBALIZER_P}-src.tar.bz2
 	mirror://gentoo/webalizer.conf.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE="nls"
 SLOT="0"
 

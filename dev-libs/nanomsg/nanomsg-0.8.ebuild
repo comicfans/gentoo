@@ -12,7 +12,7 @@ SRC_URI="https://github.com/nanomsg/nanomsg/releases/download/${PV}-beta/${P}-be
 
 LICENSE="MIT"
 SLOT="0/0.2.2"
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~ppc64 ~s390 ~x86"
+KEYWORDS="~amd64 ~arm ~mips ~ppc64 ~s390 ~x86"
 IUSE="doc static-libs"
 
 DEPEND="doc? (

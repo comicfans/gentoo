@@ -12,7 +12,7 @@ SRC_URI="http://www.unicom.com/sw/xtail/${P}.tar.gz
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 DEPEND="app-arch/unzip"
 

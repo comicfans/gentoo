@@ -17,7 +17,7 @@ HOMEPAGE="http://sourcesup.cru.fr/projects/scientific-py/"
 
 LICENSE="CeCILL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="doc mpi test"
 
 RDEPEND="

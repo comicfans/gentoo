@@ -12,7 +12,7 @@ DEPEND=">=sys-libs/pam-0.72 virtual/mysql"
 RDEPEND="${DEPEND}"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ppc ~sparc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE="openssl"
 S="${WORKDIR}/${P/_rc/RC}"
 

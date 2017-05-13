@@ -14,7 +14,7 @@ HOMEPAGE="http://www.asahi-net.or.jp/~hc3j-tkg/kterm/"
 
 LICENSE="MIT HPND XC"
 SLOT="0"
-KEYWORDS="-alpha amd64 ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="-alpha amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE="Xaw3d"
 
 RDEPEND="app-text/rman

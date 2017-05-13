@@ -12,7 +12,7 @@ SRC_URI="https://www.unrealircd.org/${PN}$(get_version_component_range 1)/${P}.t
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~x86 ~x86-fbsd ~amd64-linux"
+KEYWORDS="~amd64 ~x86 ~x86-fbsd ~amd64-linux"
 IUSE="class-nofakelag curl +extban-stacking +operoverride operoverride-verify +prefixaq
 	showlistmodes shunnotices topicisnuhost +usermod"
 

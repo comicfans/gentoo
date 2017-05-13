@@ -16,7 +16,7 @@ LICENSE="LGPL-2.1"
 
 IUSE="+ocamlopt"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 RDEPEND=">=dev-lang/ocaml-3.11.2:=[ocamlopt?]
 	>=dev-ml/camlimages-4.0.1:=[truetype,tiff,jpeg,postscript,X]

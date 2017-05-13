@@ -12,7 +12,7 @@ SRC_URI="mirror://gnu/gtypist/${P}.tar.xz
 
 LICENSE="GPL-2 public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux"
 IUSE="nls emacs xemacs"
 
 DEPEND=">=sys-libs/ncurses-5.2

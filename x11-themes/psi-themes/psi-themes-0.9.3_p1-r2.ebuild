@@ -90,7 +90,7 @@ HOMEPAGE="http://psi-im.org/ http://jisp.netflint.net/"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ppc x86 ~x86-fbsd"
+KEYWORDS="~amd64 x86 ~x86-fbsd"
 IUSE=""
 DEPEND=">=net-im/psi-0.9.2
 	!!net-im/psi[extras]"

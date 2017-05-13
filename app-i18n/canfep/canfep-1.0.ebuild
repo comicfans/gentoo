@@ -12,7 +12,7 @@ SRC_URI="http://www.geocities.co.jp/SiliconValley-Bay/7584/canfep/${P}.tar.gz
 
 LICENSE="canfep"
 SLOT="0"
-KEYWORDS="-alpha ~amd64 ppc ~sparc x86"
+KEYWORDS="-alpha ~amd64 x86"
 IUSE="unicode"
 
 DEPEND="app-i18n/canna

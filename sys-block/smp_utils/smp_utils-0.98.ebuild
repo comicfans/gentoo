@@ -11,7 +11,7 @@ SRC_URI="http://sg.danny.cz/sg/p/${P}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="static-libs"
 
 DOCS=( AUTHORS ChangeLog COVERAGE CREDITS README )

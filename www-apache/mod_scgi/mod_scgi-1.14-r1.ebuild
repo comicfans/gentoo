@@ -10,7 +10,7 @@ SRC_URI="http://python.ca/scgi/releases/scgi-${PV}.tar.gz"
 
 LICENSE="CNRI"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ~ppc x86"
+KEYWORDS="amd64 ~hppa x86"
 IUSE=""
 
 DEPEND="~www-apps/scgi-${PV}"

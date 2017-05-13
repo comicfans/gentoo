@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Convert PHP's serialize() into the equivalent Perl structure, and vice versa"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 SRC_TEST=do

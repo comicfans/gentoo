@@ -5,7 +5,7 @@ DESCRIPTION="A simple console LiveJournal entry system"
 HOMEPAGE="http://umlautllama.com/projects/perl/#jlj"
 SRC_URI="http://umlautllama.com/projects/perl/${PN}_${PV}.tar.gz"
 LICENSE="freedist"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc x86"
+KEYWORDS="~alpha ~amd64 x86"
 SLOT="0"
 IUSE=""
 

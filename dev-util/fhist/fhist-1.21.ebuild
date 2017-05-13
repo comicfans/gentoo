@@ -11,7 +11,7 @@ SRC_URI="http://fhist.sourceforge.net/${P}.D001.tar.gz"
 
 SLOT="0"
 LICENSE="GPL-3"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86 ~x86-linux"
+KEYWORDS="~amd64 ~ppc64 ~x86 ~x86-linux"
 IUSE="test"
 
 RDEPEND="

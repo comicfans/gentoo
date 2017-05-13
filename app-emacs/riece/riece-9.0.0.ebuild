@@ -11,7 +11,7 @@ SRC_URI="http://download.savannah.gnu.org/releases/riece/${P}.tar.gz"
 
 LICENSE="GPL-2+ FDL-1.1+"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="l10n_ja"
 RESTRICT="test"
 

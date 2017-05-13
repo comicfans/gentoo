@@ -15,7 +15,7 @@ SRC_URI="https://dev.gentoo.org/~hwoarang/distfiles/lastfm-${PV}+dfsg.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="dbus ipod"
 
 RDEPEND="dev-qt/qtgui:4

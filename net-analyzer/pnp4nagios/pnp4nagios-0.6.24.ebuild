@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/${PN}/PNP-0.6/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
-KEYWORDS="amd64 ppc ppc64 ~sparc x86"
+KEYWORDS="amd64 ppc64 x86"
 
 DEPEND="
 	dev-lang/php[json,simplexml,zlib,xml,filter]

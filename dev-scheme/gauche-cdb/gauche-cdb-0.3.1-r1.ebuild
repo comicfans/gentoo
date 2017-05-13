@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge.jp/gauche/8407/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="ia64 x86"
+KEYWORDS="x86"
 IUSE=""
 
 RDEPEND="dev-scheme/gauche

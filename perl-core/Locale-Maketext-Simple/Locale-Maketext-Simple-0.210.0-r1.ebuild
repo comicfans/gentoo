@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon"
 
 SLOT="0"
-KEYWORDS="alpha amd64 ia64 ~ppc sparc x86 ~amd64-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="alpha amd64 x86 ~amd64-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 IUSE=""
 
 #RDEPEND=""

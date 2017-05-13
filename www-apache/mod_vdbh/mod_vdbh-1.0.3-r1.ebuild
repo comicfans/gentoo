@@ -3,7 +3,7 @@
 
 inherit apache-module
 
-KEYWORDS="ppc x86"
+KEYWORDS="x86"
 
 DESCRIPTION="An Apache2 module for mass virtual hosting using a MySQL database"
 HOMEPAGE="http://www.synthemesc.com/mod_vdbh/"

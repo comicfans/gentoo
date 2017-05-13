@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="File path and name utilities"
 
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ia64 ~ppc ~sparc x86 ~ppc-aix"
+KEYWORDS="amd64 ~arm x86 ~ppc-aix"
 IUSE=""
 
 SRC_TEST=do

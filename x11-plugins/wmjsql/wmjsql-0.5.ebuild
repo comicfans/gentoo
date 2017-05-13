@@ -22,7 +22,7 @@ DEPEND="${RDEPEND}
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="ppc sparc x86"
+KEYWORDS="x86"
 IUSE=""
 
 S="${WORKDIR}/${MY_P}"

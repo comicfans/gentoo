@@ -12,7 +12,7 @@ HOMEPAGE="http://xvnkb.sourceforge.net/"
 LICENSE="GPL-2"
 
 SLOT="0"
-KEYWORDS="x86 ppc"
+KEYWORDS="x86"
 RDEPEND="x11-libs/libX11
 	xft? ( x11-libs/libXft )"
 DEPEND="${RDEPEND}

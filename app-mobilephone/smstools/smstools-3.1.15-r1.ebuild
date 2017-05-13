@@ -11,7 +11,7 @@ SRC_URI="http://smstools3.kekekasvi.com/packages/smstools3-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86 ~amd64 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE="stats"
 
 DEPEND=""

@@ -14,7 +14,7 @@ SRC_URI="mirror://gentoo/${MY_P}.fc${FCVER}.src.rpm"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND=""

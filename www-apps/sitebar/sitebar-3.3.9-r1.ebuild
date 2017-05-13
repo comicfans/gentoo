@@ -9,7 +9,7 @@ DESCRIPTION="The Bookmark Server for Personal and Team Use"
 HOMEPAGE="http://sitebar.sourceforge.net/"
 SRC_URI="mirror://sourceforge/${PN}/${MY_P}.tar.bz2"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="virtual/httpd-php"

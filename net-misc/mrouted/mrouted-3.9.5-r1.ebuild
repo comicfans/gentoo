@@ -11,7 +11,7 @@ SRC_URI="ftp://ftp.vmlinux.org/pub/People/jocke/${PN}/${P}.tar.bz2"
 LICENSE="Stanford GPL-2"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="|| ( dev-util/yacc sys-devel/bison )"

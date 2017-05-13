@@ -12,7 +12,7 @@ HOMEPAGE="http://gkrellm.luon.net/mailwatch.php"
 
 SLOT="2"
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 
 PLUGIN_SO=mailwatch.so
 

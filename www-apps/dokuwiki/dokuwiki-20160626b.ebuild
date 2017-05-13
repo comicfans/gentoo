@@ -14,7 +14,7 @@ HOMEPAGE="https://www.dokuwiki.org/DokuWiki"
 SRC_URI="http://download.dokuwiki.org/src/${PN}/${PN}-${MY_PV}.tgz"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="gd"
 
 DEPEND=""

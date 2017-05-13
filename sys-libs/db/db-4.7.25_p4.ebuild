@@ -25,7 +25,7 @@ done
 
 LICENSE="Sleepycat"
 SLOT="4.7"
-KEYWORDS="alpha amd64 arm arm64 hppa ia64 m68k ppc ppc64 s390 sh sparc x86 ~sparc-fbsd ~x86-fbsd"
+KEYWORDS="alpha amd64 arm arm64 hppa m68k ppc64 s390 sh x86 ~sparc-fbsd ~x86-fbsd"
 IUSE="doc java cxx tcl test rpc"
 
 # the entire testsuite needs the TCL functionality

@@ -10,7 +10,7 @@ DESCRIPTION="vim plugin: easily switch between buffers"
 HOMEPAGE="https://github.com/fholgado/minibufexpl.vim"
 SRC_URI="https://github.com/fholgado/${MY_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="bufexplorer.vim"
-KEYWORDS="amd64 ~mips ppc x86"
+KEYWORDS="amd64 ~mips x86"
 
 VIM_PLUGIN_HELPFILES="${PN}.txt"
 

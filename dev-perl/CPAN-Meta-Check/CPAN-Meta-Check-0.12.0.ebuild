@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION='Verify requirements in a CPAN::Meta object'
 
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm hppa ~ppc ~ppc64 ~x86"
+KEYWORDS="~alpha amd64 ~arm hppa ~ppc64 ~x86"
 IUSE="test"
 
 # CPAN::Meta::Prereqs -> perl-CPAN-Meta

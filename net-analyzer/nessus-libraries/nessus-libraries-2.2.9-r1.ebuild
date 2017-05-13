@@ -11,7 +11,7 @@ SRC_URI="ftp://ftp.nessus.org/pub/nessus/nessus-${PV}/src/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~amd64-linux"
+KEYWORDS="~alpha ~amd64 ~ppc64 ~x86 ~x86-fbsd ~amd64-linux"
 IUSE="crypt debug libressl static-libs"
 
 # Hard dep on SSL since libnasl won't compile when this package is emerged -ssl.

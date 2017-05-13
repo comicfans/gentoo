@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/lambdamoo/LambdaMOO-${PV}.tar.gz"
 
 LICENSE="LambdaMOO GPL-2"
 SLOT="0"
-KEYWORDS="~x86 ~sparc"
+KEYWORDS="~x86"
 IUSE=""
 
 DEPEND="sys-devel/bison"

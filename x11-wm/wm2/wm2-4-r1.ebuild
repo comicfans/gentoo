@@ -10,7 +10,7 @@ SRC_URI="http://www.all-day-breakfast.com/wm2/${P}.tar.gz"
 
 SLOT="0"
 LICENSE="freedist"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="x11-libs/libXmu"

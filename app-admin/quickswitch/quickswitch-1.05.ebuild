@@ -9,7 +9,7 @@ HOMEPAGE="http://quickswitch.sf.net"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="x86 ppc sparc s390 amd64"
+KEYWORDS="amd64 s390 x86"
 
 DEPEND=">=dev-lang/perl-5.6.0"
 RDEPEND="ncurses? ( dev-perl/CursesWidgets )"

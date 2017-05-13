@@ -17,7 +17,7 @@ if [[ ${PV} == "9999" ]] ; then
 else
 	S="${WORKDIR}/hackrf-${PV}/host/libhackrf"
 	SRC_URI="mirror://sourceforge/hackrf/hackrf-${PV}.tar.xz"
-	KEYWORDS="~amd64 ~arm ~ppc ~x86"
+	KEYWORDS="~amd64 ~arm ~x86"
 fi
 
 LICENSE="BSD"

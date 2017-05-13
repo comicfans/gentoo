@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/sdlmm/${MY_P}.tar.bz2"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ppc ~sparc x86"
+KEYWORDS="~alpha ~amd64 x86"
 IUSE=""
 
 RDEPEND=">=media-libs/libsdl-1.2.4"

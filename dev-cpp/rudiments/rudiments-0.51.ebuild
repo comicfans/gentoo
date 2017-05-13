@@ -13,7 +13,7 @@ SRC_URI="mirror://sourceforge/rudiments/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug pcre ssl static-libs"
 
 DEPEND="pcre? ( dev-libs/libpcre )

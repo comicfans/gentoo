@@ -10,7 +10,7 @@ HOMEPAGE="ftp://us.aminet.net/pub/aminet/misc/unix/${PN}.c.gz.readme"
 SLOT="0"
 LICENSE="freedist"
 IUSE=""
-KEYWORDS="alpha amd64 ~hppa ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="alpha amd64 ~hppa x86 ~amd64-linux ~x86-linux ~ppc-macos"
 
 src_unpack() {
 	mkdir "${S}"

@@ -9,7 +9,7 @@ VTE_REQUIRED_VERSION=0.16.14
 inherit gtk-sharp-module
 
 SLOT="2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RESTRICT="test"

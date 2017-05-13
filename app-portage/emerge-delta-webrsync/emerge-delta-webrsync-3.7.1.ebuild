@@ -7,7 +7,7 @@ HOMEPAGE="https://www.gentoo.org/proj/en/portage/index.xml"
 SRC_URI="https://raw.githubusercontent.com/gentoo/portage/4ab31da4f09c7d0cb323b16b5b4b607d652ffc48/misc/emerge-delta-webrsync -> ${P}"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~hppa ~mips ~x86 ~x86-fbsd"
 IUSE=""
 
 DEPEND=""

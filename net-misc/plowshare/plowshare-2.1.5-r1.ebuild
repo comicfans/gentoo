@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/mcrapet/plowshare"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="bash-completion +javascript view-captcha"
 
 SRC_URI="https://github.com/mcrapet/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"

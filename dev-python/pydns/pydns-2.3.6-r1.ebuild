@@ -12,7 +12,7 @@ SRC_URI="http://downloads.sourceforge.net/project/pydns/pydns/${P}/${P}.tar.gz"
 
 LICENSE="CNRI"
 SLOT="2"
-KEYWORDS="amd64 hppa ~ia64 ~ppc ~sparc x86"
+KEYWORDS="amd64 hppa x86"
 IUSE="examples"
 
 DEPEND="!dev-python/pydns:0

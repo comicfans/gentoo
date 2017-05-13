@@ -13,7 +13,7 @@ SRC_URI="mirror://debian/pool/main/f/${PN}/${MY_P}.orig.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 RDEPEND=">=sys-fs/mtools-4"

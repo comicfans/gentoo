@@ -12,7 +12,7 @@ SRC_URI="http://apachegallery.dk/download/${MY_P}.tar.gz"
 HOMEPAGE="http://apachegallery.dk/"
 
 LICENSE="|| ( Artistic GPL-2 )"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 WEBAPP_MANUAL_SLOT="yes"

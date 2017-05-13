@@ -14,7 +14,7 @@ HOMEPAGE="https://www.freedesktop.org/wiki/Software/libvisio"
 LICENSE="|| ( GPL-2+ LGPL-2.1 MPL-1.1 )"
 SLOT="0"
 [[ ${PV} == 9999 ]] || \
-KEYWORDS="amd64 ~arm ppc x86"
+KEYWORDS="amd64 ~arm x86"
 IUSE="doc static-libs"
 
 RDEPEND="

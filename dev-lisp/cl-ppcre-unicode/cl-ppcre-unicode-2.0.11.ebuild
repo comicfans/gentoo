@@ -14,7 +14,7 @@ SRC_URI="https://github.com/edicl/cl-ppcre/archive/${MY_P}.tar.gz -> cl-ppcre-${
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="=dev-lisp/cl-ppcre-${PV}*

@@ -11,7 +11,7 @@ SRC_URI="mirror://gentoo/$P.tar.bz2 https://dev.gentoo.org/~zzam/wait_on_pid/$P.
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 ~ppc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm ~arm64 x86 ~amd64-linux ~x86-linux"
 IUSE=""
 
 DEPEND=""

@@ -15,7 +15,7 @@ SRC_URI="https://github.com/shirok/${MY_PN}/tarball/${PV_COMMIT} -> ${MY_P}.tar.
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~ppc x86"
+KEYWORDS="x86"
 IUSE="examples glgd nls opengl"
 RESTRICT="test"
 

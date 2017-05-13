@@ -12,7 +12,7 @@ LICENSE="BSD"
 SLOT="0"
 SRC_URI="mirror://debian/pool/main/t/${PN}/${MY_P}.orig.tar.gz
 	mirror://debian/pool/main/t/${PN}/${MY_P}-4.debian.tar.gz"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 
 RDEPEND="net-libs/libpcap"
 DEPEND="${RDEPEND}"

@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/oyranos/${PN}/${PN}-0.4.x/${P}.tar.bz2"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="X static-libs"
 
 RDEPEND="X? ( >=x11-libs/libXmu-1.1.1-r1[${MULTILIB_USEDEP}]

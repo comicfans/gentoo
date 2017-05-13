@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/gkrellsun/${P}.tar.gz"
 
 SLOT="1"
 LICENSE="GPL-2"
-KEYWORDS="~alpha amd64 ~hppa ~ia64 ~ppc ~sparc x86"
+KEYWORDS="~alpha amd64 ~hppa x86"
 
 DEPEND="nls? ( sys-devel/gettext )"
 

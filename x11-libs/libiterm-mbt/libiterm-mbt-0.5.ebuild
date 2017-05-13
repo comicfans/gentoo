@@ -7,7 +7,7 @@ HOMEPAGE="http://www.doc.ic.ac.uk/~mbt99/Y/
 SRC_URI="http://www.doc.ic.ac.uk/~mbt99/Y/src/iterm-${PV}-mbt.tar.gz"
 LICENSE="CPL-1.0"
 SLOT="0"
-KEYWORDS="~x86 ~ppc ~amd64"
+KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 

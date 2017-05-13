@@ -10,7 +10,7 @@ SRC_URI="ftp://ftp.sra.co.jp/pub/x11/${PN}/${MY_P}.tar.gz"
 
 LICENSE="HPND"
 SLOT="0"
-KEYWORDS="x86 ppc sparc amd64 ppc64"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="freewnn"
 
 RDEPEND="freewnn? ( >=app-i18n/freewnn-1.1.1_alpha19 )

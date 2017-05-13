@@ -9,6 +9,6 @@ SRC_URI="http://www.burghardt.pl/files/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ppc x86"
+KEYWORDS="amd64 ~arm x86"
 
 DOCS=( AUTHORS ChangeLog examples/example.conf NEWS README TODO )

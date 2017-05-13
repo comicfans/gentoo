@@ -6,7 +6,7 @@ EAPI=5
 inherit xorg-2
 
 DESCRIPTION="X.Org xdbedizzy application"
-KEYWORDS="amd64 arm ~mips ppc ppc64 s390 sh ~sparc x86"
+KEYWORDS="amd64 arm ~mips ppc64 s390 sh x86"
 IUSE=""
 
 RDEPEND="

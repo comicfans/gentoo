@@ -13,7 +13,7 @@ SRC_URI="http://dev.gentooexperimental.org/~scarabeus/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ppc ppc64 ~s390 ~sh sparc x86"
+KEYWORDS="alpha amd64 arm hppa ppc64 ~s390 ~sh x86"
 IUSE=""
 
 DEPEND=">=dev-libs/popt-1.16-r2[${MULTILIB_USEDEP}]"

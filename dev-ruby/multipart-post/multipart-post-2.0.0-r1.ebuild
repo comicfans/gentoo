@@ -17,7 +17,7 @@ HOMEPAGE="https://github.com/nicksieger/multipart-post"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~ppc64 ~x86"
 IUSE="test"
 
 each_ruby_test() {

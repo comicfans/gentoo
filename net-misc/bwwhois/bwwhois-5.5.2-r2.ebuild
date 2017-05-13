@@ -14,7 +14,7 @@ HOMEPAGE="http://whois.bw.org/"
 
 LICENSE="|| ( Artistic GPL-2 )"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-lang/perl"

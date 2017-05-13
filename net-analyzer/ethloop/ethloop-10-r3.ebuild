@@ -11,7 +11,7 @@ SRC_URI="http://luxik.cdi.cz/~devik/qos/ethloop/ethloop10.tgz"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 RESTRICT="mirror bindist"
 
 S=${WORKDIR}/${PN}

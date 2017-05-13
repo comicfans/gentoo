@@ -14,7 +14,7 @@ SRC_URI="http://ghdl.free.fr/${P}.tar.bz2
 	mirror://gnu/gcc/releases/gcc-${GCC_VERSION}/gcc-core-${GCC_VERSION}.tar.bz2"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 DEPEND="<sys-apps/texinfo-5.1
 	dev-lang/gnat-gcc:${GNATGCC_SLOT}"

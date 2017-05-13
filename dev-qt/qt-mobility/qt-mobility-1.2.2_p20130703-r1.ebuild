@@ -10,7 +10,7 @@ HOMEPAGE="http://doc-snapshots.qt.io/qt-mobility/index.html"
 SRC_URI="https://dev.gentoo.org/~pesa/distfiles/${P}.tar.xz"
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~arm ~ppc64 x86"
 
 QT_MOBILITY_MODULES=(connectivity +contacts feedback gallery location
 		messaging multimedia organizer publishsubscribe

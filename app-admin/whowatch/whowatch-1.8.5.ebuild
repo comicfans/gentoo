@@ -10,7 +10,7 @@ SRC_URI="http://wizard.ae.krakow.pl/~mike/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ~mips ppc x86"
+KEYWORDS="amd64 ~arm hppa ~mips x86"
 IUSE=""
 
 RDEPEND="

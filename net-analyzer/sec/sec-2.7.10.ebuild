@@ -9,7 +9,7 @@ SRC_URI="${HOMEPAGE}/releases/download/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~amd64-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux"
 
 RDEPEND=">=dev-lang/perl-5.8.0"
 

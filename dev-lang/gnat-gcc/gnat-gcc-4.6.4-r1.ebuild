@@ -22,7 +22,7 @@ SRC_URI="ftp://gcc.gnu.org/pub/gcc/releases/gcc-${PV}/gcc-core-${PV}.tar.bz2
 	arm?   ( https://dev.gentoo.org/~nerdboy/files/gnatboot-${BOOT_SLOT}-arm.tar.xz )"
 #	ppc?   ( mirror://gentoo/gnatboot-${BOOT_SLOT}-ppc.tar.bz2 )
 
-KEYWORDS="~amd64 ~arm ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 
 # starting with 4.3.0 gnat needs these libs
 RDEPEND=">=dev-libs/mpfr-3.1.2

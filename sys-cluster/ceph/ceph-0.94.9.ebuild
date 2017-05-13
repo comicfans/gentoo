@@ -17,7 +17,7 @@ else
 	SRC_URI="http://ceph.com/download/${P}.tar.gz
 		${UPSTREAM_PATCHSET_URI}"
 fi
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~ppc64 ~x86"
 
 inherit check-reqs autotools eutils multilib python-single-r1 udev readme.gentoo-r1 systemd ${scm_eclass}
 

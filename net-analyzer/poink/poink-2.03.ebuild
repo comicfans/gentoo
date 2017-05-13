@@ -8,7 +8,7 @@ HOMEPAGE="http://directory.fsf.org/security/system/poink.html"
 SRC_URI="http://ep09.pld-linux.org/~mmazur/poink/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 DEPEND=""
 

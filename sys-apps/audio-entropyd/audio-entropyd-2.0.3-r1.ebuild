@@ -10,7 +10,7 @@ SRC_URI="http://www.vanheusden.com/aed/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="selinux"
 
 RDEPEND="selinux? ( sec-policy/selinux-entropyd )

@@ -8,7 +8,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-2
 else
 	SRC_URI="http://git.2f30.org/fortify-headers/snapshot/fortify-headers-${PV}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~mips ~ppc ~x86"
+	KEYWORDS="~amd64 ~arm ~mips ~x86"
 fi
 
 DESCRIPTION="A standalone implementation of fortify source."

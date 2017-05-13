@@ -11,7 +11,7 @@ SRC_URI="http://www.yafc-ftp.com/downloads/${P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="ipv6 libressl kerberos readline socks5 ssh"
 
 RDEPEND="

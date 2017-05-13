@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/autopsy/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~hppa ppc x86"
+KEYWORDS="amd64 ~hppa x86"
 IUSE=""
 
 # Runtime depend on grep and file deliberate

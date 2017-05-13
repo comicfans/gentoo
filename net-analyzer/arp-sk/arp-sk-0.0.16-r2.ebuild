@@ -9,7 +9,7 @@ HOMEPAGE="http://sid.rstack.org/arp-sk/"
 SRC_URI="http://sid.rstack.org/arp-sk/files/${P}.tgz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND=">=net-libs/libnet-1.1"
 RDEPEND="${DEPEND}"

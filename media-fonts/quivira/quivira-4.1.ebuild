@@ -17,7 +17,7 @@ SRC_URI="http://www.quivira-font.com/files/${MY_PN}.otf -> ${P}.otf
 LICENSE="freedist"
 
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="doc"
 
 S="${WORKDIR}"

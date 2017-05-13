@@ -13,7 +13,7 @@ SRC_URI="https://www.bitbucket.org/jraedler/${PN}3/downloads/Polygon3-${PV}.zip"
 LICENSE="LGPL-2"
 SLOT="3"
 IUSE="examples"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="app-arch/unzip"
 

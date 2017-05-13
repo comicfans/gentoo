@@ -13,7 +13,7 @@ SRC_URI="http://geant4.kek.jp/~tanaka/src/${MYP}.tgz"
 LICENSE="public-domain"
 SLOT="0"
 
-KEYWORDS="amd64 hppa ppc x86"
+KEYWORDS="amd64 hppa x86"
 IUSE="doc opengl X"
 
 RDEPEND="dev-lang/tk

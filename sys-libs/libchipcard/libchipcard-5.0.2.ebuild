@@ -9,7 +9,7 @@ SRC_URI="http://www.aquamaniac.de/sites/download/download.php?package=02&release
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 hppa ppc ~ppc64 ~sparc x86"
+KEYWORDS="amd64 hppa ~ppc64 x86"
 IUSE="doc examples"
 
 RDEPEND=">=sys-libs/gwenhywfar-4.2.1

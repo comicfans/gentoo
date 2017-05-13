@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/hunspell/${P}.tar.gz"
 
 LICENSE="GPL-2 LGPL-2.1 MPL-1.1"
 SLOT="0"
-KEYWORDS="amd64 ~arm hppa ppc ppc64 ~sparc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 ~arm hppa ppc64 x86 ~amd64-linux ~x86-linux"
 IUSE="static-libs"
 
 RDEPEND="app-text/hunspell"

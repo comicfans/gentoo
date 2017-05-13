@@ -13,7 +13,7 @@ SRC_URI="mirror://debian//pool/main/q/${PN}/${PN}_${PV}.orig.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="2"
-KEYWORDS="amd64 ~ppc ~ppc64 ~sparc x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="doc nls"
 
 RDEPEND="

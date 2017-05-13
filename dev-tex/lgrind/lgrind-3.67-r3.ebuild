@@ -8,7 +8,7 @@ SRC_URI="mirror://gentoo/${PN}.tar.gz"
 
 LICENSE="BSD LGrind-Jacobson"
 SLOT="0"
-KEYWORDS="amd64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="examples"
 
 S=${WORKDIR}/${PN}

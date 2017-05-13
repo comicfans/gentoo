@@ -10,7 +10,7 @@ SRC_URI="http://www.mcternan.me.uk/${PN}/software/${PN}-src-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm ppc ppc64 x86 ~x64-solaris"
+KEYWORDS="amd64 arm ppc64 x86 ~x64-solaris"
 IUSE="png truetype"
 
 RDEPEND="png? (	media-libs/gd[png,truetype?] )"

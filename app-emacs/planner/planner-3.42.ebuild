@@ -11,7 +11,7 @@ SRC_URI="http://download.gna.org/planner-el/${P}.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 RESTRICT="test"
 
 DEPEND=">=app-emacs/muse-3.02.6a

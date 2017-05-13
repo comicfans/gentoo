@@ -7,7 +7,7 @@ DESCRIPTION="A small console program to send SMS messages to Spanish cellular ph
 SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 HOMEPAGE="http://esms.sourceforge.net"
 
-KEYWORDS="~amd64 ppc sparc x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 LICENSE="GPL-2"
 SLOT="0"

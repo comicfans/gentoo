@@ -12,7 +12,7 @@ SRC_URI="https://github.com/behdad/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="icu"
 SLOT="0"
 
-KEYWORDS="amd64 hppa ia64 ppc ppc64 sparc x86"
+KEYWORDS="amd64 hppa ppc64 x86"
 IUSE=""
 
 RDEPEND="

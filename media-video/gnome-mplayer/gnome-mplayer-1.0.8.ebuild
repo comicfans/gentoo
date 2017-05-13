@@ -10,7 +10,7 @@ SRC_URI="https://${PN}.googlecode.com/files/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~ppc ~ppc64 x86 ~x86-fbsd"
+KEYWORDS="~alpha amd64 ~ppc64 x86 ~x86-fbsd"
 IUSE="alsa +dbus +dconf gda gnome ipod libnotify musicbrainz pulseaudio"
 
 COMMON_DEPEND=">=dev-libs/glib-2.30

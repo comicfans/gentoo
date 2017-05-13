@@ -9,7 +9,7 @@ SRC_URI="http://www.escape.de/~tolot/mutt/t-prot/downloads/${P}.tar.gz"
 
 LICENSE="BSD-4"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 RDEPEND="dev-lang/perl
 	dev-perl/Locale-gettext

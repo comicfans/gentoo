@@ -19,7 +19,7 @@ DEPEND="${RDEPEND}
 
 SLOT="0/${PV}"
 LICENSE="MIT"
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 
 src_compile() {
 	emake depend

@@ -8,7 +8,7 @@ GTK_SHARP_MODULE_DIR=parser
 inherit gtk-sharp-module
 
 SLOT="2"
-KEYWORDS="amd64 ppc x86 ~x86-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 x86 ~x86-fbsd ~amd64-linux ~x86-linux"
 IUSE=""
 
 RESTRICT="test"

@@ -17,7 +17,7 @@ SRC_URI="mirror://gentoo/${MY_PN}${PV}.zip"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND=">=dev-lang/mono-2.4"

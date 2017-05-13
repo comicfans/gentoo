@@ -9,7 +9,7 @@ SRC_URI="http://downloads.xiph.org/releases/opus/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ppc ppc64 sparc x86"
+KEYWORDS="alpha amd64 arm hppa ppc64 x86"
 IUSE="doc fixed-point +float +http static-libs"
 
 RDEPEND="media-libs/libogg

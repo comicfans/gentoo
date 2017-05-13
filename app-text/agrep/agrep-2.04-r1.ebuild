@@ -9,7 +9,7 @@ SRC_URI="ftp://ftp.cs.arizona.edu/agrep/${P}.tar.Z"
 
 LICENSE="AGREP"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~mips ppc ppc64 ~sparc x86 ~ppc-macos ~sparc-solaris"
+KEYWORDS="amd64 ~arm ~mips ppc64 x86 ~ppc-macos ~sparc-solaris"
 IUSE=""
 
 DEPEND=""

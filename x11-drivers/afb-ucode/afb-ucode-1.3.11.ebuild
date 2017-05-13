@@ -11,7 +11,7 @@ IUSE=""
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="-* sparc"
+KEYWORDS="-*"
 
 RDEPEND="${DEPEND}
 	x11-misc/afbinit"

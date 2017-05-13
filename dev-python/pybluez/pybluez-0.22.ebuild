@@ -15,7 +15,7 @@ SRC_URI="mirror://pypi/P/PyBluez/${MY_P}.zip"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
 RDEPEND="net-wireless/bluez"

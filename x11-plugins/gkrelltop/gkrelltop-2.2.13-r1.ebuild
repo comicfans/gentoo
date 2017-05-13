@@ -10,7 +10,7 @@ HOMEPAGE="https://sourceforge.net/projects/gkrelltop"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="X"
 
 PLUGIN_SERVER_SO=gkrelltopd.so

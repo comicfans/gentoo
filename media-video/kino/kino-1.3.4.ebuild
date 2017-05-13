@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/kino/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 ~sparc x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="alsa dvdr gpac lame gstreamer quicktime sox vorbis"
 
 # This ebuild would benefit a lot of USE dependencies but that has to wait for

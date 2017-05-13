@@ -10,7 +10,7 @@ SRC_URI="http://www.munted.org.uk/programming/${PN}/${P}.tar.bz2"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 S=${WORKDIR}/${PN}

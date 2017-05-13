@@ -15,7 +15,7 @@ HOMEPAGE="https://fedora.redhat.com/projects/config-tools/"
 SRC_URI="mirror://fedora-dev/releases/9/Everything/source/SRPMS/${MY_P}-${RPMREV}.fc${FCVER}.src.rpm"
 LICENSE="GPL-2 MIT"
 SLOT="0"
-KEYWORDS="~ppc ~ppc64 ~x86 ~amd64"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="test"
 RDEPEND="virtual/modutils
 	!sys-apps/hwdata-gentoo"

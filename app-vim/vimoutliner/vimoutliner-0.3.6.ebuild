@@ -9,7 +9,7 @@ DESCRIPTION="vim plugin: easy and fast outlining"
 HOMEPAGE="https://github.com/vimoutliner/vimoutliner"
 SRC_URI="https://github.com/${PN}/${PN}/archive/v${PV}.zip -> ${P}.zip"
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~ia64 ~mips ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~mips ~x86"
 IUSE=""
 
 VIM_PLUGIN_HELPFILES="vimoutliner"

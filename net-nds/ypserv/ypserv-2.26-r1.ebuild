@@ -11,7 +11,7 @@ SRC_URI="mirror://kernel/linux/utils/net/NIS/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="slp"
 
 DEPEND=">=sys-libs/gdbm-1.8.0

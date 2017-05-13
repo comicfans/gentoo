@@ -10,7 +10,7 @@ SRC_URI="${HOMEPAGE}/archive/upstream/${PN}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	sys-libs/ncurses:*

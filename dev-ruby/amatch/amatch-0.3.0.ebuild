@@ -14,7 +14,7 @@ HOMEPAGE="https://flori.github.com/amatch/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~hppa ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~hppa ~ppc64 ~x86"
 IUSE=""
 
 ruby_add_rdepend ">=dev-ruby/tins-0.3"

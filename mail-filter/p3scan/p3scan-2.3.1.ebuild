@@ -13,7 +13,7 @@ RDEPEND="net-firewall/iptables"
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~ppc x86"
+KEYWORDS="x86"
 IUSE=""
 
 src_compile() {

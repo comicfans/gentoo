@@ -9,7 +9,7 @@ SRC_URI="http://dev.gentoo.org/~pinkbyte/distfiles/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 
 RDEPEND="
 	>=gnome-base/librsvg-2.14.0:2

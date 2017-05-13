@@ -14,7 +14,7 @@ SRC_URI="mirror://gnu/osip/${MY_P}.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="2/$(get_version_component_range 1-2)"
-KEYWORDS="amd64 ppc ~sparc x86 ~ppc-macos ~x86-macos"
+KEYWORDS="amd64 x86 ~ppc-macos ~x86-macos"
 IUSE="test"
 
 S=${WORKDIR}/${MY_P}

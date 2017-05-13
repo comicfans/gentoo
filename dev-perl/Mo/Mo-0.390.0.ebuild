@@ -9,7 +9,7 @@ inherit perl-module
 DESCRIPTION="Perl Micro Object framework"
 HOMEPAGE="https://metacpan.org/pod/distribution/Mo/lib/Mo.pod"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE="test"
 
 RDEPEND=""

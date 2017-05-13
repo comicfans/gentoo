@@ -7,7 +7,7 @@ USE_RUBY="ruby21 ruby22 ruby23 ruby24"
 inherit virtualx ruby-ng-gnome2
 
 DESCRIPTION="Ruby VTE bindings"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND+=" x11-libs/vte:2.91"

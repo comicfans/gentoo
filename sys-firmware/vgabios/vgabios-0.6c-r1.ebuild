@@ -17,7 +17,7 @@ SRC_URI="https://savannah.gnu.org/download/${PN}/${P}.tgz
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~ppc64 x86 ~amd64-fbsd"
+KEYWORDS="amd64 ~ppc64 x86 ~amd64-fbsd"
 IUSE="debug"
 
 DEPEND="amd64? ( sys-devel/dev86 )

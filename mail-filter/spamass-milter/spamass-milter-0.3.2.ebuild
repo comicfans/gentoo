@@ -13,7 +13,7 @@ SRC_URI="https://savannah.nongnu.org/download/spamass-milt/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 DEPEND="|| ( mail-filter/libmilter mail-mta/sendmail )
 	>=mail-filter/spamassassin-3.1.0"

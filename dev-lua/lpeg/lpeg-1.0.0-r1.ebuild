@@ -11,7 +11,7 @@ SRC_URI="http://www.inf.puc-rio.br/~roberto/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~hppa ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~hppa ~x86"
 IUSE="debug doc luajit"
 
 RDEPEND="!luajit? ( >=dev-lang/lua-5.1:= )

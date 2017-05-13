@@ -9,7 +9,7 @@ SRC_URI="http://www.nta-monitor.com/ike-scan/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="ssl"
 
 DEPEND="ssl? ( dev-libs/openssl )"

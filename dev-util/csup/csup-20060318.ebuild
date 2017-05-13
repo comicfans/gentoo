@@ -9,7 +9,7 @@ SRC_URI="http://mu.org/~mux/csup-snap-${PV}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~x86 ~x86-fbsd"
 IUSE=""
 
 DEPEND="dev-libs/openssl

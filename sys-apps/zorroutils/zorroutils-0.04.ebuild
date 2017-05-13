@@ -10,7 +10,7 @@ IUSE=""
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="m68k ~ppc"
+KEYWORDS="m68k"
 
 DEPEND=""
 RDEPEND=""

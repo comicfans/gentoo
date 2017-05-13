@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="IBM"
 SLOT="0"
-KEYWORDS="~ppc ~ppc64"
+KEYWORDS="~ppc64"
 
 DOCS="README"
 

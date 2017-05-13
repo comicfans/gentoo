@@ -9,7 +9,7 @@ SRC_URI="ftp://ftp.inet.no/pub/socks/${P}.tar.gz"
 
 LICENSE="BSD GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 s390 sh sparc x86 ~x86-fbsd"
+KEYWORDS="alpha amd64 arm hppa ~m68k ~mips ppc64 s390 sh x86 ~x86-fbsd"
 IUSE="tcpd debug selinux pam"
 
 RDEPEND="pam? ( virtual/pam )

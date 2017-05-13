@@ -11,7 +11,7 @@ SRC_URI="ftp://platan.vc.cvut.cz/pub/linux/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~mips ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~mips ~ppc64 ~x86"
 IUSE="nls pam php"
 
 DEPEND="

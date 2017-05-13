@@ -12,7 +12,7 @@ SRC_URI="
 			https://rutorrent.googlecode.com/files/plugins-${PV}.tar.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="~alpha ~amd64 ~ppc ~x86"
+KEYWORDS="~alpha ~amd64 ~x86"
 IUSE=""
 
 need_httpd_cgi

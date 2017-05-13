@@ -11,7 +11,7 @@ LICENSE="GPL-2"
 SLOT="0"
 
 #-sparc: 0.4.5: Couldn't load minispf
-KEYWORDS="amd64 ppc -sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="sys-libs/zlib"

@@ -15,7 +15,7 @@ SLOT="0"
 IUSE="+bluetooth +ibus +networkmanager nsplugin -openrc-force"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-KEYWORDS="~alpha ~arm ~ia64 ~ppc ~ppc64"
+KEYWORDS="~alpha ~arm ~ppc64"
 
 # libXfixes-5.0 needed for pointer barriers
 # FIXME:

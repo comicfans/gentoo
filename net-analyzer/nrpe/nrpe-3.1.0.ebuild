@@ -10,7 +10,7 @@ SRC_URI="${HOMEPAGE}/releases/download/release-${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~hppa ~ppc64 ~x86"
 IUSE="selinux ssl"
 
 DEPEND="sys-apps/tcp-wrappers

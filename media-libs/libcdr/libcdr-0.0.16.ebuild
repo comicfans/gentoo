@@ -14,7 +14,7 @@ HOMEPAGE="https://www.freedesktop.org/wiki/Software/libcdr"
 LICENSE="MPL-2.0"
 SLOT="0"
 [[ ${PV} == 9999 ]] || \
-KEYWORDS="~amd64 ~arm ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="doc static-libs"
 
 RDEPEND="

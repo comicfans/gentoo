@@ -11,7 +11,7 @@ SRC_URI="http://monotone.ca/downloads/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="1"
-KEYWORDS="amd64 ~ia64 x86"
+KEYWORDS="amd64 x86"
 IUSE="doc ipv6 nls test"
 
 RDEPEND="sys-libs/zlib

@@ -7,7 +7,7 @@ DESCRIPTION="A tool to create .nfont packages for use with gnustep-back-art"
 
 HOMEPAGE="http://packages.debian.org/mknfonts.tool"
 SRC_URI="mirror://debian/pool/main/m/${PN}.tool/${PN}.tool_${PV}.orig.tar.gz"
-KEYWORDS="~alpha amd64 ppc sparc x86 ~amd64-linux ~x86-linux ~x86-solaris"
+KEYWORDS="~alpha amd64 x86 ~amd64-linux ~x86-linux ~x86-solaris"
 SLOT="0"
 LICENSE="GPL-2"
 IUSE=""

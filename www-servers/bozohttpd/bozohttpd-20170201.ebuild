@@ -11,7 +11,7 @@ SRC_URI="http://www.eterna.com.au/bozohttpd/${P}.tar.bz2"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="libressl"
 
 DEPEND="!libressl? ( dev-libs/openssl:0= )

@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="public-domain GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~mips ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="amd64 ~arm ~mips ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE=""
 RESTRICT="test"
 

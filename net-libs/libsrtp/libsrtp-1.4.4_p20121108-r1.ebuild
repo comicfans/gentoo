@@ -14,7 +14,7 @@ SRC_URI="https://dev.gentoo.org/~phajdan.jr/${MY_P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 ~arm ~hppa ia64 ppc ppc64 -sparc x86 ~x86-fbsd ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="alpha amd64 ~arm ~hppa ppc64 x86 ~x86-fbsd ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="aesicm console debug doc static-libs syslog"
 PATCHES=(
 	"${FILESDIR}/${P}-shared.patch"

@@ -14,7 +14,7 @@ SRC_URI="http://www.personal.psu.edu/staff/i/u/iua1/python/${PN}/dist/${MY_P}.ta
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ia64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND=""

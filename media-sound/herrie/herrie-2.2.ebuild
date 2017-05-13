@@ -10,7 +10,7 @@ SRC_URI="http://herrie.info/distfiles/${P}.tar.bz2"
 
 LICENSE="BSD-2 GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="ao alsa pulseaudio oss http modplug mp3 sndfile vorbis xspf unicode nls"
 
 APP_LINGUAS="ca da de es fi ga nl pl pt_BR ru sv tr vi zh_CN"

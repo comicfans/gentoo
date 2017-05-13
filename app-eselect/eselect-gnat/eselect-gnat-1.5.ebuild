@@ -11,7 +11,7 @@ SRC_URI=""
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86 ~sparc"
+KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 RDEPEND=">=app-admin/eselect-1.2.5"

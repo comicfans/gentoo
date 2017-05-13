@@ -11,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Parse, manipulate and lookup IP network blocks"
 
 SLOT="0"
-KEYWORDS="amd64 ~arm ~mips ppc x86"
+KEYWORDS="amd64 ~arm ~mips x86"
 IUSE=""
 
 DEPEND="virtual/perl-ExtUtils-MakeMaker"

@@ -24,7 +24,7 @@ SRC_URI="
 
 SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~amd64 ~ppc ~sparc x86"
+KEYWORDS="~amd64 x86"
 IUSE="ipv6 mysql radius postgres xmpp ldap ssl"
 
 RDEPEND="

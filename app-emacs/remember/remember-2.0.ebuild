@@ -11,7 +11,7 @@ SRC_URI="http://download.gna.org/${PN}-el/${P}.tar.gz"
 
 LICENSE="GPL-3+ FDL-1.2+"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="bbdb planner"
 # tests require bibl-mode, restrict for now
 RESTRICT="test"

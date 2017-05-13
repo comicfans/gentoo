@@ -8,7 +8,7 @@ HOMEPAGE="http://dnrd.sourceforge.net/"
 SRC_URI="mirror://sourceforge/dnrd/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug"
 DEPEND=""
 

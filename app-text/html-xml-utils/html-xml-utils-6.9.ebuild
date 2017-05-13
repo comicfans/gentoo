@@ -9,7 +9,7 @@ HOMEPAGE="http://www.w3.org/Tools/HTML-XML-utils/"
 
 LICENSE="W3C"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86 ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="amd64 ppc64 x86 ~x86-linux ~ppc-macos ~x86-macos"
 IUSE=""
 
 RDEPEND="net-misc/curl"

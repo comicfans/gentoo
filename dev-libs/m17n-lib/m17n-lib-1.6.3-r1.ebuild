@@ -11,7 +11,7 @@ SRC_URI="http://www.m17n.org/m17n-lib-download/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~x86"
 IUSE="anthy athena anthy bidi fontconfig gd spell libotf libxml2 X xft"
 
 RDEPEND="

@@ -9,7 +9,7 @@ SRC_URI="mirror://gentoo/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~ppc-macos ~x86-macos"
+KEYWORDS="amd64 x86 ~ppc-macos ~x86-macos"
 IUSE=""
 
 RDEPEND="app-editors/vim"

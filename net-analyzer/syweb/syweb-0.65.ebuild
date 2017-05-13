@@ -12,7 +12,7 @@ SRC_URI="http://www.xs4all.nl/~wpd/symon/philes/${P}.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64 ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="virtual/httpd-php
 	net-analyzer/rrdtool"

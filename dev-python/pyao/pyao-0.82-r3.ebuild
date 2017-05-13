@@ -12,7 +12,7 @@ SRC_URI="http://www.andrewchatham.com/pyogg/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ia64 ppc -sparc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=">=media-libs/libao-1.0.0"

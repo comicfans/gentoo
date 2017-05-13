@@ -13,7 +13,7 @@ SRC_URI="
 
 SLOT="0"
 LICENSE="QPL GPL-2"
-KEYWORDS="~amd64 -sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="mysql postgres sguil"
 
 DEPEND="

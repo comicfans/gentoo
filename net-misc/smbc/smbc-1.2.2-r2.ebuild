@@ -11,7 +11,7 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=" ~ppc ~x86"
+KEYWORDS="~x86"
 IUSE="nls debug"
 
 DEPEND="net-fs/samba

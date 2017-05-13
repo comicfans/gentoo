@@ -14,7 +14,7 @@ SRC_URI="mirror://sourceforge/gnu-efi/${MY_P}.orig.tar.gz
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ia64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="sys-apps/pciutils"

@@ -6,7 +6,7 @@ inherit apache-module java-pkg-opt-2 readme.gentoo
 
 MY_P="tomcat-connectors-${PV#-*}-src"
 
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 
 DESCRIPTION="JK module for connecting Tomcat and Apache using the ajp13 protocol."
 HOMEPAGE="http://tomcat.apache.org/connectors-doc/"

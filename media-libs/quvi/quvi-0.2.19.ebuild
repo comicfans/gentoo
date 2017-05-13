@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/${PN}/${PV:0:3}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE="examples test offensive static-libs"
 
 RDEPEND=">=net-misc/curl-7.18.0

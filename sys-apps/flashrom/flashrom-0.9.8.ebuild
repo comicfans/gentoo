@@ -9,7 +9,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit subversion
 else
 	SRC_URI="http://download.flashrom.org/releases/${P}.tar.bz2"
-	KEYWORDS="amd64 arm ~arm64 ~mips ~ppc ~ppc64 ~sparc x86"
+	KEYWORDS="amd64 arm ~arm64 ~mips ~ppc64 x86"
 fi
 
 DESCRIPTION="Utility for reading, writing, erasing and verifying flash ROM chips"

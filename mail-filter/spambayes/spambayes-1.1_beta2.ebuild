@@ -17,7 +17,7 @@ SRC_URI="
 
 LICENSE="PSF-2.2 GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="

@@ -9,7 +9,7 @@ SRC_URI="http://sed.free.fr/tinlink/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""

@@ -9,7 +9,7 @@ SRC_URI="http://mirror.ifarchive.org/if-archive/infocom/compilers/inform6/source
 
 LICENSE="Artistic-2 Inform"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos"
+KEYWORDS="amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos"
 IUSE="emacs"
 PDEPEND="emacs? ( app-emacs/inform-mode )"
 

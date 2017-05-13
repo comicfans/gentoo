@@ -11,7 +11,7 @@ SRC_URI="http://www.triptico.com/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ia64 ppc ppc64 sparc x86 ~ppc-macos ~sparc-solaris ~x86-solaris"
+KEYWORDS="alpha amd64 ppc64 x86 ~ppc-macos ~sparc-solaris ~x86-solaris"
 IUSE="gtk iconv kde ncurses nls pcre qt4"
 
 MP_LINGUAS="de es it nl ru sv"

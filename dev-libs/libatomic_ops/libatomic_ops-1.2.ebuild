@@ -9,7 +9,7 @@ SRC_URI="http://www.hpl.hp.com/research/linux/atomic_ops/download/${P}.tar.gz"
 
 LICENSE="MIT boehm-gc GPL-2+"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc64 ~sh ~x86 ~x86-fbsd"
 IUSE=""
 
 DEPEND=""

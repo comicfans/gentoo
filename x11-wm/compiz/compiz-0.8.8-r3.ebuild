@@ -11,7 +11,7 @@ SRC_URI="http://releases.compiz.org/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-2 LGPL-2.1 MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="+cairo dbus fuse gnome gconf gtk +svg"
 
 COMMONDEPEND="

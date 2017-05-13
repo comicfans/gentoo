@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/enlightenment/epplets-${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="alpha amd64 ppc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE="static-libs"
 
 RDEPEND="x11-libs/libX11

@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="An abstract baseclass for a standalone mason server"
 
 SLOT="0"
-KEYWORDS="amd64 ~ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-perl/Hook-LexWrap

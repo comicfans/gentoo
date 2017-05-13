@@ -8,7 +8,7 @@ SRC_URI="mirror://kernel/linux/kernel/people/jsipek/${PN}/${P}.tar.bz2
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ia64 ppc ~sparc x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 RDEPEND="dev-vcs/git"

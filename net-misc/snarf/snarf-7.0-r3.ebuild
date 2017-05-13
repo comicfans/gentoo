@@ -7,7 +7,7 @@ IUSE=""
 DESCRIPTION="Small and fast CLI resource grabber with support for http, gopher, finger, and ftp protocols"
 SRC_URI="http://www.xach.com/snarf/${P}.tar.gz"
 HOMEPAGE="http://www.xach.com/snarf/"
-KEYWORDS="alpha amd64 ppc sparc x86"
+KEYWORDS="alpha amd64 x86"
 LICENSE="GPL-2"
 SLOT="0"
 

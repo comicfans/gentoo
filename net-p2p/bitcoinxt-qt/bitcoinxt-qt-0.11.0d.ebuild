@@ -14,7 +14,7 @@ SRC_URI="https://github.com/bitcoinxt/bitcoinxt/archive/v${My_PV}.tar.gz -> ${P}
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~arm ~arm64 ~mips ~x86 ~amd64-linux ~x86-linux"
 IUSE="dbus +doc kde libressl ljr +logrotate +qrcode qt4 qt5 +ssl test upnp +wallet"
 REQUIRED_USE="${REQUIRED_USE} ^^ ( qt4 qt5 )"
 

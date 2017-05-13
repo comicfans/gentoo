@@ -9,7 +9,7 @@ SRC_URI="http://www.kaoriya.net/dist/var/${P}.tar.bz2"
 
 LICENSE="cmigemo"
 SLOT="0"
-KEYWORDS="x86 alpha ppc"	# development branch
+KEYWORDS="alpha x86"	# development branch
 IUSE="emacs"
 
 DEPEND="app-i18n/qkc

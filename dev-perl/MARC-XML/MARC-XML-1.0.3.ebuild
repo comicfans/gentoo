@@ -9,7 +9,7 @@ inherit perl-module
 DESCRIPTION="A subclass of MARC.pm to provide XML support"
 
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-perl/XML-SAX

@@ -11,7 +11,7 @@ SRC_URI="http://www.xmission.com/~georgeps/Tk_Theme/other/${PN}.tgz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="alpha amd64 ppc x86"
+KEYWORDS="alpha amd64 x86"
 IUSE="debug examples static-libs threads"
 
 DEPEND="

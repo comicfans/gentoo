@@ -9,7 +9,7 @@ inherit perl-module
 DESCRIPTION="Minimalistic data validation"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~ppc"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND=""

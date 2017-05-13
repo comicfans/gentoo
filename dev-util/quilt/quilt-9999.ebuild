@@ -16,7 +16,7 @@ HOMEPAGE="https://savannah.nongnu.org/projects/quilt"
 LICENSE="GPL-2"
 SLOT="0"
 [[ ${PV} == 9999 ]] || \
-KEYWORDS="~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-solaris"
+KEYWORDS="~amd64 ~arm ~mips ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-solaris"
 IUSE="graphviz elibc_Darwin elibc_SunOS"
 
 RDEPEND="

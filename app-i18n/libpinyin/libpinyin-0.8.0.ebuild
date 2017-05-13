@@ -11,7 +11,7 @@ SRC_URI="mirror://github/${PN}/${PN}/${PN}-lite-${PV}.tar.gz -> ${P}.tar
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc ~ppc64 x86"
+KEYWORDS="amd64 ~ppc64 x86"
 IUSE=""
 
 RDEPEND="sys-libs/db:4.8

@@ -10,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Software Release Tool"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 SRC_TEST="do"

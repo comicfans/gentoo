@@ -10,7 +10,7 @@ SRC_URI="http://code.soundsoftware.ac.uk/attachments/download/618/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~ppc ppc64 x86"
+KEYWORDS="amd64 ppc64 x86"
 IUSE=""
 
 RDEPEND="=sci-libs/fftw-3*

@@ -15,7 +15,7 @@ SRC_URI="ftp://ftp.man.poznan.pl/pub/linux/opensuse/opensuse/distribution/SL-10.
 
 LICENSE="freedist"		#446158
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 
 S="${WORKDIR}/lib/firmware/isdn"
 

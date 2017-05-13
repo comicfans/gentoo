@@ -10,7 +10,7 @@ SRC_URI="http://www.inmon.com/bin/${P}.tar.gz"
 
 LICENSE="inmon-sflow"
 SLOT="0"
-KEYWORDS="~amd64 ~ppc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="debug"
 
 src_prepare() {

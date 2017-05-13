@@ -9,7 +9,7 @@ HOMEPAGE="http://blassic.net"
 SRC_URI="http://blassic.net/bin/${P}.tgz"
 
 LICENSE="GPL-2+"
-KEYWORDS="amd64 hppa ppc x86 ~x86-linux ~ppc-macos ~x86-macos"
+KEYWORDS="amd64 hppa x86 ~x86-linux ~ppc-macos ~x86-macos"
 SLOT="0"
 IUSE="X"
 

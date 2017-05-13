@@ -11,7 +11,7 @@ SRC_URI="https://www.freedesktop.org/software/systemd/${MY_P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~ppc64 ~x86"
 IUSE=""
 
 # new enough util-linux to have tools that were provided by sysvinit

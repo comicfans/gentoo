@@ -10,7 +10,7 @@ HOMEPAGE="http://giesler.biz/bjoern/en/sw_addr.html"
 SRC_URI="https://savannah.nongnu.org/download/gap/${P/a/A}.tar.gz"
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 ppc x86 ~x86-fbsd"
+KEYWORDS="amd64 x86 ~x86-fbsd"
 IUSE=""
 
 src_unpack() {

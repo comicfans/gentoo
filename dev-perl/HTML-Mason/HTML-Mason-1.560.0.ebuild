@@ -11,7 +11,7 @@ DESCRIPTION="A HTML development and delivery Perl Module"
 HOMEPAGE="http://www.masonhq.com/ ${HOMEPAGE}"
 
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE="modperl test"
 
 RDEPEND="

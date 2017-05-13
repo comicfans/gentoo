@@ -11,7 +11,7 @@ SRC_URI="http://plugin.org.uk/meterbridge/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ppc x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="media-sound/jack-audio-connection-kit

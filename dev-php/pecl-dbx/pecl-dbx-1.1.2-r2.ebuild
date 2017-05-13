@@ -11,7 +11,7 @@ USE_PHP="php5-6"
 
 inherit php-ext-pecl-r3
 
-KEYWORDS="~amd64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 
 DESCRIPTION="The dbx module is a database abstraction layer"
 LICENSE="PHP-3"

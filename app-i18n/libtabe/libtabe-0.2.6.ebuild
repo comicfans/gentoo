@@ -10,7 +10,7 @@ SRC_URI="mirror://debian/pool/main/libt/libtabe/${P/-/_}.orig.tar.gz
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ppc x86"
+KEYWORDS="~amd64 x86"
 IUSE="debug"
 
 DEPEND=">=sys-libs/db-4.5
