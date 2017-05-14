@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit systemd
+inherit linux-info systemd
 
 DESCRIPTION="Another (RFC1413 compliant) ident daemon"
 HOMEPAGE="http://ojnk.sourceforge.net/"
@@ -28,6 +28,14 @@ PATCHES=(
 	"${FILESDIR}/${P}-log-conntrack-fails.patch"
 	"${FILESDIR}/${P}-no-conntrack-masquerading.patch"
 )
+
+pkg_setup() {
+	local CONFIG_CHECK="~INET_TCP_DIAG"
+
+	if use kernel_linux; then
+		linux-info_pkg_setup
+	fi
+}
 
 src_configure() {
 	econf \
